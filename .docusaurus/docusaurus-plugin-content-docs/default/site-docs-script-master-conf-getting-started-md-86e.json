@@ -1,0 +1,26 @@
+{
+  "id": "script-master/conf/getting-started",
+  "title": "Getting Started",
+  "description": "",
+  "source": "@site/docs/script-master/conf/getting-started.md",
+  "sourceDirName": "script-master/conf",
+  "slug": "/script-master/conf/getting-started",
+  "permalink": "/docs/docs/script-master/conf/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "Script Master for Confluence",
+    "permalink": "/docs/docs/script-master/conf/"
+  },
+  "next": {
+    "title": "Script Console",
+    "permalink": "/docs/docs/script-master/conf/script-console"
+  }
+}

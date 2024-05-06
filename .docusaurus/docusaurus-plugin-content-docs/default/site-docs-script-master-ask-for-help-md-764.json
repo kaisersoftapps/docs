@@ -1,0 +1,26 @@
+{
+  "id": "script-master/ask-for-help",
+  "title": "Ask for Help",
+  "description": "",
+  "source": "@site/docs/script-master/ask-for-help.md",
+  "sourceDirName": "script-master",
+  "slug": "/script-master/ask-for-help",
+  "permalink": "/docs/docs/script-master/ask-for-help",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/script-master/conf/faq"
+  },
+  "next": {
+    "title": "Terms of Use",
+    "permalink": "/docs/docs/script-master/terms-of-use"
+  }
+}

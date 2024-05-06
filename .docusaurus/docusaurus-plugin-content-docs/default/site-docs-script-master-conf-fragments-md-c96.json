@@ -1,0 +1,26 @@
+{
+  "id": "script-master/conf/fragments",
+  "title": "Fragments",
+  "description": "",
+  "source": "@site/docs/script-master/conf/fragments.md",
+  "sourceDirName": "script-master/conf",
+  "slug": "/script-master/conf/fragments",
+  "permalink": "/docs/docs/script-master/conf/fragments",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "Script Console",
+    "permalink": "/docs/docs/script-master/conf/script-console"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/script-master/conf/faq"
+  }
+}

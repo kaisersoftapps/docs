@@ -1,0 +1,26 @@
+{
+  "id": "script-master/jira/index",
+  "title": "Script Master for Jira",
+  "description": "The Script Master provides a tool for executing ad hoc scripts and experimenting with the Jira REST API and Forge-compatible scripts. You can input scripts directly into the \"Script Console\" editor and run them with your current permissions. It's useful for displaying information, performing one-off cleanup tasks, and bulk updating various Jira elements. For instance, as an admin, you can swiftly change the ownership of multiple filters or dashboards in bulk, rather than manually searching and updating the owner of each one individually.",
+  "source": "@site/docs/script-master/jira/index.md",
+  "sourceDirName": "script-master/jira",
+  "slug": "/script-master/jira/",
+  "permalink": "/docs/docs/script-master/jira/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/docs/script-master/"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/docs/script-master/jira/getting-started"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "script-master/privacy-policy",
+  "title": "Privacy Policy",
+  "description": "Your data will be hosted on the Atlassian-providing infrastructure called Forge. The app vendor doesn't have access to any stored data.",
+  "source": "@site/docs/script-master/privacy-policy.md",
+  "sourceDirName": "script-master",
+  "slug": "/script-master/privacy-policy",
+  "permalink": "/docs/docs/script-master/privacy-policy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "Terms of Use",
+    "permalink": "/docs/docs/script-master/terms-of-use"
+  }
+}
