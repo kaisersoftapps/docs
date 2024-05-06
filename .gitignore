@@ -16,3 +16,4 @@ lerna-debug.log*
 .env.local
 junit.xml
 .eslintcache
+build/
