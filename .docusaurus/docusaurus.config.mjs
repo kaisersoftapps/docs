@@ -12,7 +12,7 @@ export default {
   "organizationName": "kaisersoftapps",
   "projectName": "docs",
   "trailingSlash": false,
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -325,6 +325,9 @@ export default {
       "comments": true,
       "admonitions": true,
       "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
     }
   }
 };

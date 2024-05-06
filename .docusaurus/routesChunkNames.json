@@ -1,31 +1,24 @@
 {
-  "/docs/-e82": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "56205c31"
-    },
-    "content": "f3976560"
-  },
-  "/docs/docs-ca0": {
+  "/docs/docs-d80": {
     "__comp": "5e95c892",
     "__context": {
-      "plugin": "25d9c33b"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs/docs-4a8": {
+  "/docs/docs-804": {
     "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__props": "b35b8748"
   },
-  "/docs/docs-144": {
+  "/docs/docs-667": {
     "__comp": "a94703ab"
   },
-  "/docs/docs/category/tutorial---basics-ab3": {
+  "/docs/docs/category/tutorial---basics-6eb": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "3bf18a0d"
+    "__props": "aded9c02"
   },
-  "/docs/docs/category/tutorial---extras-a37": {
+  "/docs/docs/category/tutorial---extras-a06": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "0ce95d9d"
+    "__props": "67392042"
   },
   "/docs/docs/intro-2ea": {
     "__comp": "17896441",
@@ -118,5 +111,12 @@
   "/docs/docs/tutorial-extras/translate-your-site-d68": {
     "__comp": "17896441",
     "content": "e44a2883"
+  },
+  "/docs/-bba": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "f3976560"
   }
 }
