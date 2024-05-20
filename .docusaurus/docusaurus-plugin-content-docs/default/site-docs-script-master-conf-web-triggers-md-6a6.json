@@ -5,7 +5,7 @@
   "source": "@site/docs/script-master/conf/web-triggers.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/web-triggers",
-  "permalink": "/docs/docs/script-master/conf/web-triggers",
+  "permalink": "/docs/script-master/conf/web-triggers",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "scriptMaster",
   "previous": {
     "title": "Fragments",
-    "permalink": "/docs/docs/script-master/conf/fragments"
+    "permalink": "/docs/script-master/conf/fragments"
   },
   "next": {
     "title": "FAQ",
-    "permalink": "/docs/docs/script-master/conf/faq"
+    "permalink": "/docs/script-master/conf/faq"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/script-master/jira/index.md",
   "sourceDirName": "script-master/jira",
   "slug": "/script-master/jira/",
-  "permalink": "/docs/docs/script-master/jira/",
+  "permalink": "/docs/script-master/jira/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "scriptMaster",
   "previous": {
     "title": "Overview",
-    "permalink": "/docs/docs/script-master/"
+    "permalink": "/docs/script-master/"
   },
   "next": {
     "title": "Getting Started",
-    "permalink": "/docs/docs/script-master/jira/getting-started"
+    "permalink": "/docs/script-master/jira/getting-started"
   }
 }

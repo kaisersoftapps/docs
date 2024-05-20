@@ -1,153 +1,153 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs/docs",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "script-master/ask-for-help",
-              "path": "/docs/docs/script-master/ask-for-help",
+              "path": "/docs/script-master/ask-for-help",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/conf/faq",
-              "path": "/docs/docs/script-master/conf/faq",
+              "path": "/docs/script-master/conf/faq",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/conf/fragments",
-              "path": "/docs/docs/script-master/conf/fragments",
+              "path": "/docs/script-master/conf/fragments",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/conf/getting-started",
-              "path": "/docs/docs/script-master/conf/getting-started",
+              "path": "/docs/script-master/conf/getting-started",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/conf/index",
-              "path": "/docs/docs/script-master/conf/",
+              "path": "/docs/script-master/conf/",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/conf/script-console",
-              "path": "/docs/docs/script-master/conf/script-console",
+              "path": "/docs/script-master/conf/script-console",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/conf/web-triggers",
-              "path": "/docs/docs/script-master/conf/web-triggers",
+              "path": "/docs/script-master/conf/web-triggers",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/eula",
-              "path": "/docs/docs/script-master/eula",
+              "path": "/docs/script-master/eula",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/index",
-              "path": "/docs/docs/script-master/",
+              "path": "/docs/script-master/",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/jira/faq",
-              "path": "/docs/docs/script-master/jira/faq",
+              "path": "/docs/script-master/jira/faq",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/jira/fragments",
-              "path": "/docs/docs/script-master/jira/fragments",
+              "path": "/docs/script-master/jira/fragments",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/jira/getting-started",
-              "path": "/docs/docs/script-master/jira/getting-started",
+              "path": "/docs/script-master/jira/getting-started",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/jira/index",
-              "path": "/docs/docs/script-master/jira/",
+              "path": "/docs/script-master/jira/",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/jira/script-console",
-              "path": "/docs/docs/script-master/jira/script-console",
+              "path": "/docs/script-master/jira/script-console",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/jira/web-triggers",
-              "path": "/docs/docs/script-master/jira/web-triggers",
+              "path": "/docs/script-master/jira/web-triggers",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/privacy-policy",
-              "path": "/docs/docs/script-master/privacy-policy",
+              "path": "/docs/script-master/privacy-policy",
               "sidebar": "scriptMaster"
             },
             {
               "id": "script-master/terms-of-use",
-              "path": "/docs/docs/script-master/terms-of-use",
+              "path": "/docs/script-master/terms-of-use",
               "sidebar": "scriptMaster"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/docs/docs/tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/docs/tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/docs/docs/tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/docs/docs/tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/docs/tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/docs/docs/tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/docs/tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/docs/tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---basics",
-              "path": "/docs/docs/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---extras",
-              "path": "/docs/docs/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -155,13 +155,13 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             },
             "scriptMaster": {
               "link": {
-                "path": "/docs/docs/script-master/",
+                "path": "/docs/script-master/",
                 "label": "script-master/index"
               }
             }

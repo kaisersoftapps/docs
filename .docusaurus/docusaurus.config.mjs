@@ -8,7 +8,7 @@ export default {
   "tagline": "KaiserSoft Apps Documentation",
   "favicon": "img/favicon.ico",
   "url": "https://kaisersoftapps.github.io",
-  "baseUrl": "/docs/",
+  "baseUrl": "/",
   "organizationName": "kaisersoftapps",
   "projectName": "docs",
   "trailingSlash": false,

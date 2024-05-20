@@ -5,7 +5,7 @@
   "source": "@site/docs/tutorial-basics/deploy-your-site.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/deploy-your-site",
-  "permalink": "/docs/docs/tutorial-basics/deploy-your-site",
+  "permalink": "/docs/tutorial-basics/deploy-your-site",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Markdown Features",
-    "permalink": "/docs/docs/tutorial-basics/markdown-features"
+    "permalink": "/docs/tutorial-basics/markdown-features"
   },
   "next": {
     "title": "Congratulations!",
-    "permalink": "/docs/docs/tutorial-basics/congratulations"
+    "permalink": "/docs/tutorial-basics/congratulations"
   }
 }
