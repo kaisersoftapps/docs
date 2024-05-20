@@ -1,7 +1,7 @@
 {
   "id": "script-master/jira/script-console",
   "title": "Script Console",
-  "description": "",
+  "description": "Overview",
   "source": "@site/docs/script-master/jira/script-console.md",
   "sourceDirName": "script-master/jira",
   "slug": "/script-master/jira/script-console",

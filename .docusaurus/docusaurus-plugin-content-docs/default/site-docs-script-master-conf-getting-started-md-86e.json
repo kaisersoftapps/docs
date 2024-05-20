@@ -1,7 +1,7 @@
 {
   "id": "script-master/conf/getting-started",
   "title": "Getting Started",
-  "description": "",
+  "description": "Quick Start",
   "source": "@site/docs/script-master/conf/getting-started.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/getting-started",

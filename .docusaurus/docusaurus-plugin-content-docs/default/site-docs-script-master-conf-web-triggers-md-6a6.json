@@ -1,0 +1,26 @@
+{
+  "id": "script-master/conf/web-triggers",
+  "title": "Web Triggers",
+  "description": "Web Triggers are JavaScript functions running on the Forge back end that respond to HTTP requests. They enable seamless integration between your Confluence instance and external systems without requiring user authentication.",
+  "source": "@site/docs/script-master/conf/web-triggers.md",
+  "sourceDirName": "script-master/conf",
+  "slug": "/script-master/conf/web-triggers",
+  "permalink": "/docs/docs/script-master/conf/web-triggers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "Fragments",
+    "permalink": "/docs/docs/script-master/conf/fragments"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/script-master/conf/faq"
+  }
+}

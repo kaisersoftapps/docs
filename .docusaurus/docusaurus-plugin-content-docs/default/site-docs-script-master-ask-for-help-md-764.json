@@ -1,7 +1,7 @@
 {
   "id": "script-master/ask-for-help",
   "title": "Ask for Help",
-  "description": "",
+  "description": "Support Portal https://kaisersoftapps.atlassian.net/servicedesk/customer/portal/1",
   "source": "@site/docs/script-master/ask-for-help.md",
   "sourceDirName": "script-master",
   "slug": "/script-master/ask-for-help",

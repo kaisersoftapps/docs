@@ -1,7 +1,7 @@
 {
   "id": "script-master/conf/index",
   "title": "Script Master for Confluence",
-  "description": "",
+  "description": "Script Master for Confluence is an app tailored for Confluence administrators, offering advanced tools for customization and automation within the Confluence application. It provides features such as the Script Console for exploring REST APIs, executing bulk updates, and automating administrative tasks. Moreover, it facilitates the creation of Custom Page Actions and Content Byline Items using HTML, CSS, and JavaScript through Fragments, and offers Web Triggers for handling HTTP requests seamlessly without user authentication.",
   "source": "@site/docs/script-master/conf/index.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/",

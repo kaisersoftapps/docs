@@ -29,6 +29,12 @@ const config: Config = {
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
+  staticDirectories: ['public', 'static'],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -69,7 +75,7 @@ const config: Config = {
       title: "KaiserSoft Apps Documentation",
       logo: {
         alt: "KaiserSoft Logo",
-        src: "img/f17d9f6a-4cf3-41e2-87e1-e6b1304371be.png",
+        src: "img/logo-0.0.4.png",
       },
       items: [
         {

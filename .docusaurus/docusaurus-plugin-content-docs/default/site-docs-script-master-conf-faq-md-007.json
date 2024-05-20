@@ -1,7 +1,7 @@
 {
   "id": "script-master/conf/faq",
   "title": "FAQ",
-  "description": "Here are frequently asked questions and answers:",
+  "description": "General Questions",
   "source": "@site/docs/script-master/conf/faq.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/faq",
@@ -16,8 +16,8 @@
   },
   "sidebar": "scriptMaster",
   "previous": {
-    "title": "Fragments",
-    "permalink": "/docs/docs/script-master/conf/fragments"
+    "title": "Web Triggers",
+    "permalink": "/docs/docs/script-master/conf/web-triggers"
   },
   "next": {
     "title": "Ask for Help",

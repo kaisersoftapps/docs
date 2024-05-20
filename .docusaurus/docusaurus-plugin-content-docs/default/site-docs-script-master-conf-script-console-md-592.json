@@ -1,7 +1,7 @@
 {
   "id": "script-master/conf/script-console",
   "title": "Script Console",
-  "description": "",
+  "description": "Overview",
   "source": "@site/docs/script-master/conf/script-console.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/script-console",

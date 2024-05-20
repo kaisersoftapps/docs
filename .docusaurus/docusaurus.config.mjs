@@ -14,6 +14,25 @@ export default {
   "trailingSlash": false,
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
+  "staticDirectories": [
+    "public",
+    "static"
+  ],
+  "markdown": {
+    "mermaid": true,
+    "format": "mdx",
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    }
+  },
+  "themes": [
+    "@docusaurus/theme-mermaid"
+  ],
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -41,7 +60,7 @@ export default {
       "title": "KaiserSoft Apps Documentation",
       "logo": {
         "alt": "KaiserSoft Logo",
-        "src": "img/f17d9f6a-4cf3-41e2-87e1-e6b1304371be.png"
+        "src": "img/logo-0.0.4.png"
       },
       "items": [
         {
@@ -301,33 +320,24 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
     }
   },
   "baseUrlIssueBanner": true,
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    }
-  }
+  "noIndex": false
 };

@@ -1,0 +1,26 @@
+{
+  "id": "script-master/jira/fragments copy",
+  "title": "Fragments",
+  "description": "",
+  "source": "@site/docs/script-master/jira/fragments copy.md",
+  "sourceDirName": "script-master/jira",
+  "slug": "/script-master/jira/fragments copy",
+  "permalink": "/docs/docs/script-master/jira/fragments copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "Script Console",
+    "permalink": "/docs/docs/script-master/jira/script-console"
+  },
+  "next": {
+    "title": "Fragments",
+    "permalink": "/docs/docs/script-master/jira/fragments"
+  }
+}

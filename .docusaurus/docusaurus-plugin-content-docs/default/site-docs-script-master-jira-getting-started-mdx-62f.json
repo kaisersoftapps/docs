@@ -2,7 +2,7 @@
   "id": "script-master/jira/getting-started",
   "title": "Getting Started",
   "description": "Quick Start",
-  "source": "@site/docs/script-master/jira/getting-started.md",
+  "source": "@site/docs/script-master/jira/getting-started.mdx",
   "sourceDirName": "script-master/jira",
   "slug": "/script-master/jira/getting-started",
   "permalink": "/docs/docs/script-master/jira/getting-started",

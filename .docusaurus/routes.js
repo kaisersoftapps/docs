@@ -3,16 +3,51 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/docs/__docusaurus/debug',
+    component: ComponentCreator('/docs/__docusaurus/debug', 'e58'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/config',
+    component: ComponentCreator('/docs/__docusaurus/debug/config', '2ce'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/content',
+    component: ComponentCreator('/docs/__docusaurus/debug/content', '0c2'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/globalData',
+    component: ComponentCreator('/docs/__docusaurus/debug/globalData', 'f13'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/metadata',
+    component: ComponentCreator('/docs/__docusaurus/debug/metadata', 'bff'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/registry',
+    component: ComponentCreator('/docs/__docusaurus/debug/registry', '830'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/routes',
+    component: ComponentCreator('/docs/__docusaurus/debug/routes', '13e'),
+    exact: true
+  },
+  {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'd80'),
+    component: ComponentCreator('/docs/docs', '656'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '804'),
+        component: ComponentCreator('/docs/docs', 'c58'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '667'),
+            component: ComponentCreator('/docs/docs', '29a'),
             routes: [
               {
                 path: '/docs/docs/category/tutorial---basics',
@@ -75,6 +110,18 @@ export default [
                 sidebar: "scriptMaster"
               },
               {
+                path: '/docs/docs/script-master/conf/web-triggers',
+                component: ComponentCreator('/docs/docs/script-master/conf/web-triggers', '3b0'),
+                exact: true,
+                sidebar: "scriptMaster"
+              },
+              {
+                path: '/docs/docs/script-master/eula',
+                component: ComponentCreator('/docs/docs/script-master/eula', 'ae6'),
+                exact: true,
+                sidebar: "scriptMaster"
+              },
+              {
                 path: '/docs/docs/script-master/jira',
                 component: ComponentCreator('/docs/docs/script-master/jira', 'd46'),
                 exact: true,
@@ -101,6 +148,12 @@ export default [
               {
                 path: '/docs/docs/script-master/jira/script-console',
                 component: ComponentCreator('/docs/docs/script-master/jira/script-console', 'cf7'),
+                exact: true,
+                sidebar: "scriptMaster"
+              },
+              {
+                path: '/docs/docs/script-master/jira/web-triggers',
+                component: ComponentCreator('/docs/docs/script-master/jira/web-triggers', '2ff'),
                 exact: true,
                 sidebar: "scriptMaster"
               },

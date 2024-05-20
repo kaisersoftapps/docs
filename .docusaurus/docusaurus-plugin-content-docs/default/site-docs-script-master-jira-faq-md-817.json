@@ -1,7 +1,7 @@
 {
   "id": "script-master/jira/faq",
   "title": "FAQ",
-  "description": "Here are frequently asked questions and answers:",
+  "description": "General Questions",
   "source": "@site/docs/script-master/jira/faq.md",
   "sourceDirName": "script-master/jira",
   "slug": "/script-master/jira/faq",
@@ -10,14 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 40,
+  "sidebarPosition": 100,
   "frontMatter": {
-    "sidebar_position": 40
+    "sidebar_position": 100
   },
   "sidebar": "scriptMaster",
   "previous": {
-    "title": "Fragments",
-    "permalink": "/docs/docs/script-master/jira/fragments"
+    "title": "Web Triggers",
+    "permalink": "/docs/docs/script-master/jira/web-triggers"
   },
   "next": {
     "title": "Script Master for Confluence",

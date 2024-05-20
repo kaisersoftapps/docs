@@ -1,0 +1,22 @@
+{
+  "id": "script-master/eula",
+  "title": "End-user license agreement",
+  "description": "Last updated: 21.02.2024",
+  "source": "@site/docs/script-master/eula.md",
+  "sourceDirName": "script-master",
+  "slug": "/script-master/eula",
+  "permalink": "/docs/docs/script-master/eula",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "sidebar_position": 40
+  },
+  "sidebar": "scriptMaster",
+  "previous": {
+    "title": "Privacy Policy",
+    "permalink": "/docs/docs/script-master/privacy-policy"
+  }
+}

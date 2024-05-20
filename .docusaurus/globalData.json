@@ -46,6 +46,16 @@
               "sidebar": "scriptMaster"
             },
             {
+              "id": "script-master/conf/web-triggers",
+              "path": "/docs/docs/script-master/conf/web-triggers",
+              "sidebar": "scriptMaster"
+            },
+            {
+              "id": "script-master/eula",
+              "path": "/docs/docs/script-master/eula",
+              "sidebar": "scriptMaster"
+            },
+            {
               "id": "script-master/index",
               "path": "/docs/docs/script-master/",
               "sidebar": "scriptMaster"
@@ -73,6 +83,11 @@
             {
               "id": "script-master/jira/script-console",
               "path": "/docs/docs/script-master/jira/script-console",
+              "sidebar": "scriptMaster"
+            },
+            {
+              "id": "script-master/jira/web-triggers",
+              "path": "/docs/docs/script-master/jira/web-triggers",
               "sidebar": "scriptMaster"
             },
             {
