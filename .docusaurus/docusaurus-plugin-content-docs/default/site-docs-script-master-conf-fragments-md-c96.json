@@ -5,7 +5,7 @@
   "source": "@site/docs/script-master/conf/fragments.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/fragments",
-  "permalink": "/docs/script-master/conf/fragments",
+  "permalink": "/docs/docs/script-master/conf/fragments",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "scriptMaster",
   "previous": {
     "title": "Script Console",
-    "permalink": "/docs/script-master/conf/script-console"
+    "permalink": "/docs/docs/script-master/conf/script-console"
   },
   "next": {
     "title": "Web Triggers",
-    "permalink": "/docs/script-master/conf/web-triggers"
+    "permalink": "/docs/docs/script-master/conf/web-triggers"
   }
 }

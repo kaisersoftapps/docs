@@ -5,7 +5,7 @@
   "source": "@site/docs/script-master/jira/script-console.md",
   "sourceDirName": "script-master/jira",
   "slug": "/script-master/jira/script-console",
-  "permalink": "/docs/script-master/jira/script-console",
+  "permalink": "/docs/docs/script-master/jira/script-console",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "scriptMaster",
   "previous": {
     "title": "Getting Started",
-    "permalink": "/docs/script-master/jira/getting-started"
+    "permalink": "/docs/docs/script-master/jira/getting-started"
   },
   "next": {
     "title": "Fragments",
-    "permalink": "/docs/script-master/jira/fragments"
+    "permalink": "/docs/docs/script-master/jira/fragments"
   }
 }

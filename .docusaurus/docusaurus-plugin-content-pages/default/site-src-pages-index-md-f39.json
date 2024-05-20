@@ -1,6 +1,6 @@
 {
   "type": "mdx",
-  "permalink": "/",
+  "permalink": "/docs/",
   "source": "@site/src/pages/index.md",
   "description": "<!-- ---",
   "frontMatter": {},

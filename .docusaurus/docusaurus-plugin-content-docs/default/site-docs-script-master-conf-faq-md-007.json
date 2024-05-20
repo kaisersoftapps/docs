@@ -5,7 +5,7 @@
   "source": "@site/docs/script-master/conf/faq.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/faq",
-  "permalink": "/docs/script-master/conf/faq",
+  "permalink": "/docs/docs/script-master/conf/faq",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "scriptMaster",
   "previous": {
     "title": "Web Triggers",
-    "permalink": "/docs/script-master/conf/web-triggers"
+    "permalink": "/docs/docs/script-master/conf/web-triggers"
   },
   "next": {
     "title": "Ask for Help",
-    "permalink": "/docs/script-master/ask-for-help"
+    "permalink": "/docs/docs/script-master/ask-for-help"
   }
 }

@@ -8,7 +8,7 @@ export default {
   "tagline": "KaiserSoft Apps Documentation",
   "favicon": "img/favicon.ico",
   "url": "https://kaisersoftapps.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/docs/",
   "organizationName": "kaisersoftapps",
   "projectName": "docs",
   "trailingSlash": false,
@@ -80,11 +80,11 @@ export default {
           "items": [
             {
               "label": "ScriptMaster for Jira",
-              "to": "/docs/script-master/jira"
+              "to": "/docs/docs/script-master/jira"
             },
             {
               "label": "ScriptMaster for Confluence",
-              "to": "/docs/script-master/conf"
+              "to": "/docs/docs/script-master/conf"
             }
           ]
         },

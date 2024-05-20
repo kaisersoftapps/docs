@@ -18,7 +18,7 @@ const config: Config = {
   url: "https://kaisersoftapps.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/docs",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -106,11 +106,11 @@ const config: Config = {
           items: [
             {
               label: "ScriptMaster for Jira",
-              to: "/docs/script-master/jira",
+              to: "/docs/docs/script-master/jira",
             },
             {
               label: "ScriptMaster for Confluence",
-              to: "/docs/script-master/conf",
+              to: "/docs/docs/script-master/conf",
             },
           ],
         },

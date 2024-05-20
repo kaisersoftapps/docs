@@ -5,7 +5,7 @@
   "source": "@site/docs/script-master/index.md",
   "sourceDirName": "script-master",
   "slug": "/script-master/",
-  "permalink": "/docs/script-master/",
+  "permalink": "/docs/docs/script-master/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,6 +17,6 @@
   "sidebar": "scriptMaster",
   "next": {
     "title": "Script Master for Jira",
-    "permalink": "/docs/script-master/jira/"
+    "permalink": "/docs/docs/script-master/jira/"
   }
 }
