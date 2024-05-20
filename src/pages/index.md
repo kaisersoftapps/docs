@@ -6,5 +6,10 @@ title: Welcome to
 
 Links to the apps documentation:
 
-- [Script Master for Jira](docs/script-master/jira/)
-- [Script Master for Confluence](docs/script-master/conf/)
+|Jira apps|Confluence apps|
+|---|---|
+| ![Script Master for Jira](/img/app-logo-64.png) <br/> [Script Master for Jira](docs/script-master/jira/)  | ![Script Master for Jira](/img/app-logo-64.png) <br/> [Script Master for Confluence](docs/script-master/conf/)  |
+|   |   |
+
+
+

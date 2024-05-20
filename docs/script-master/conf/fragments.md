@@ -4,7 +4,7 @@ sidebar_position: 30
 
 # Fragments
 
-Fragments are powerful blocks that extend the Confluence UI, allowing you to display Custom Page Actions or Content Byline Items. They provide flexibility to add new functionalities to your Confluence application or enhance data visualizations. With Fragments, you can use HTML, CSS, JavaScript, and access application data or external REST services.
+Fragments are powerful blocks that extend the Confluence UI, allowing you to display Custom Page Actions or Custom Content Byline Items. They provide flexibility to add new functionalities to your Confluence application or enhance data visualizations. With Fragments, you can use HTML, CSS, JavaScript, and access application data or external REST services.
 
 ### Creating and Managing Fragments
 
@@ -19,6 +19,7 @@ Fragments are powerful blocks that extend the Confluence UI, allowing you to dis
 
 Custom Actions are interactive elements that you can add to the standard Confluence actions menu. They allow users to trigger specific actions or workflows with a simple click.
 
+<img src={require('/img/Screenshot2024-05-20at20.46.14.png').default} style={{width: '100%'}} />
 
 - **Use Cases**:
   - Triggering scripts or automations
@@ -30,10 +31,11 @@ Custom Actions are interactive elements that you can add to the standard Conflue
   - Style it using CSS to match your Confluence theme.
   - Use JavaScript to bind the action to a specific function or script.
 
-### Custom Panels
+### Custom Content Byline Items
 
-Custom Panels are UI components that can display detailed information, charts, or any custom content. This module can be used in Confluence to enhance the user interface with additional functionalities and data visualizations.
+Custom Content Byline Items are UI components that can display detailed information, charts, or any custom content. This module can be used in Confluence to enhance the user interface with additional functionalities and data visualizations.
 
+<img src={require('/img/Screenshot2024-05-20at19.46.14.png').default} style={{width: '100%'}} />
 
 - **Use Cases**:
   - Displaying additional page details
@@ -68,6 +70,47 @@ Fragments can interact with Confluence's internal data as well as external REST 
 - **context**: The `context` object contains various parameters based on the current page and module type.
 - **[router](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/router/)**: The `router` object allows you to navigate the host product to another page.
 
+
+## Example fragment
+
+"Display an inspiring quote". This fragment demonstrates how to utilize an external REST API to retrieve data and display it within a Custom Action and Custom Content Byline Item.
+
+```html
+<div class="blockquote">
+    <p>loading...</p>
+    <footer class="blockquote-footer">
+        <cite title="Source Title"></cite>
+    </footer>
+</div>
+
+<button style="margin-top: 20px">New Quote</button>
+
+<script>
+    // Powered by Quotable
+    // https://github.com/lukePeavey/quotable
+    const button = document.querySelector("button");
+    const quote = document.querySelector(".blockquote p");
+    const cite = document.querySelector(".blockquote cite");
+
+    async function updateQuote() {
+        // Fetch a random quote from the Quotable API
+        const response = await fetch("https://api.quotable.io/random");
+        const data = await response.json();
+        if (response.ok) {
+            quote.textContent = data.content;
+            cite.textContent = data.author;
+        } else {
+            quote.textContent = "An error occured";
+            console.log(data);
+        }
+    }
+
+    // Attach an event listener to the `button`
+    button.addEventListener("click", updateQuote);
+    // call updateQuote once when page loads
+    updateQuote();
+</script>
+```
 
 
 ## Conclusion

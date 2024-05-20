@@ -1,7 +1,7 @@
 {
   "id": "script-master/conf/fragments",
   "title": "Fragments",
-  "description": "Fragments are powerful blocks that extend the Confluence UI, allowing you to display Custom Page Actions or Content Byline Items. They provide flexibility to add new functionalities to your Confluence application or enhance data visualizations. With Fragments, you can use HTML, CSS, JavaScript, and access application data or external REST services.",
+  "description": "Fragments are powerful blocks that extend the Confluence UI, allowing you to display Custom Page Actions or Custom Content Byline Items. They provide flexibility to add new functionalities to your Confluence application or enhance data visualizations. With Fragments, you can use HTML, CSS, JavaScript, and access application data or external REST services.",
   "source": "@site/docs/script-master/conf/fragments.md",
   "sourceDirName": "script-master/conf",
   "slug": "/script-master/conf/fragments",
