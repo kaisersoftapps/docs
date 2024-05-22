@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 10
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "previous": {
     "title": "Script Master for Jira",
     "permalink": "/docs/docs/script-master/jira/"

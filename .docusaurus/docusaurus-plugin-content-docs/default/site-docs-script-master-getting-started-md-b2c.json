@@ -1,0 +1,26 @@
+{
+  "id": "script-master/getting-started",
+  "title": "Getting Started",
+  "description": "Quick Start",
+  "source": "@site/docs/script-master/getting-started.md",
+  "sourceDirName": "script-master",
+  "slug": "/script-master/getting-started",
+  "permalink": "/docs/docs/script-master/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Script Master app",
+    "permalink": "/docs/docs/script-master/"
+  },
+  "next": {
+    "title": "Script Console",
+    "permalink": "/docs/docs/script-master/script-console/"
+  }
+}

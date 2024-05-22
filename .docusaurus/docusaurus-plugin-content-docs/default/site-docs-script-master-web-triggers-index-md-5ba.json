@@ -1,0 +1,26 @@
+{
+  "id": "script-master/web-triggers/index",
+  "title": "Web Triggers",
+  "description": "Web Triggers are JavaScript functions running on the Forge back end that respond to HTTP requests. They enable seamless integration between your Jira or Confluence instances and external systems without requiring user authentication.",
+  "source": "@site/docs/script-master/web-triggers/index.md",
+  "sourceDirName": "script-master/web-triggers",
+  "slug": "/script-master/web-triggers/",
+  "permalink": "/docs/docs/script-master/web-triggers/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Fragments",
+    "permalink": "/docs/docs/script-master/fragments/"
+  },
+  "next": {
+    "title": "Difference between versions for Jira and Confluence",
+    "permalink": "/docs/docs/script-master/diff-between-jira-and-conf"
+  }
+}

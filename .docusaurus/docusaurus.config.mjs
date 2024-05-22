@@ -64,10 +64,14 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "scriptMaster",
-          "position": "left",
-          "label": "Script Master"
+          "to": "docs/script-master",
+          "label": "Script Master",
+          "position": "left"
+        },
+        {
+          "to": "docs/event-planner",
+          "label": "Event Planner",
+          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -75,19 +79,6 @@ export default {
     "footer": {
       "style": "dark",
       "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "ScriptMaster for Jira",
-              "to": "/docs/docs/script-master/jira"
-            },
-            {
-              "label": "ScriptMaster for Confluence",
-              "to": "/docs/docs/script-master/conf"
-            }
-          ]
-        },
         {
           "title": "Marketplace",
           "items": [
@@ -304,13 +295,6 @@ export default {
         }
       ]
     },
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
-    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -327,6 +311,13 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
     }
   },
   "baseUrlIssueBanner": true,

@@ -1,0 +1,26 @@
+{
+  "id": "script-master/diff-between-jira-and-conf",
+  "title": "Difference between versions for Jira and Confluence",
+  "description": "Script Master has two versions: one for Jira Cloud and one for Confluence Cloud. Both versions include the same modules, with only slight differences in the provided context.",
+  "source": "@site/docs/script-master/diff-between-jira-and-conf.md",
+  "sourceDirName": "script-master",
+  "slug": "/script-master/diff-between-jira-and-conf",
+  "permalink": "/docs/docs/script-master/diff-between-jira-and-conf",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {
+    "sidebar_position": 90
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Web Triggers",
+    "permalink": "/docs/docs/script-master/web-triggers/"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/script-master/faq"
+  }
+}

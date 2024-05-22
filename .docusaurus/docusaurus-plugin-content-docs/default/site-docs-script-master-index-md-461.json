@@ -1,7 +1,7 @@
 {
   "id": "script-master/index",
-  "title": "Overview",
-  "description": "- Script Master for Jira",
+  "title": "Script Master app",
+  "description": "Overview",
   "source": "@site/docs/script-master/index.md",
   "sourceDirName": "script-master",
   "slug": "/script-master/",
@@ -14,9 +14,9 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "next": {
-    "title": "Script Master for Jira",
-    "permalink": "/docs/docs/script-master/jira/"
+    "title": "Getting Started",
+    "permalink": "/docs/docs/script-master/getting-started"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/docs/",
+  "source": "@site/src/pages/index.mdx",
+  "description": "<!-- ---",
+  "frontMatter": {},
+  "unlisted": false
+}

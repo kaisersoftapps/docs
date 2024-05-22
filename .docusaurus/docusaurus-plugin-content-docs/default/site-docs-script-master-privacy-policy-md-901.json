@@ -14,10 +14,10 @@
   "frontMatter": {
     "sidebar_position": 30
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "eventPlanner",
   "previous": {
-    "title": "Terms of Use",
-    "permalink": "/docs/docs/script-master/terms-of-use"
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/script-master/ask-for-help"
   },
   "next": {
     "title": "End-user license agreement",

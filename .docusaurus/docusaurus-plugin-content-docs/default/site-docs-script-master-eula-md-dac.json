@@ -14,9 +14,13 @@
   "frontMatter": {
     "sidebar_position": 40
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "eventPlanner",
   "previous": {
-    "title": "Privacy Policy",
-    "permalink": "/docs/docs/script-master/privacy-policy"
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/script-master/ask-for-help"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/docs/script-master/"
   }
 }

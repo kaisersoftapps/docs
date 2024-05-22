@@ -1,0 +1,22 @@
+{
+  "id": "eula",
+  "title": "End-user license agreement",
+  "description": "Last updated: 21.02.2024",
+  "source": "@site/docs/eula.md",
+  "sourceDirName": ".",
+  "slug": "/eula",
+  "permalink": "/docs/docs/eula",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "sidebar_position": 40
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Privacy Policy",
+    "permalink": "/docs/docs/privacy-policy"
+  }
+}

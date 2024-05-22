@@ -14,9 +14,9 @@
   "frontMatter": {
     "sidebar_position": 2
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "previous": {
-    "title": "Overview",
+    "title": "Script Master app",
     "permalink": "/docs/docs/script-master/"
   },
   "next": {

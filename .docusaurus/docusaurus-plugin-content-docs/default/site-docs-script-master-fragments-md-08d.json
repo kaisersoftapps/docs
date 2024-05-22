@@ -1,0 +1,26 @@
+{
+  "id": "script-master/fragments",
+  "title": "Fragments",
+  "description": "Fragments are powerful blocks that extend the Jira UI, allowing you to display Custom Actions or Custom Panels in the Issue View. They provide flexibility to add new functionalities to your Jira application or enhance data visualizations. With Fragments, you can use HTML, CSS, JavaScript, and access application data or external REST services.",
+  "source": "@site/docs/script-master/fragments.md",
+  "sourceDirName": "script-master",
+  "slug": "/script-master/fragments",
+  "permalink": "/docs/docs/script-master/fragments",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Script Console",
+    "permalink": "/docs/docs/script-master/script-console/"
+  },
+  "next": {
+    "title": "Web Triggers",
+    "permalink": "/docs/docs/script-master/web-triggers"
+  }
+}

@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 30
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "previous": {
     "title": "Fragments",
     "permalink": "/docs/docs/script-master/jira/fragments"

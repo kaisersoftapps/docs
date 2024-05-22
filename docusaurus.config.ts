@@ -78,12 +78,20 @@ const config: Config = {
         src: "img/logo-0.0.4.png",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "scriptMaster",
-          position: "left",
-          label: "Script Master",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "scriptMaster",
+        //   position: "left",
+        //   label: "Script Master",
+        // },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "eventPlanner",
+        //   position: "left",
+        //   label: "Event Planner",
+        // },
+        {to: 'docs/script-master', label: 'Script Master', position: 'left'},
+        {to: 'docs/event-planner', label: 'Event Planner', position: 'left'},
         // {
         //   type: "docSidebar",
         //   sidebarId: "tutorialSidebar",
@@ -101,19 +109,19 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "ScriptMaster for Jira",
-              to: "/docs/docs/script-master/jira",
-            },
-            {
-              label: "ScriptMaster for Confluence",
-              to: "/docs/docs/script-master/conf",
-            },
-          ],
-        },
+        // {
+        //   title: "Docs",
+        //   items: [
+        //     {
+        //       label: "ScriptMaster for Jira",
+        //       to: "/docs/docs/script-master/jira",
+        //     },
+        //     {
+        //       label: "ScriptMaster for Confluence",
+        //       to: "/docs/docs/script-master/conf",
+        //     },
+        //   ],
+        // },
         {
           title: "Marketplace",
           items: [

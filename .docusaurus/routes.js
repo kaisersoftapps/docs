@@ -3,219 +3,88 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/docs/__docusaurus/debug',
-    component: ComponentCreator('/docs/__docusaurus/debug', 'e58'),
-    exact: true
-  },
-  {
-    path: '/docs/__docusaurus/debug/config',
-    component: ComponentCreator('/docs/__docusaurus/debug/config', '2ce'),
-    exact: true
-  },
-  {
-    path: '/docs/__docusaurus/debug/content',
-    component: ComponentCreator('/docs/__docusaurus/debug/content', '0c2'),
-    exact: true
-  },
-  {
-    path: '/docs/__docusaurus/debug/globalData',
-    component: ComponentCreator('/docs/__docusaurus/debug/globalData', 'f13'),
-    exact: true
-  },
-  {
-    path: '/docs/__docusaurus/debug/metadata',
-    component: ComponentCreator('/docs/__docusaurus/debug/metadata', 'bff'),
-    exact: true
-  },
-  {
-    path: '/docs/__docusaurus/debug/registry',
-    component: ComponentCreator('/docs/__docusaurus/debug/registry', '830'),
-    exact: true
-  },
-  {
-    path: '/docs/__docusaurus/debug/routes',
-    component: ComponentCreator('/docs/__docusaurus/debug/routes', '13e'),
-    exact: true
-  },
-  {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '656'),
+    component: ComponentCreator('/docs/docs', '6a6'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'c58'),
+        component: ComponentCreator('/docs/docs', '138'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '29a'),
+            component: ComponentCreator('/docs/docs', '2a7'),
             routes: [
               {
-                path: '/docs/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/docs/category/tutorial---basics', '6eb'),
+                path: '/docs/docs/ask-for-help',
+                component: ComponentCreator('/docs/docs/ask-for-help', '372'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/docs/category/tutorial---extras', 'a06'),
+                path: '/docs/docs/eula',
+                component: ComponentCreator('/docs/docs/eula', '795'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/intro',
-                component: ComponentCreator('/docs/docs/intro', '2ea'),
+                path: '/docs/docs/event-planner',
+                component: ComponentCreator('/docs/docs/event-planner', '57b'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/privacy-policy',
+                component: ComponentCreator('/docs/docs/privacy-policy', '905'),
+                exact: true,
+                sidebar: "docs"
               },
               {
                 path: '/docs/docs/script-master',
-                component: ComponentCreator('/docs/docs/script-master', '482'),
+                component: ComponentCreator('/docs/docs/script-master', '44a'),
                 exact: true,
-                sidebar: "scriptMaster"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/ask-for-help',
-                component: ComponentCreator('/docs/docs/script-master/ask-for-help', '661'),
+                path: '/docs/docs/script-master/diff-between-jira-and-conf',
+                component: ComponentCreator('/docs/docs/script-master/diff-between-jira-and-conf', '370'),
                 exact: true,
-                sidebar: "scriptMaster"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/conf',
-                component: ComponentCreator('/docs/docs/script-master/conf', '8f7'),
+                path: '/docs/docs/script-master/faq',
+                component: ComponentCreator('/docs/docs/script-master/faq', 'a5a'),
                 exact: true,
-                sidebar: "scriptMaster"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/conf/faq',
-                component: ComponentCreator('/docs/docs/script-master/conf/faq', '858'),
+                path: '/docs/docs/script-master/fragments',
+                component: ComponentCreator('/docs/docs/script-master/fragments', '094'),
                 exact: true,
-                sidebar: "scriptMaster"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/conf/fragments',
-                component: ComponentCreator('/docs/docs/script-master/conf/fragments', '3df'),
+                path: '/docs/docs/script-master/getting-started',
+                component: ComponentCreator('/docs/docs/script-master/getting-started', 'dbe'),
                 exact: true,
-                sidebar: "scriptMaster"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/conf/getting-started',
-                component: ComponentCreator('/docs/docs/script-master/conf/getting-started', '68a'),
+                path: '/docs/docs/script-master/script-console',
+                component: ComponentCreator('/docs/docs/script-master/script-console', '1fe'),
                 exact: true,
-                sidebar: "scriptMaster"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/conf/script-console',
-                component: ComponentCreator('/docs/docs/script-master/conf/script-console', 'ffa'),
+                path: '/docs/docs/script-master/web-triggers',
+                component: ComponentCreator('/docs/docs/script-master/web-triggers', 'aef'),
                 exact: true,
-                sidebar: "scriptMaster"
+                sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/conf/web-triggers',
-                component: ComponentCreator('/docs/docs/script-master/conf/web-triggers', '3b0'),
+                path: '/docs/docs/terms-of-use',
+                component: ComponentCreator('/docs/docs/terms-of-use', '69c'),
                 exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/eula',
-                component: ComponentCreator('/docs/docs/script-master/eula', 'ae6'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/jira',
-                component: ComponentCreator('/docs/docs/script-master/jira', 'd46'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/jira/faq',
-                component: ComponentCreator('/docs/docs/script-master/jira/faq', '3bf'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/jira/fragments',
-                component: ComponentCreator('/docs/docs/script-master/jira/fragments', '9d7'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/jira/getting-started',
-                component: ComponentCreator('/docs/docs/script-master/jira/getting-started', 'c27'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/jira/script-console',
-                component: ComponentCreator('/docs/docs/script-master/jira/script-console', 'cf7'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/jira/web-triggers',
-                component: ComponentCreator('/docs/docs/script-master/jira/web-triggers', '2ff'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/privacy-policy',
-                component: ComponentCreator('/docs/docs/script-master/privacy-policy', 'e23'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/script-master/terms-of-use',
-                component: ComponentCreator('/docs/docs/script-master/terms-of-use', 'f64'),
-                exact: true,
-                sidebar: "scriptMaster"
-              },
-              {
-                path: '/docs/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/docs/tutorial-basics/congratulations', 'bf2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/docs/tutorial-basics/create-a-blog-post', 'fa2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/docs/tutorial-basics/create-a-document', '30c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/docs/tutorial-basics/create-a-page', '1b0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/docs/tutorial-basics/deploy-your-site', 'f1e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/docs/tutorial-basics/markdown-features', '2e9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/docs/tutorial-extras/manage-docs-versions', '724'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/docs/tutorial-extras/translate-your-site', 'd68'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docs"
               }
             ]
           }

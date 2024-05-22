@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 30
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "previous": {
     "title": "Script Console",
     "permalink": "/docs/docs/script-master/jira/script-console"

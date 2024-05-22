@@ -13,10 +13,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Overview",
-    "permalink": "/docs/docs/script-master/"
   }
 }

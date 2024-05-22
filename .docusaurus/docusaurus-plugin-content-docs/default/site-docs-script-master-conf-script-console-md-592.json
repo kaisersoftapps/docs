@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 20
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "previous": {
     "title": "Getting Started",
     "permalink": "/docs/docs/script-master/conf/getting-started"

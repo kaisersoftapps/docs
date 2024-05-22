@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 100
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "previous": {
     "title": "Web Triggers",
     "permalink": "/docs/docs/script-master/jira/web-triggers"

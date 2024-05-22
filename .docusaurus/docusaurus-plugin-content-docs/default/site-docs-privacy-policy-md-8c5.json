@@ -1,0 +1,26 @@
+{
+  "id": "privacy-policy",
+  "title": "Privacy Policy",
+  "description": "Your data will be securely hosted on Atlassian's infrastructure known as Forge. The Forge platform is designed to ensure high levels of security and compliance with industry standards. As the app vendor, we do not have access to any of the data stored on this platform. This means that all your data remains private and inaccessible to us. Additionally, Atlassian implements robust security measures to protect your data from unauthorized access, ensuring its confidentiality and integrity. Should you have any concerns or require further information about data storage and security, please refer to Atlassian's own privacy policies and security documentation.",
+  "source": "@site/docs/privacy-policy.md",
+  "sourceDirName": ".",
+  "slug": "/privacy-policy",
+  "permalink": "/docs/docs/privacy-policy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Terms of Use",
+    "permalink": "/docs/docs/terms-of-use"
+  },
+  "next": {
+    "title": "End-user license agreement",
+    "permalink": "/docs/docs/eula"
+  }
+}

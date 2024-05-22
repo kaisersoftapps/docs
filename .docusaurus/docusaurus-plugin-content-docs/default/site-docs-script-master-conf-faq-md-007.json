@@ -14,13 +14,13 @@
   "frontMatter": {
     "sidebar_position": 40
   },
-  "sidebar": "scriptMaster",
+  "sidebar": "docs",
   "previous": {
     "title": "Web Triggers",
     "permalink": "/docs/docs/script-master/conf/web-triggers"
   },
   "next": {
-    "title": "Ask for Help",
-    "permalink": "/docs/docs/script-master/ask-for-help"
+    "title": "Getting Started",
+    "permalink": "/docs/docs/script-master/getting-started"
   }
 }
