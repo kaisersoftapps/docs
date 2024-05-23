@@ -4,7 +4,7 @@ pagination_next: ask-for-help
 pagination_prev: null
 ---
 
-# Event Planner app
+# ▮ Event Planner app
 
 ## Overview
 

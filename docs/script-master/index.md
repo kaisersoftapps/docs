@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Script Master app
+# ▮ Script Master app
 
 ## Overview
 
