@@ -66,6 +66,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "team-voice/index",
+              "path": "/docs/docs/team-voice/",
+              "sidebar": "docs"
+            },
+            {
               "id": "terms-of-use",
               "path": "/docs/docs/terms-of-use",
               "sidebar": "docs"

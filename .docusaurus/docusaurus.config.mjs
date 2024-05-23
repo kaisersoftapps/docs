@@ -72,6 +72,11 @@ export default {
           "to": "docs/event-planner",
           "label": "Event Planner",
           "position": "left"
+        },
+        {
+          "to": "docs/team-voice",
+          "label": "Team Voice",
+          "position": "left"
         }
       ],
       "hideOnScroll": false
