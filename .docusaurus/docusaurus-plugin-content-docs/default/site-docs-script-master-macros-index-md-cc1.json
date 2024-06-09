@@ -1,0 +1,26 @@
+{
+  "id": "script-master/macros/index",
+  "title": "Macros",
+  "description": "This module available in Script Master for Confluence Cloud only.",
+  "source": "@site/docs/script-master/macros/index.md",
+  "sourceDirName": "script-master/macros",
+  "slug": "/script-master/macros/",
+  "permalink": "/docs/docs/script-master/macros/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {
+    "sidebar_position": 50
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Gadgets",
+    "permalink": "/docs/docs/script-master/gadgets/"
+  },
+  "next": {
+    "title": "Web Triggers",
+    "permalink": "/docs/docs/script-master/web-triggers/"
+  }
+}

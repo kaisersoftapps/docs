@@ -36,3 +36,48 @@ To access **Script Master for Confluence**:
 3. Select **Script Master** in the Apps section.
 
 <!-- <img src={require('/img/Screenshot2024-05-19at19.07.28.png').default} style={{width: 300}} /> -->
+
+
+### Start your customization journey with one of the modules
+
+```mermaid
+---
+title: Script Master
+---
+
+stateDiagram-v2
+    [*] --> sc
+    [*] --> cui
+    [*] --> fif
+
+    state "Run Scripts" as sc {
+        sc1 : Script Console 
+        %% note right of sc1 : This is the note to the left.
+    }
+    state "Forge Custom UI" as cui {
+        cui1 : Fragments
+        %% note right of cui1 : This is the note to the left.
+
+        cui1 --> ip1
+        ip1 : Issue Panel
+
+        cui1 --> ip2
+        ip2 : Issue Action
+
+        cui1 --> ip3
+        ip3 : Project Page
+       
+        cui2 : Gadgets
+        %% note right of cui2 : This is the note to the left.
+    }
+    state "Forge backend FaaS function" as fif {
+        fif1 : Web Triggers
+        %% note right of fif1 : This is the note to the left.
+    }
+```
+
+- [Script Console](./script-console/index.md)
+- [Fragments](./fragments/index.md)
+- [Gadgets](./gadgets/index.md)
+- [Macros](./macros/index.md)
+- [Wen Triggers](./web-triggers/index.md)

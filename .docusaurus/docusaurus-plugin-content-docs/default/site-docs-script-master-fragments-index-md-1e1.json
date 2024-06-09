@@ -1,7 +1,7 @@
 {
   "id": "script-master/fragments/index",
   "title": "Fragments",
-  "description": "Fragments are powerful blocks that extend the UI of Jira and Confluence, allowing you to display Custom Actions or Custom Elements in different places within the application. They provide flexibility to add new functionalities to your Jira and Confluence applications or enhance data visualizations. With Fragments, you can use HTML, CSS, and JavaScript, and access application data or external REST services.",
+  "description": "This module is available for both the Jira and Confluence versions of the app.",
   "source": "@site/docs/script-master/fragments/index.md",
   "sourceDirName": "script-master/fragments",
   "slug": "/script-master/fragments/",
@@ -12,7 +12,8 @@
   "version": "current",
   "sidebarPosition": 30,
   "frontMatter": {
-    "sidebar_position": 30
+    "sidebar_position": 30,
+    "toc_max_heading_level": 5
   },
   "sidebar": "docs",
   "previous": {
@@ -20,7 +21,7 @@
     "permalink": "/docs/docs/script-master/script-console/"
   },
   "next": {
-    "title": "Web Triggers",
-    "permalink": "/docs/docs/script-master/web-triggers/"
+    "title": "Gadgets",
+    "permalink": "/docs/docs/script-master/gadgets/"
   }
 }

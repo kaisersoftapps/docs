@@ -14,7 +14,7 @@ export default [
   },
   {
     path: '/docs/__docusaurus/debug/content',
-    component: ComponentCreator('/docs/__docusaurus/debug/content', '0c2'),
+    component: ComponentCreator('/docs/__docusaurus/debug/content', '11b'),
     exact: true
   },
   {
@@ -39,19 +39,25 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '882'),
+    component: ComponentCreator('/docs/docs', 'c39'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '59a'),
+        component: ComponentCreator('/docs/docs', '1f2'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '0ec'),
+            component: ComponentCreator('/docs/docs', 'd4b'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
-                component: ComponentCreator('/docs/docs/ask-for-help', '372'),
+                component: ComponentCreator('/docs/docs/ask-for-help', 'ed9'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/ask-for-help/create-har-file',
+                component: ComponentCreator('/docs/docs/ask-for-help/create-har-file', 'e49'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -98,8 +104,20 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/docs/script-master/gadgets',
+                component: ComponentCreator('/docs/docs/script-master/gadgets', '666'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/docs/script-master/getting-started',
                 component: ComponentCreator('/docs/docs/script-master/getting-started', 'dbe'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/macros',
+                component: ComponentCreator('/docs/docs/script-master/macros', '7ed'),
                 exact: true,
                 sidebar: "docs"
               },

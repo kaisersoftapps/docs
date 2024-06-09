@@ -1,0 +1,18 @@
+{
+  "id": "ask-for-help/create-har-file",
+  "title": "What is and How to generate a HAR File?",
+  "description": "A HAR (HTTP Archive) file is a log of all network requests made by a web page in your web browser. It includes details about each request, such as the URL, response headers, request headers, and timings. Generating a HAR file is a useful troubleshooting tool because it provides a comprehensive snapshot of a web page's network activity, allowing for precise issue identification.",
+  "source": "@site/docs/ask-for-help/create-har-file.md",
+  "sourceDirName": "ask-for-help",
+  "slug": "/ask-for-help/create-har-file",
+  "permalink": "/docs/docs/ask-for-help/create-har-file",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "pagination_next": null,
+    "pagination_prev": null
+  },
+  "sidebar": "docs"
+}

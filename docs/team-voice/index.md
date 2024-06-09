@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-pagination_next: ask-for-help
+pagination_next: null
 pagination_prev: null
 ---
 

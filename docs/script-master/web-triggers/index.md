@@ -1,11 +1,29 @@
 ---
-sidebar_position: 30
+sidebar_position: 60
 ---
 
 # Web Triggers
 
+:::tip Compatibility
+
+This module is available for both the Jira and Confluence versions of the app.
+
+:::
+
+
 Web Triggers are JavaScript functions running on the Forge back end that respond to HTTP requests. They enable seamless integration between your Jira or Confluence instances and external systems without requiring user authentication.
 
+```mermaid
+sequenceDiagram
+    participant User as Actor (User or Application)
+    participant Server as Custom Web Trigger (Forge FaaS)
+
+    User->>Server: HTTP Request
+    Server->>Server: Route to WebTrigger Handler
+    Server->>Server: Validate and Parse Request
+    Server->>Server: Execute your amazing script
+    Server->>User: HTTP Response
+```
 
 ## Setting Up Web Triggers
 
@@ -34,3 +52,10 @@ Web Triggers are JavaScript functions running on the Forge back end that respond
 - **Integrating with External Systems**: Integrate Jira or Confluence with third-party applications or internal tools for seamless data synchronization.
 - **Automating Workflows**: Trigger actions based on specific events or conditions to streamline processes and improve productivity.
 - **Extending Functionality**: Enhance functionality of Jira or Confluence with custom actions or behaviors to meet organizational needs.
+
+
+:::note
+
+[More Examples on GitHub](https://github.com/kaisersoftapps/script-master)
+
+:::

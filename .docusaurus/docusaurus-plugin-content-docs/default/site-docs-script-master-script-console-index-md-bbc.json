@@ -1,7 +1,7 @@
 {
   "id": "script-master/script-console/index",
   "title": "Script Console",
-  "description": "Overview",
+  "description": "This module is available for both the Jira and Confluence versions of the app.",
   "source": "@site/docs/script-master/script-console/index.md",
   "sourceDirName": "script-master/script-console",
   "slug": "/script-master/script-console/",

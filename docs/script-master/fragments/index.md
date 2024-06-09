@@ -1,8 +1,16 @@
 ---
 sidebar_position: 30
+toc_max_heading_level: 5
 ---
 
 # Fragments
+
+:::tip Compatibility
+
+This module is available for both the Jira and Confluence versions of the app.
+
+:::
+
 
 Fragments are powerful blocks that extend the UI of Jira and Confluence, allowing you to display Custom Actions or Custom Elements in different places within the application. They provide flexibility to add new functionalities to your Jira and Confluence applications or enhance data visualizations. With Fragments, you can use HTML, CSS, and JavaScript, and access application data or external REST services.
 
@@ -20,7 +28,7 @@ Fragments are powerful blocks that extend the UI of Jira and Confluence, allowin
 
 ### In Jira version
 
-#### Custom Action
+#### Jira Custom Action
 
 Custom Actions are interactive elements that you can add to standart Issue Actions menu. They allow users to trigger specific actions or workflows with a simple click.
 
@@ -32,7 +40,7 @@ Custom Actions are interactive elements that you can add to standart Issue Actio
   - Providing quick access to frequently used functions
 
 
-#### Custom Panel
+#### Jira Custom Panel
 
 Custom Panels are UI components that can display detailed information, charts, or any custom content. This module can be used in Jira Work Management, Jira Software, and Jira Service Management. It works in the new issue view but is not compatible with the old issue view.
 
@@ -46,7 +54,7 @@ Custom Panels are UI components that can display detailed information, charts, o
 
 ### In Confluence version
 
-#### Custom Action
+#### Confluence Custom Page Action
 
 Page Actions are interactive elements that you can add to standart Page Actions menu. They allow users to trigger specific actions or workflows with a simple click.
 
@@ -58,7 +66,7 @@ Page Actions are interactive elements that you can add to standart Page Actions 
   - Providing quick access to frequently used functions
 
 
-#### Custom Content byline item
+#### Confluence Custom Content byline item
 
 Content byline items are UI components that adds an entry to the content byline section, which is the part of the content under the title that includes metadata about contributors and more.
 
@@ -125,8 +133,10 @@ Here's a simple example to demonstrate how you can create a Custom Action that f
 </script>
 ```
 
-:::tip More Examples
+:::note More Examples
 
 Find more fragment examples directly inside the app by using the "Snippets Library"
+
+Or in our public repository [on GitHub](https://github.com/kaisersoftapps/script-master)
 
 :::

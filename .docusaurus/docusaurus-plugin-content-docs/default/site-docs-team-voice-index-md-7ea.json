@@ -13,12 +13,8 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
-    "pagination_next": "ask-for-help",
+    "pagination_next": null,
     "pagination_prev": null
   },
-  "sidebar": "docs",
-  "next": {
-    "title": "Ask for Help",
-    "permalink": "/docs/docs/ask-for-help"
-  }
+  "sidebar": "docs"
 }

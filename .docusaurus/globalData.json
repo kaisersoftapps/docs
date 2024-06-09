@@ -11,8 +11,13 @@
           "mainDocId": "script-master/index",
           "docs": [
             {
-              "id": "ask-for-help",
-              "path": "/docs/docs/ask-for-help",
+              "id": "ask-for-help/create-har-file",
+              "path": "/docs/docs/ask-for-help/create-har-file",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ask-for-help/index",
+              "path": "/docs/docs/ask-for-help/",
               "sidebar": "docs"
             },
             {
@@ -46,6 +51,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/gadgets/index",
+              "path": "/docs/docs/script-master/gadgets/",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/getting-started",
               "path": "/docs/docs/script-master/getting-started",
               "sidebar": "docs"
@@ -53,6 +63,11 @@
             {
               "id": "script-master/index",
               "path": "/docs/docs/script-master/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/macros/index",
+              "path": "/docs/docs/script-master/macros/",
               "sidebar": "docs"
             },
             {
