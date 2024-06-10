@@ -6,69 +6,118 @@ sidebar_position: 1
 
 ## Overview
 
-| ![](/img/script-master-logo.png) | Script Master is a revolutionary app built on top of the [Forge framework](https://developer.atlassian.com/platform/forge/). It allows Atlassian administrators to build Forge-compatible scripts and apps directly within Jira and Confluence, without the need for an IDE, complex build processes, or additional infrastructure. Atlassian administrators can automate tasks, extend the UI of Jira Cloud and Confluence Cloud, and create flexible integrations. |
+| ![](/img/script-master-logo.png) | Script Master is a unique app built on top of the [Atlassian Forge framework](https://developer.atlassian.com/platform/forge/). It allows Atlassian Administrators to build Forge-compatible scripts, UI extensions, and integrations directly within Jira Cloud and Confluence Cloud, without the need for complex build processes or additional infrastructure. |
 |---|:---|
 
-One of the main features is the [Script Console](./script-console/index.md), which is used for exploring REST APIs, executing bulk updates, and automating administrative tasks. Additionally, the app enables the creation of Custom UI elements using HTML, CSS, and JavaScript through [Fragments](./fragments/index.md), and offers [Web Triggers](./web-triggers/index.md) for handling HTTP requests without user authentication.
+### Who is this app for?
+First of all, it is for Atlassian Consultants and Atlassian Administrators, who need to perform bulk updates, automate tasks, extend the UI of Jira Cloud and Confluence Cloud, and create flexible integrations.
 
-For Jira, there is the ability to build custom, scripted Gadgets, enhancing the functionality and user experience on your Jira Dashboards. Similarly, for Confluence, you can build custom, scripted Macros, allowing you to enhance and personalize the content on your Confluence pages. Both of these features utilize HTML, CSS, JavaScript, and can access application data or external REST services.
+Script Master could replace dozens of other apps because you don't need to install all of them for a small UI change, bulk operation, simple custom Jira Gadget, or custom Confluence Macro. The app is ready to be used as a single source for most of the customizations your Cloud instance will ever need.
 
-Script Master has two versions: one for Jira Cloud and one for Confluence Cloud. Both versions include the same modules, with only slight differences in the provided context. Read more about the [differences between the Jira and Confluence versions](./diff-between-jira-and-conf.md).
+
+### The uniqueness of the app
+1. It is 100% a Forge app, and not one byte will leave your instance or Atlassian infrastructure. All the scripts and customizations are hosted directly on your instance and within the Atlassian platform.
+2. It is fully compatible with the latest Forge version, and you can take the built script and start making an independent Forge app at any time if you decide that your customization requires more independence.
+3. It is the one and only app that allows Administrators to create custom Issue Panels, Project Pages, Gadgets, Macros and many more directly inside the Jira or Confluence platform and implement all the needs of your users without installing new apps from the Marketplace.
 
 
 ## Installation and configuration
 
 Install the app from Atlassian Marketplace:
 
-- [**Script Master for Jira**](https://marketplace.atlassian.com/apps/1233958/script-master-for-jira)
-- [**Script Master for Confluence**](https://marketplace.atlassian.com/apps/1234082/script-master-for-confluence)
+- [Script Master for Jira](https://marketplace.atlassian.com/apps/1233958/script-master-for-jira)
+- [Script Master for Confluence](https://marketplace.atlassian.com/apps/1234082/script-master-for-confluence)
 
-Follow the [Getting Started guide](./getting-started.md).
+To access **Script Master**:
+
+1. Log in to your instance as an administrator.
+2. Navigate to the administrator menu.
+3. Select **Script Master** in the Apps section.
+
+Follow the [Getting Started guide](./getting-started.md) for more details.
 
 
 ## Features Overview
 
+<!-- 
 ```mermaid
 graph TD
-    A["`**Script Master**`"] --> B["`**Script Console**`"]
-    A --> C["`**Fragments**`"]
-    A --> D["`**Web Triggers**`"]
+    A["`**Script Master**`"] --\> B["`**Script Console**`"]
+    A --\> C["`**Fragments**`"]
+    A --\> D["`**Web Triggers**`"]
 
     subgraph Front-end scripting
-    B --> B1[REST API Exploration]
-    B --> B2[Bulk Updates]
-    B --> B3[Automate Admin Tasks]
+    B --\> B1[REST API Exploration]
+    B --\> B2[Bulk Updates]
+    B --\> B3[Automate Admin Tasks]
 
-    C --> C1[Custom Actions]
-    C --> C2[Custom Panels]
-    C1 --> C3[HTML, CSS, JavaScript]
-    C2 --> C4[Data Visualizations]
-    C3 --> C5[Access Application Data]
-    C4 --> C6[External REST Services]
+    C --\> C1[Custom Actions]
+    C --\> C2[Custom Panels]
+    C1 --\> C3[HTML, CSS, JavaScript]
+    C2 --\> C4[Data Visualizations]
+    C3 --\> C5[Access Application Data]
+    C4 --\> C6[External REST Services]
     end
     
     subgraph Back-end scripting
-    D --> D1[Respond to HTTP Requests]
-    D1 --> D2[No User Authentication Required]
-    D1 --> D3[Communicate with Jira/Confluence]
+    D --\> D1[Respond to HTTP Requests]
+    D1 --\> D2[No User Authentication Required]
+    D1 --\> D3[Communicate with Jira/Confluence]
     end
+``` -->
+
+
+```mermaid
+---
+title: Script Master
+---
+
+stateDiagram-v2
+    [*] --> sc
+    [*] --> cui
+    [*] --> fif
+
+    state "Run Scripts" as sc {
+        sc1 : Script Console 
+    }
+    state "Forge Custom UI" as cui {
+        cui1 : Fragments
+
+        cui1 --> ip1
+        ip1 : Issue Panel
+
+        cui1 --> ip2
+        ip2 : Issue Action
+
+        cui1 --> ip3
+        ip3 : Project Page
+       
+        cui2 : Gadgets
+    }
+    state "Forge backend FaaS function" as fif {
+        fif1 : Web Triggers
+    }
 ```
 
-[**Script Master**](https://marketplace.atlassian.com/apps/1233958/script-master-for-jira) provides multiple ways to customize and automate your Jira or Confluence instance. Below is a brief overview of the key features available:
+Script Master provides multiple ways to customize and automate your Jira and Confluence instance. Below is a brief overview of the key features available:
 
 
-## [Script Console](./script-console/index.md)
+### Script Console
 
-The [Script Console](./script-console/index.md) is your hub for automations. It offers several powerful tools:
+The [Script Console](./script-console/index.md) is your hub for automations. 
 
-- **REST API Exploration**: Experiment with the [Jira REST API](https://developer.atlassian.com/cloud/jira/platform/rest/v3) or [Confluence REST API](https://developer.atlassian.com/cloud/confluence/rest/v2) seamlessly, allowing you to test and debug API calls directly within the console.
-- **Bulk Updates**: Execute scripts to manage multiple pieces of content efficiently. This is ideal for making large-scale changes across your instances.
-- **Automate Admin Tasks**: Simplify and automate routine administrative duties, reducing manual effort and increasing efficiency.
+Use cases:
+
+- REST API Exploration: Experiment with the [Jira REST API](https://developer.atlassian.com/cloud/jira/platform/rest/v3) or [Confluence REST API](https://developer.atlassian.com/cloud/confluence/rest/v2) seamlessly, allowing you to test and debug API calls directly within the console.
+- Bulk Updates: Execute scripts to manage multiple pieces of content efficiently. This is ideal for making large-scale changes across your instances.
+- Automate Admin Tasks: Simplify and automate routine administrative duties, reducing manual effort and increasing efficiency.
 
 
-## [Fragments](./fragments/index.md)
+### Fragments
 
-[Fragments](./fragments/index.md) are blocks that extend the UI to display Custom UI elements in various locations. With fragments, you can:
+[Fragments](./fragments/index.md) are blocks that extend the UI to display Custom UI elements in various locations in Jira and Confluence. 
+
+With fragments, you can:
 
 - Add new functionalities to your Jira or Confluence application.
 - Create data visualizations.
@@ -76,19 +125,41 @@ The [Script Console](./script-console/index.md) is your hub for automations. It 
 - Access application data or external REST services.
 
 
-## [Gadgets (in Jira version only)](./gadgets/index.md)
+### Gadgets (in Jira only)
 
-[Custom Scripted Gadgets](./gadgets/index.md) are important because they provide Jira users with the flexibility to tailor their dashboards to specific needs. These gadgets can display dynamic data, automate complex workflows, and integrate seamlessly with other tools and services, enhancing productivity. By allowing users to create custom visualizations and interfaces, scripted gadgets help in making informed decisions faster and streamline project management processes. This level of customization ensures that each team can have a dashboard that perfectly fits their unique requirements and operational goals.
+[Gadgets](./gadgets/index.md) provide Jira users with the flexibility to tailor their dashboards to their specific needs. 
+
+These gadgets can:
+
+- Display dynamic data
+- Automate complex workflows
+- Integrate seamlessly with other tools and services, enhancing productivity
+
+By allowing users to create custom visualizations and interfaces, scripted gadgets help make informed decisions faster and streamline project management processes. This level of customization ensures that each team can have a dashboard that perfectly fits their unique requirements and operational goals.
 
 
-## [Macros (in Confluence version only)](./macros/index.md)
+### Macros (in Confluence only)
 
-[Custom Scripted Macros](./macros/index.md) for Confluence empower users to enhance and personalize their Confluence pages. With these macros, users can create dynamic and interactive content, automate data integration, and streamline information presentation. This capability allows teams to build tailored solutions that meet specific collaboration needs, improving efficiency and user engagement. Custom Scripted Macros enable the embedding of real-time data, custom forms, and specialized content layouts, making Confluence a more powerful tool for knowledge sharing and project management.
+[Macros](./macros/index.md) for Confluence empower users to enhance and personalize their Confluence pages. 
+
+With these macros, users can:
+
+- Create dynamic and interactive content
+- Automate data integration
+- Streamline information presentation
+
+This capability allows teams to build tailored solutions that meet specific collaboration needs, improving efficiency and user engagement. Custom Scripted Macros enable the embedding of real-time data, custom forms, and specialized content layouts, making Confluence a more powerful tool for knowledge sharing and project management.
 
 
-## [Web Triggers](./web-triggers/index.md)
+### Web Triggers
 
-[Web Triggers](./web-triggers/index.md) are JavaScript functions running on the Forge back end that respond to HTTP requests. Key features include:
+[Web Triggers](./web-triggers/index.md) are "Forge backend FaaS function" - JavaScript functions running on the Forge backend that respond to HTTP requests. Key features include:
 
-- **No User Authentication Required**: Web Triggers can be run without user authentication, making them accessible via their URL.
-- **Communication with Jira**: The URL can communicate with Jira or Confluence on behalf of the app using the `useApp()` method.
+- No User Authentication Required: Web Triggers can be run without user authentication, making them accessible via their URL.
+- Communication with Jira: The URL can communicate with Jira or Confluence on behalf of the app using the `useApp()` method.
+
+
+## Examples
+
+You can find multiple ready-to-go scripts and UI customization examples directly inside the app by using the "Snippets Library".
+Also, don't forget to check out our [public repository on GitHub](https://github.com/kaisersoftapps/script-master).

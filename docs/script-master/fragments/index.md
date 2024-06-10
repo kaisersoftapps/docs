@@ -7,7 +7,7 @@ toc_max_heading_level: 5
 
 :::tip Compatibility
 
-This module is available for both the Jira and Confluence versions of the app.
+This module is available for both the **Jira** and **Confluence** versions of the app.
 
 :::
 
@@ -24,6 +24,11 @@ Fragments are powerful blocks that extend the UI of Jira and Confluence, allowin
 5. Access necessary application data or external REST services to enhance functionality.
 
 
+## Context
+
+Fragments implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front.md). Among the most useful are `view`, `requestConfluence`, `requestJira`.
+
+
 ## Available locations
 
 ### In Jira version
@@ -32,7 +37,7 @@ Fragments are powerful blocks that extend the UI of Jira and Confluence, allowin
 
 Custom Actions are interactive elements that you can add to standart Issue Actions menu. They allow users to trigger specific actions or workflows with a simple click.
 
-<img src={require('/img/Screenshot2024-05-19at19.46.14.png').default} style={{width: '100%'}} />
+![](./img/Screenshot2024-05-19at19.46.14.png)
 
 - **Use Cases**: 
   - Triggering scripts or automations
@@ -44,7 +49,7 @@ Custom Actions are interactive elements that you can add to standart Issue Actio
 
 Custom Panels are UI components that can display detailed information, charts, or any custom content. This module can be used in Jira Work Management, Jira Software, and Jira Service Management. It works in the new issue view but is not compatible with the old issue view.
 
-<img src={require('/img/Screenshot2024-05-19at19.45.14.png').default} style={{width: '100%'}} />
+![](./img/Screenshot2024-05-19at19.45.14.png)
 
 - **Use Cases**: 
   - Displaying additional issue details
@@ -58,7 +63,7 @@ Custom Panels are UI components that can display detailed information, charts, o
 
 Page Actions are interactive elements that you can add to standart Page Actions menu. They allow users to trigger specific actions or workflows with a simple click.
 
-<img src={require('/img/Screenshot2024-05-20at20.46.14.png').default} style={{width: '100%'}} />
+![](./img/Screenshot2024-05-20at20.46.14.png)
 
 - **Use Cases**: 
   - Triggering scripts or automations
@@ -70,7 +75,7 @@ Page Actions are interactive elements that you can add to standart Page Actions 
 
 Content byline items are UI components that adds an entry to the content byline section, which is the part of the content under the title that includes metadata about contributors and more.
 
-<img src={require('/img/Screenshot2024-05-20at19.46.14.png').default} style={{width: '100%'}} />
+![](./img/Screenshot2024-05-20at19.46.14.png)
 
 - **Use Cases**: 
   - Displaying additional page details

@@ -47,3 +47,7 @@
   --ifm-color-primary-lighter: #d9dfe6;
   --ifm-color-primary-lightest: #fcfdfd;
 }
+
+.theme-doc-markdown.markdown a {
+  text-decoration: underline;
+}

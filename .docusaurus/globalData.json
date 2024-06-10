@@ -46,6 +46,16 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/forge-bridge-back",
+              "path": "/docs/docs/script-master/forge-bridge-back",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/forge-bridge-front",
+              "path": "/docs/docs/script-master/forge-bridge-front",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/fragments/index",
               "path": "/docs/docs/script-master/fragments/",
               "sidebar": "docs"

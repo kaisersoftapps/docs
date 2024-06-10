@@ -1,7 +1,7 @@
 {
   "id": "script-master/gadgets/index",
   "title": "Gadgets",
-  "description": "This module available in Script Master for Jira Cloud only.",
+  "description": "This module available in Script Master for Jira only.",
   "source": "@site/docs/script-master/gadgets/index.md",
   "sourceDirName": "script-master/gadgets",
   "slug": "/script-master/gadgets/",

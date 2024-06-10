@@ -6,12 +6,13 @@ sidebar_position: 60
 
 :::tip Compatibility
 
-This module is available for both the Jira and Confluence versions of the app.
+This module is available for both the **Jira** and **Confluence** versions of the app.
 
 :::
 
+In Script Master, Web Triggers serve as an extension of [Forge Web Trigger](https://developer.atlassian.com/platform/forge/manifest-reference/modules/web-trigger/).
 
-Web Triggers are JavaScript functions running on the Forge back end that respond to HTTP requests. They enable seamless integration between your Jira or Confluence instances and external systems without requiring user authentication.
+Web Triggers are JavaScript functions running on the Forge back end that respond to HTTP requests. They enable seamless integration between your Jira or Confluence instances and external systems without requiring user authentication. 
 
 ```mermaid
 sequenceDiagram
@@ -27,17 +28,15 @@ sequenceDiagram
 
 ## Setting Up Web Triggers
 
-1. Go to the **Web Triggers** section from the **Script Master** menu.
+1. Go to the **Web Triggers** tab from the **Script Master** page.
 2. Create a new web trigger by writing a JavaScript function.
 3. Save the web trigger to generate a unique URL.
 4. Use this URL to handle HTTP requests.
 
 
-## Key Features
+## Context
 
-- **No User Authentication Required**: Accessible via a unique URL, allowing external systems to communicate with Jira or Confluence seamlessly.
-- **Communication with Jira**: Interact with application using the `useApp()` method, enabling actions such as issue creation, updates, and workflow triggers.
-- **Scalability and Reliability**: Benefit from Forge platform's scalability and reliability for handling a large volume of requests.
+Web Triggers implement Forge backend FaaS function, allowing you to utilize all [Bridge API for Forge backend FaaS function](../forge-bridge-back.md). Among the most useful are `api` and `request`.
 
 
 ## Best Practices
@@ -45,6 +44,13 @@ sequenceDiagram
 - **Security Considerations**: Validate incoming requests and perform authorized actions within Jira or Confluence applications to ensure security.
 - **Error Handling**: Implement robust error handling to ensure reliable trigger operation.
 - **Performance Optimization**: Optimize trigger performance for minimal latency and improved responsiveness.
+
+
+## Key Features
+
+- **No User Authentication Required**: Accessible via a unique URL, allowing external systems to communicate with Jira or Confluence seamlessly.
+- **Communication with Jira**: Interact with application using the `useApp()` method, enabling actions such as issue creation, updates, and workflow triggers.
+- **Scalability and Reliability**: Benefit from Forge platform's scalability and reliability for handling a large volume of requests.
 
 
 ## Use Cases

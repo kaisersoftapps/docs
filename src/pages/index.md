@@ -12,10 +12,38 @@ The suite of apps, developed by KaiserSoft, extends the capabilities of Jira and
 
 Links to the apps documentation:
 
-|Jira apps|Confluence apps|
-|---|---|
-| ![](/img/script-master-logo.png) <br/> [Script Master for Jira](docs/script-master)  | ![](/img/script-master-logo.png) <br/> [Script Master for Confluence](docs/script-master) <br/> ![](/img/event-planner-logo.png) <br/> [Event Planner for Confluence](docs/event-planner) |
-|   |   |
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="jira" label="Jira apps" default>
+
+    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Jira](docs/script-master) |
+    |---|---|
+
+    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Jira](docs/team-voice) |
+    |---|---|
+
+  </TabItem>
+</Tabs>
+
+
+<Tabs>
+  <TabItem value="confluence" label="Confluence apps" default>
+
+    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Confluence](docs/script-master) |
+    |---|---|
+
+    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Confluence](docs/team-voice) |
+    |---|---|
+
+    |<img src={require('/img/event-planner-logo.png').default} style={{width: 64}} />|[Event Planner](docs/event-planner) |
+    |---|---|
+
+  </TabItem>
+</Tabs>
+
 
 ## Getting Started
 
@@ -33,7 +61,3 @@ We are committed to providing excellent support to ensure you get the most out o
 - **Support Portal**: [https://kaisersoftapps.atlassian.net/servicedesk/customer/portal/1](https://kaisersoftapps.atlassian.net/servicedesk/customer/portal/1)
 
 Your feedback is invaluable to us and helps us improve our products to better serve your needs.
-
-## Conclusion
-
-Thank you for choosing KaiserSoft's apps for Jira and Confluence. We are confident that these tools will significantly enhance your workflow and collaboration. Dive into the documentation to unlock the full potential of our apps and transform the way your team works!

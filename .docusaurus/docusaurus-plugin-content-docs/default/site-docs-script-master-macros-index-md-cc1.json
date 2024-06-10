@@ -1,7 +1,7 @@
 {
   "id": "script-master/macros/index",
   "title": "Macros",
-  "description": "This module available in Script Master for Confluence Cloud only.",
+  "description": "This module available in Script Master for Confluence only.",
   "source": "@site/docs/script-master/macros/index.md",
   "sourceDirName": "script-master/macros",
   "slug": "/script-master/macros/",
