@@ -81,18 +81,17 @@ stateDiagram-v2
         sc1 : Script Console 
     }
     state "Forge Custom UI" as cui {
-        cui1 : Fragments
+        frag : Fragments
 
-        cui1 --> ip1
-        ip1 : Issue Panel
+        frag --> frag1
+        frag1 : Jira Issue Panel / Action / Project Page
 
-        cui1 --> ip2
-        ip2 : Issue Action
-
-        cui1 --> ip3
-        ip3 : Project Page
+        frag --> frag4
+        frag4 : Confluence Content Actions / Content byline items / Space Page
        
-        cui2 : Gadgets
+        gadg : Jira Gadgets
+
+        macro : Confluence Macros
     }
     state "Forge backend FaaS function" as fif {
         fif1 : Web Triggers

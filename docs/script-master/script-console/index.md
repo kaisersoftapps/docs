@@ -36,6 +36,9 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 
+We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
+
+
 ## Context
 
 The Script Console runs all scripts in the context of the current user, adhering to their permissions. This means it cannot read or modify any content that the current user does not have access to. You can use JavaScript to perform external `fetch` calls and employ special bridge methods for seamless interaction between your script and Jira/Confluence.

@@ -10,9 +10,9 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 100,
+  "sidebarPosition": 110,
   "frontMatter": {
-    "sidebar_position": 100
+    "sidebar_position": 110
   },
   "sidebar": "docs",
   "previous": {

@@ -1,0 +1,26 @@
+{
+  "id": "script-master/editor",
+  "title": "Code Editor",
+  "description": "Overview",
+  "source": "@site/docs/script-master/editor.md",
+  "sourceDirName": "script-master",
+  "slug": "/script-master/editor",
+  "permalink": "/docs/docs/script-master/editor",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {
+    "sidebar_position": 70
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Web Triggers",
+    "permalink": "/docs/docs/script-master/web-triggers/"
+  },
+  "next": {
+    "title": "Forge Bridge API for Custom UI",
+    "permalink": "/docs/docs/script-master/forge-bridge-front"
+  }
+}

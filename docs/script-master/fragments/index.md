@@ -23,6 +23,8 @@ Fragments are powerful blocks that extend the UI of Jira and Confluence, allowin
 4. Use HTML, CSS, and JavaScript inside the "Content" field to design your fragment.
 5. Access necessary application data or external REST services to enhance functionality.
 
+We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
+
 
 ## Context
 
@@ -33,9 +35,11 @@ Fragments implement Forge Custom UI, allowing you to utilize all [Forge bridge A
 
 ### In Jira version
 
-#### Jira Custom Action
+#### Jira Issue Action
 
-Custom Actions are interactive elements that you can add to standart Issue Actions menu. They allow users to trigger specific actions or workflows with a simple click.
+Custom Jira Issue Actions are interactive elements that you can add to standart Issue Actions menu. They allow users to trigger specific actions or workflows with a simple click.
+
+In Script Master, the Jira Issue Action implements [forge `jira:issueAction` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-action/).
 
 ![](./img/Screenshot2024-05-19at19.46.14.png)
 
@@ -45,9 +49,11 @@ Custom Actions are interactive elements that you can add to standart Issue Actio
   - Providing quick access to frequently used functions
 
 
-#### Jira Custom Panel
+#### Jira Issue Panel
 
-Custom Panels are UI components that can display detailed information, charts, or any custom content. This module can be used in Jira Work Management, Jira Software, and Jira Service Management. It works in the new issue view but is not compatible with the old issue view.
+Custom Jira Issue Panels are UI components that can display detailed information, charts, or any custom content. This module can be used in Jira Work Management, Jira Software, and Jira Service Management. It works in the new issue view but is not compatible with the old issue view.
+
+In Script Master, the Jira Issue Panel utilizes [forge `jira:issuePanel` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-panel/).
 
 ![](./img/Screenshot2024-05-19at19.45.14.png)
 
@@ -57,11 +63,27 @@ Custom Panels are UI components that can display detailed information, charts, o
   - Integrating third-party service information
 
 
+#### Jira Project Page
+
+Custom Jira Project Page location adds an item to the Apps section in the left navigation of Jira company-managed project settings. Clicking this item opens a new Jira page with the rendered "Custom Pages".
+
+In Script Master, the Jira Project Page utilizes [forge `jira:projectPage` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-project-page/).
+
+![](./img/project-page.png)
+
+- **Use Cases**: 
+  - Displaying additional project details
+  - Visualizing data with charts or graphs
+  - Integrating third-party service information
+
+
 ### In Confluence version
 
-#### Confluence Custom Page Action
+#### Confluence Content Action
 
-Page Actions are interactive elements that you can add to standart Page Actions menu. They allow users to trigger specific actions or workflows with a simple click.
+Custom Confluence Content Actions are interactive elements that you can add to standart "Page Actions" menu. They allow users to trigger specific actions or content workflows with a simple click.
+
+In Script Master for Confluence, the Confluence Content Action implements [forge `confluence:contentAction` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-action/).
 
 ![](./img/Screenshot2024-05-20at20.46.14.png)
 
@@ -71,11 +93,27 @@ Page Actions are interactive elements that you can add to standart Page Actions 
   - Providing quick access to frequently used functions
 
 
-#### Confluence Custom Content byline item
+#### Confluence Content Byline Item
 
-Content byline items are UI components that adds an entry to the content byline section, which is the part of the content under the title that includes metadata about contributors and more.
+Custom Confluence content byline items are UI components that adds an entry to the content byline section, which is the part of the content under the title that includes metadata about contributors and more.
+
+In Script Master for Confluence, the Confluence content byline represents [forge `confluence:contentBylineItem` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-byline-item/).
 
 ![](./img/Screenshot2024-05-20at19.46.14.png)
+
+- **Use Cases**: 
+  - Displaying additional page details
+  - Visualizing page data with charts or graphs
+  - Integrating third-party service information
+
+
+#### Confluence Space Page
+
+Custom Confluence space pages are displays content in the left panel of a Confluence Space. It appears as a link titled "Custom Pages" in the space navigation menu. When a user clicks this link, a list of configured Custom Pages is rendered in the Confluence content area.
+
+In Script Master for Confluence, the Confluence space pages utilizes [forge `confluence:spacePage` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-space-page/).
+
+![](./img/custom-pages.png)
 
 - **Use Cases**: 
   - Displaying additional page details
@@ -95,23 +133,9 @@ When creating Fragments, you can utilize standard web technologies to build and 
 
 ### Accessing Application Data
 
-Fragments can interact with internal data of Jira and Confluence as well as external REST services. This allows you to create dynamic and context-aware UI components.
+Fragments can interact with internal data of Jira and Confluence as well as external REST services. This allows you to create dynamic and context-aware UI components. To access your cloud application use [Forge Bridge API for Custom UI](../forge-bridge-front.md).
 
-- **Internal Data**: Use Jira's REST API to fetch and manipulate data related to issues, projects, users, and more.
-- **External Data**: Make external REST API calls to integrate data from other services or databases.
-
-### Bridge Methods Available in Fragments
-
-Both in Jira and Confluence versions:
-- **context**: The `context` object contains various parameters based on the current page and module type.
-- [**router**](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/router/): The `router` object allows you to navigate the host product to another page.
-
-In Jira version only:
-- [**requestJira**](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/requestJira/): The `requestJira` bridge method enables your script to call the Jira Cloud platform REST API as the current user.
-
-In Confluence version only:
-- [**requestConfluence**](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/requestConfluence/): The `requestJira` bridge method enables your script to call the Jira Cloud platform REST API as the current user.
-
+## Examples
 
 ### Jira Example: Creating a Custom Action to show issue contributors
 
@@ -135,6 +159,43 @@ Here's a simple example to demonstrate how you can create a Custom Action that f
   const uniqueContributorsList = Array.from(uniqueContributors).join(', ');
 
   document.getElementById('contributors').textContent = uniqueContributorsList;
+</script>
+```
+
+
+### Confluence example: Get recent page contributors
+
+This script retrieves the list of recent contributors for the current page and prints them as a comma-separated string
+
+```html
+<div>
+    Recent contributors: <div id='contributors'>Loading...</div>
+</div>
+<div id="errors" style="color:red"></div>
+
+<script type="module">
+    window.onerror = (e) => document.getElementById('errors').innerHTML = e.toString();
+
+    const pageId = context.extension.content.id;
+    const versionsResponse = await requestConfluence(`/wiki/api/v2/pages/${pageId}?include-version=false&include-versions=true`, {
+        headers: {'Accept': 'application/json'}
+    });
+    if (versionsResponse.status !== 200) throw new Error(`Error getting page versions ${versionsResponse.statusText}`);
+    const pageWithVersions = await versionsResponse.json();
+
+    const authorIds = pageWithVersions.versions.results.map(version => version.authorId);
+    const uniqueAuthorIds = [...new Set(authorIds)];
+    const authorsQueryParams = uniqueAuthorIds.map(authorId => `accountId=${authorId}&`).join('');
+    const authorsResponse = await requestConfluence(`/wiki/rest/api/user/bulk?${authorsQueryParams}`, {
+        headers: {'Accept': 'application/json'}
+    });
+    if (authorsResponse.status !== 200) throw new Error(`Error getting contributor details ${authorsResponse.statusText}`);
+    const contributorsData = await authorsResponse.json();
+    
+    const allContributors = contributorsData.results.map(contributor => contributor.displayName);
+    const uniqueContributors = [...new Set(allContributors)];
+    const result = allContributors.length ? uniqueContributors.join(', ') : 'no contributors';
+    document.getElementById('contributors').textContent = result;
 </script>
 ```
 

@@ -10,9 +10,10 @@ This module is available for both the **Jira** and **Confluence** versions of th
 
 :::
 
+Web Triggers are JavaScript functions running on the Forge back end that respond to HTTP requests. They enable seamless integration between your Jira or Confluence instances and external systems without requiring user authentication. 
+
 In Script Master, Web Triggers serve as an extension of [Forge Web Trigger](https://developer.atlassian.com/platform/forge/manifest-reference/modules/web-trigger/).
 
-Web Triggers are JavaScript functions running on the Forge back end that respond to HTTP requests. They enable seamless integration between your Jira or Confluence instances and external systems without requiring user authentication. 
 
 ```mermaid
 sequenceDiagram
@@ -33,6 +34,7 @@ sequenceDiagram
 3. Save the web trigger to generate a unique URL.
 4. Use this URL to handle HTTP requests.
 
+We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
 
 ## Context
 

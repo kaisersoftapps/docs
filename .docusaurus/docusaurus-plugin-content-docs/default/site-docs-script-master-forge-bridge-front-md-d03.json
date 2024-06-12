@@ -10,14 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 70,
+  "sidebarPosition": 80,
   "frontMatter": {
-    "sidebar_position": 70
+    "sidebar_position": 80
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Web Triggers",
-    "permalink": "/docs/docs/script-master/web-triggers/"
+    "title": "Code Editor",
+    "permalink": "/docs/docs/script-master/editor"
   },
   "next": {
     "title": "Forge Bridge API for backend FaaS functions",
