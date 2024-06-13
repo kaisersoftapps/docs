@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '73b'),
+    component: ComponentCreator('/docs/docs', '2bc'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'f78'),
+        component: ComponentCreator('/docs/docs', '5b9'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '09e'),
+            component: ComponentCreator('/docs/docs', 'b54'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -94,6 +94,12 @@ export default [
               {
                 path: '/docs/docs/script-master/editor',
                 component: ComponentCreator('/docs/docs/script-master/editor', '0e6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/external-editor',
+                component: ComponentCreator('/docs/docs/script-master/external-editor', 'b67'),
                 exact: true,
                 sidebar: "docs"
               },

@@ -9,7 +9,7 @@ sidebar_position: 70
 
 Script Master is now embedded with a more reliable and efficient editor - the Monaco editor. This editor has various useful features that give Atlassian administrators a better scripting experience.
 
-This editor powers one of the most popular and effective editors — Visual Studio Code (VS Code).
+This editor powers one of the most popular and effective editors — Visual Studio Code (VS Code), but it does not fully replace it, of course.
 
 
 ## Features
@@ -45,3 +45,10 @@ Some of the most frequently used:
 |Select All|Ctrl+A|Command+A|
 |Find|Ctrl+F|Command+F|
 |Replace|Ctrl+H|Command+Option+F|
+
+
+:::info
+
+If the built-in editor does not fit your needs and you prefer to work in Visual Studio Code (VS Code) or a similar editor, [you can use any external editor to modify your code and update it automatically in Script Master](./external-editor.md). 
+
+:::

@@ -20,7 +20,7 @@
     "permalink": "/docs/docs/script-master/web-triggers/"
   },
   "next": {
-    "title": "Forge Bridge API for Custom UI",
-    "permalink": "/docs/docs/script-master/forge-bridge-front"
+    "title": "Use external editor with live reloading",
+    "permalink": "/docs/docs/script-master/external-editor"
   }
 }

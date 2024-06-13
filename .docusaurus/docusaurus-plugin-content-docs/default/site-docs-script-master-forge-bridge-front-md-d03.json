@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Code Editor",
-    "permalink": "/docs/docs/script-master/editor"
+    "title": "Use external editor with live reloading",
+    "permalink": "/docs/docs/script-master/external-editor"
   },
   "next": {
     "title": "Forge Bridge API for backend FaaS functions",

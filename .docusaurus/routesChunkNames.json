@@ -42,17 +42,17 @@
       "plugin": "plugin---docs-docusaurus-debugb-38-c84"
     }
   },
-  "/docs/docs-73b": {
+  "/docs/docs-2bc": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-f78": {
+  "/docs/docs-5b9": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-09e": {
+  "/docs/docs-b54": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -86,6 +86,10 @@
   "/docs/docs/script-master/editor-0e6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-script-master-editor-5-e-1-594"
+  },
+  "/docs/docs/script-master/external-editor-b67": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-script-master-external-editora-50-408"
   },
   "/docs/docs/script-master/faq-a5a": {
     "__comp": "__comp---theme-doc-item-178-a40",

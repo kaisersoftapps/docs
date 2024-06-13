@@ -46,6 +46,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/external-editor",
+              "path": "/docs/docs/script-master/external-editor",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/faq",
               "path": "/docs/docs/script-master/faq",
               "sidebar": "docs"
