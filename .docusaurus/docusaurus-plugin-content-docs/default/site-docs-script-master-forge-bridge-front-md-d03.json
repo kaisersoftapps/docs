@@ -1,7 +1,7 @@
 {
   "id": "script-master/forge-bridge-front",
   "title": "Forge Bridge API for Custom UI",
-  "description": "Inside Custom UI related modules (like Script Console or Fragments), you can use these global forge bridge objects and functions to access your application:",
+  "description": "Forge API",
   "source": "@site/docs/script-master/forge-bridge-front.md",
   "sourceDirName": "script-master",
   "slug": "/script-master/forge-bridge-front",

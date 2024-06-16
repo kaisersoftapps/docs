@@ -56,6 +56,10 @@ export default {
         },
         "theme": {
           "customCss": "./src/css/custom.css"
+        },
+        "gtag": {
+          "trackingID": "G-MVSZZG9F0H",
+          "anonymizeIP": true
         }
       }
     ]

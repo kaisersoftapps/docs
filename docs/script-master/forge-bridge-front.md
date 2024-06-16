@@ -4,6 +4,8 @@ sidebar_position: 80
 
 # Forge Bridge API for Custom UI
 
+## Forge API
+
 Inside Custom UI related modules (like [Script Console](./script-console/) or [Fragments](./fragments/)), you can use these global forge bridge objects and functions to access your application:
 
 - `view`: The [view](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/view/) object represents the context in which a resource is loaded, such as within a modal dialog. This context provides relevant information and methods for managing the resource.
@@ -22,6 +24,45 @@ Unsubscribe from events (remove a previously registered event listener). Emit ev
 - `Modal`: The [Modal](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/modal/) class enables your custom UI app to open a modal dialog. You can specify the resource that will be displayed within this modal.
 
 - `setHeight`: Our global function for all custom UI elements, such as panels, macros, and gadgets, assists in setting the required iframe size after all content has loaded. You can use it to set a static size, like `setHeight('320px');`, or dynamically adjust the size after content loads, like `setHeight(document.querySelector('#my-gadget-container').scrollHeight + 'px');`.
+
+
+## Everyday Examples
+
+### Reset Styles
+
+This CSS file from Atlaskit provides a minimal reset along with base styles for many HTML elements. It is intended to be used as a foundation for all subsequent styling. The Atlassian Design System is built on top of this foundation, and you can include it in your fragment, gadget, or macro to enable default fonts and styles.
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@atlaskit/css-reset@3.0.1/dist/bundle.css" />
+...the rest part of your custom UI...
+```
+
+
+### Error Handling
+
+To catch all errors in your code and display them as meaningful messages, use this combination of the `window.onerror` listener and an error placeholder.
+
+```html
+<div id="errors" style="color:red"></div>
+
+<script type="module">
+    window.onerror = (e) => document.getElementById('errors').innerHTML = e.toString(); // show error when a resource failed to load or couldn't be used 
+
+    throw new Error('Task failed successfully!');
+</script>
+```
+
+
+### Hidden Macro
+
+Sometimes a macro should add functionality to the page without being visible. You can place the macro at the bottom of the page and set its height to the smallest possible value.
+
+```html
+...the rest part of your custom UI...
+<script type="module">
+    setHeight('0px'); // Set the macro height as small as possible
+</script>
+```
 
 
 :::note
