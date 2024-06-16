@@ -300,6 +300,20 @@ export default {
         }
       ]
     },
+    "algolia": {
+      "appId": "TUY9IHN7G2",
+      "apiKey": "3fae171b158457c884749e981f8e2c93",
+      "indexName": "kaisersoftappsio",
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "replaceSearchResultPathname": {
+        "from": "/docs/",
+        "to": "/"
+      },
+      "searchParameters": {},
+      "searchPagePath": "search",
+      "insights": false
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,

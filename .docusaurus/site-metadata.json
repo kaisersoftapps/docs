@@ -27,6 +27,11 @@
       "name": "@docusaurus/theme-classic",
       "version": "3.4.0"
     },
+    "docusaurus-theme-search-algolia": {
+      "type": "package",
+      "name": "@docusaurus/theme-search-algolia",
+      "version": "3.4.0"
+    },
     "docusaurus-theme-mermaid": {
       "type": "package",
       "name": "@docusaurus/theme-mermaid",
