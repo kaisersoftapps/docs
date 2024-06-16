@@ -21,6 +21,8 @@ Unsubscribe from events (remove a previously registered event listener). Emit ev
 
 - `Modal`: The [Modal](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/modal/) class enables your custom UI app to open a modal dialog. You can specify the resource that will be displayed within this modal.
 
+- `setHeight`: Our global function for all custom UI elements, such as panels, macros, and gadgets, assists in setting the required iframe size after all content has loaded. You can use it to set a static size, like `setHeight('320px');`, or dynamically adjust the size after content loads, like `setHeight(document.querySelector('#my-gadget-container').scrollHeight + 'px');`.
+
 
 :::note
 

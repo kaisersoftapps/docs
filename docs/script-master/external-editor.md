@@ -20,7 +20,7 @@ If the [built-in editor](./editor.md) does not fit your needs and you prefer to 
 
 :::warning
 
-All the code in the editor will be replaced by the code from your IDE. If this happens unintentionally, click "Disconnect" and press "Ctrl+Z" in the editor to revert the changes.
+All the code in the editor will be replaced by the code from your IDE.
 
 :::
 
