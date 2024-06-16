@@ -33,7 +33,22 @@ const config: Config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }),
+    ],
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -71,9 +86,9 @@ const config: Config = {
         src: "img/logo-0.0.4.png",
       },
       items: [
-        {to: 'docs/script-master', label: 'Script Master', position: 'left'},
-        {to: 'docs/event-planner', label: 'Event Planner', position: 'left'},
-        {to: 'docs/team-voice', label: 'Team Voice', position: 'left'},
+        { to: 'docs/script-master', label: 'Script Master', position: 'left' },
+        { to: 'docs/event-planner', label: 'Event Planner', position: 'left' },
+        { to: 'docs/team-voice', label: 'Team Voice', position: 'left' },
       ],
     },
     footer: {
@@ -95,38 +110,38 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    algolia: {
-      // The application ID provided by Algolia
-      appId: 'TUY9IHN7G2',
+    // algolia: {
+    //   // The application ID provided by Algolia
+    //   appId: 'TUY9IHN7G2',
 
-      // Public API key: it is safe to commit it
-      apiKey: '3fae171b158457c884749e981f8e2c93',
+    //   // Public API key: it is safe to commit it
+    //   apiKey: '3fae171b158457c884749e981f8e2c93',
 
-      indexName: 'kaisersoftappsio',
+    //   indexName: 'kaisersoftappsio',
 
-      // Optional: see doc section below
-      contextualSearch: true,
+    //   // Optional: see doc section below
+    //   contextualSearch: true,
 
-      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      externalUrlRegex: 'external\\.com|domain\\.com',
+    //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+    //   externalUrlRegex: 'external\\.com|domain\\.com',
 
-      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-      replaceSearchResultPathname: {
-        from: '/docs/', // or as RegExp: /\/docs\//
-        to: '/',
-      },
+    //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+    //   replaceSearchResultPathname: {
+    //     from: '/docs/', // or as RegExp: /\/docs\//
+    //     to: '/',
+    //   },
 
-      // Optional: Algolia search parameters
-      searchParameters: {},
+    //   // Optional: Algolia search parameters
+    //   searchParameters: {},
 
-      // Optional: path for search page that enabled by default (`false` to disable it)
-      searchPagePath: 'search',
+    //   // Optional: path for search page that enabled by default (`false` to disable it)
+    //   searchPagePath: 'search',
 
-      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
-      insights: false,
+    //   // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+    //   insights: false,
 
-      //... other Algolia params
-    },
+    //   //... other Algolia params
+    // },
   } satisfies Preset.ThemeConfig,
 };
 
