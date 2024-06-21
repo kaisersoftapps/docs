@@ -23,7 +23,7 @@ Unsubscribe from events (remove a previously registered event listener). Emit ev
 
 - `Modal`: The [Modal](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/modal/) class enables your custom UI app to open a modal dialog. You can specify the resource that will be displayed within this modal.
 
-- `setHeight`: Our global function for all custom UI elements, such as panels, macros, and gadgets, assists in setting the required iframe size after all content has loaded. You can use it to set a static size, like `setHeight('320px');`, or dynamically adjust the size after content loads, like `setHeight(document.querySelector('#my-gadget-container').scrollHeight + 'px');`.
+- `setHeight`: If the custom UI components, such as panels, macros, and gadgets, do not resize correctly within the application upon layout updates, we recommend checking and confirming that the sizing properties of the root container are defined using non-viewport-related units such as px, em, and so on. This limitation occurs because the iframe component's root container does not support viewport-based relative sizing units like vh and vw well.This global function for all custom UI elements, such as panels, macros, and gadgets, assists in setting the required iframe size after all content has loaded. You can use it to set a static size, like `setHeight('320px');`, or dynamically adjust the size after content loads, like `setHeight(document.querySelector('#my-gadget-container').scrollHeight + 'px');`.
 
 
 ## Everyday Examples
@@ -31,6 +31,7 @@ Unsubscribe from events (remove a previously registered event listener). Emit ev
 ### Reset Styles
 
 This CSS file from Atlaskit provides a minimal reset along with base styles for many HTML elements. It is intended to be used as a foundation for all subsequent styling. The Atlassian Design System is built on top of this foundation, and you can include it in your fragment, gadget, or macro to enable default fonts and styles.
+Check for datails [https://atlassian.design/components/css-reset/examples](https://atlassian.design/components/css-reset/examples).
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@atlaskit/css-reset@3.0.1/dist/bundle.css" />

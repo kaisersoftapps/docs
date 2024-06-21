@@ -39,7 +39,7 @@ Fragments implement Forge Custom UI, allowing you to utilize all [Forge bridge A
 
 Custom Jira Issue Actions are interactive elements that you can add to standart Issue Actions menu. They allow users to trigger specific actions or workflows with a simple click.
 
-In Script Master, the Jira Issue Action implements [forge `jira:issueAction` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-action/).
+In Script Master, the Jira Issue Action implements forge [`jira:issueAction`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-action/) module.
 
 ![](./img/Screenshot2024-05-19at19.46.14.png)
 
@@ -53,7 +53,7 @@ In Script Master, the Jira Issue Action implements [forge `jira:issueAction` mod
 
 Custom Jira Issue Panels are UI components that can display detailed information, charts, or any custom content. This module can be used in Jira Work Management, Jira Software, and Jira Service Management. It works in the new issue view but is not compatible with the old issue view.
 
-In Script Master, the Jira Issue Panel utilizes [forge `jira:issuePanel` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-panel/).
+In Script Master, the Jira Issue Panel utilizes forge [`jira:issuePanel`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-panel/) module.
 
 ![](./img/Screenshot2024-05-19at19.45.14.png)
 
@@ -67,7 +67,7 @@ In Script Master, the Jira Issue Panel utilizes [forge `jira:issuePanel` module]
 
 Custom Jira Project Page location adds an item to the Apps section in the left navigation of Jira company-managed project settings. Clicking this item opens a new Jira page with the rendered "Custom Pages".
 
-In Script Master, the Jira Project Page utilizes [forge `jira:projectPage` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-project-page/).
+In Script Master, the Jira Project Page utilizes forge [`jira:projectPage`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-project-page/) module.
 
 ![](./img/project-page.png)
 
@@ -77,13 +77,26 @@ In Script Master, the Jira Project Page utilizes [forge `jira:projectPage` modul
   - Integrating third-party service information
 
 
+#### Jira Service Management queue page
+
+Custom Jira Service Management queue page location adds an item to the Apps section section in the left navigation of Queues in a service project. Clicking this item opens a new Jira page with the rendered "Custom Pages".
+
+In Script Master, the Jira Service Management queue pagee utilizes forge [`jiraServiceManagement:queuePage`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-service-management-queue-page/) module.
+
+![](./img/queue-page.png)
+
+- **Use Cases**: 
+  - Displaying additional Service Management project details
+  - Integrating third-party service information with JSM queue
+
+
 ### In Confluence version
 
 #### Confluence Content Action
 
 Custom Confluence Content Actions are interactive elements that you can add to standart "Page Actions" menu. They allow users to trigger specific actions or content workflows with a simple click.
 
-In Script Master for Confluence, the Confluence Content Action implements [forge `confluence:contentAction` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-action/).
+In Script Master for Confluence, the Confluence Content Action implements forge [`confluence:contentAction`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-action/) module.
 
 ![](./img/Screenshot2024-05-20at20.46.14.png)
 
@@ -97,7 +110,7 @@ In Script Master for Confluence, the Confluence Content Action implements [forge
 
 Custom Confluence content byline items are UI components that adds an entry to the content byline section, which is the part of the content under the title that includes metadata about contributors and more.
 
-In Script Master for Confluence, the Confluence content byline represents [forge `confluence:contentBylineItem` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-byline-item/).
+In Script Master for Confluence, the Confluence content byline represents forge [`confluence:contentBylineItem`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-byline-item/) module.
 
 ![](./img/Screenshot2024-05-20at19.46.14.png)
 
@@ -111,7 +124,7 @@ In Script Master for Confluence, the Confluence content byline represents [forge
 
 Custom Confluence space pages are displays content in the left panel of a Confluence Space. It appears as a link titled "Custom Pages" in the space navigation menu. When a user clicks this link, a list of configured Custom Pages is rendered in the Confluence content area.
 
-In Script Master for Confluence, the Confluence space pages utilizes [forge `confluence:spacePage` module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-space-page/).
+In Script Master for Confluence, the Confluence space pages utilizes forge [`confluence:spacePage`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-space-page/) module.
 
 ![](./img/custom-pages.png)
 
