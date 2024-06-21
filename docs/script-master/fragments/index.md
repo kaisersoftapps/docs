@@ -41,7 +41,7 @@ Custom Jira Issue Actions are interactive elements that you can add to standart 
 
 In Script Master, the Jira Issue Action implements forge [`jira:issueAction`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-action/) module.
 
-![](./img/Screenshot2024-05-19at19.46.14.png)
+![](./img/issue-action.png)
 
 - **Use Cases**: 
   - Triggering scripts or automations
@@ -55,7 +55,7 @@ Custom Jira Issue Panels are UI components that can display detailed information
 
 In Script Master, the Jira Issue Panel utilizes forge [`jira:issuePanel`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-issue-panel/) module.
 
-![](./img/Screenshot2024-05-19at19.45.14.png)
+![](./img/issue-panel.png)
 
 - **Use Cases**: 
   - Displaying additional issue details
@@ -98,7 +98,7 @@ Custom Confluence Content Actions are interactive elements that you can add to s
 
 In Script Master for Confluence, the Confluence Content Action implements forge [`confluence:contentAction`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-action/) module.
 
-![](./img/Screenshot2024-05-20at20.46.14.png)
+![](./img/content-action.png)
 
 - **Use Cases**: 
   - Triggering scripts or automations
@@ -112,7 +112,7 @@ Custom Confluence content byline items are UI components that adds an entry to t
 
 In Script Master for Confluence, the Confluence content byline represents forge [`confluence:contentBylineItem`](https://developer.atlassian.com/platform/forge/manifest-reference/modules/confluence-content-byline-item/) module.
 
-![](./img/Screenshot2024-05-20at19.46.14.png)
+![](./img/content-byline.png)
 
 - **Use Cases**: 
   - Displaying additional page details

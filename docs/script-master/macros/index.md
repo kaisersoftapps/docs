@@ -17,11 +17,13 @@ Custom Scripted Macros can be configured to enhance the content on your Confluen
 
 In Script Master, Macros serve as an extension of [Forge Macro module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/macro/).
 
+![](./img/conf-macros-dashboard.png)
 
 ## Context
 
-Macros implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front.md). Among the most useful are `view`, `requestConfluence`, `requestJira`.
+Macros implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front.md). Among the most useful are `view`, `requestConfluence`.
 
+![](./img/conf-macros-edit.png)
 
 :::note
 

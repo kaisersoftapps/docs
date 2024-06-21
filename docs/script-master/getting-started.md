@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
     1. Navigate to the Confluence administrator menu.
     2. Select **Script Master** in the Apps section.
    
-    <!-- ![](./img/Screenshot2024-05-23at12.02.51.png) -->
+    <img src={require('./img/conf-apps-link.png').default} style={{width: 200}} />
   </TabItem>
 </Tabs>
 

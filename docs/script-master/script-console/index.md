@@ -27,11 +27,10 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="jira" label="In Jira version" default>
-    ![](./img/Screenshot2024-05-19at19.35.44.png)
+    ![](./img/jira-admin-apps.png)
   </TabItem>
   <TabItem value="conf" label="In Confluence version">
-    TBD
-    <!-- ![](./img/Screenshot2024-05-23at12.02.51.png) -->
+    ![](./img/conf-scripted-console.png)
   </TabItem>
 </Tabs>
 
@@ -55,10 +54,10 @@ The in-app Snippets Library consists of various script examples that will help y
 
 <Tabs>
   <TabItem value="jira" label="In Jira version" default>
-    ![](./img/Screenshot2024-05-19at19.44.14.png)
+    ![](./img/jira-script-console-snippets.png)
   </TabItem>
   <TabItem value="conf" label="In Confluence version">
-    TBD
+    ![](./img/conf-scripted-console-snippets.png)
   </TabItem>
 </Tabs>
 

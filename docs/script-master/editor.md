@@ -32,6 +32,8 @@ We cannot guarantee that the all of the shortcuts are working properly since the
 
 Press `F1` to see Command Palette with all the available commenads and shortcuts.
 
+![](./img/editor-command-palette.png)
+
 Some of the most frequently used: 
 
 |Action|Windows|Mac OS|
