@@ -20,7 +20,7 @@
     "permalink": "/docs/docs/script-master/getting-started"
   },
   "next": {
-    "title": "Fragments",
-    "permalink": "/docs/docs/script-master/fragments/"
+    "title": "Jira Example: Change the owner of multiple filters",
+    "permalink": "/docs/docs/script-master/script-console/example-change-filters-owner"
   }
 }

@@ -16,11 +16,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Macros",
-    "permalink": "/docs/docs/script-master/macros/"
+    "title": "Example: Add labels",
+    "permalink": "/docs/docs/script-master/macros/example-add-labels"
   },
   "next": {
-    "title": "Code Editor",
-    "permalink": "/docs/docs/script-master/editor"
+    "title": "Example: Authorization",
+    "permalink": "/docs/docs/script-master/web-triggers/example-authorization"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "script-master/script-console/example-transfer-filters-ownership",
+  "title": "Jira Example: Transfer the ownership of all filters from one use to another",
+  "description": "This example for Jira version of Script Console.",
+  "source": "@site/docs/script-master/script-console/example-transfer-filters-ownership.md",
+  "sourceDirName": "script-master/script-console",
+  "slug": "/script-master/script-console/example-transfer-filters-ownership",
+  "permalink": "/docs/docs/script-master/script-console/example-transfer-filters-ownership",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Jira Example: Automate creating issues",
+    "permalink": "/docs/docs/script-master/script-console/example-create-issue"
+  },
+  "next": {
+    "title": "Fragments",
+    "permalink": "/docs/docs/script-master/fragments/"
+  }
+}

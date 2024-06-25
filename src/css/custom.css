@@ -51,3 +51,11 @@
 .theme-doc-markdown.markdown a {
   text-decoration: underline;
 }
+
+/* Adjust footer link colors */
+[data-theme="light"] .footer__link-item {
+  color: var(--ifm-color-secondary);
+}
+[data-theme="dark"] .footer__link-item {
+  color: var(--ifm-color-secondary);
+}

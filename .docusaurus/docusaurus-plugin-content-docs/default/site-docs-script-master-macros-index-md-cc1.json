@@ -16,11 +16,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Gadgets",
-    "permalink": "/docs/docs/script-master/gadgets/"
+    "title": "Example: Embedding Markdown-Formatted Documents in Your Dashboard Gadgets",
+    "permalink": "/docs/docs/script-master/gadgets/example-markdown-editor"
   },
   "next": {
-    "title": "Web Triggers",
-    "permalink": "/docs/docs/script-master/web-triggers/"
+    "title": "Example: Add labels",
+    "permalink": "/docs/docs/script-master/macros/example-add-labels"
   }
 }

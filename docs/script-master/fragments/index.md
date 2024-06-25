@@ -150,67 +150,9 @@ Fragments can interact with internal data of Jira and Confluence as well as exte
 
 ## Examples
 
-### Jira Example: Creating a Custom Action to show issue contributors
-
-Here's a simple example to demonstrate how you can create a Custom Action that fetches and displays the list of all the user names who edited current issue.
-
-```html
-<div>
-  Contributors: <div id='contributors'>Loading...</div>
-</div>
-
-<script type="module">
-  const issueKey = context.extension.issue.key;
-  const response = await requestJira(`/rest/api/3/issue/${issueKey}/changelog`, {
-    headers: {
-      'Accept': 'application/json'
-    }
-  });
-  const responseData = await response.json();
-  const allContributors = responseData.values.map(obj => obj.author.displayName);
-  const uniqueContributors = new Set(allContributors);
-  const uniqueContributorsList = Array.from(uniqueContributors).join(', ');
-
-  document.getElementById('contributors').textContent = uniqueContributorsList;
-</script>
-```
-
-
-### Confluence example: Get recent page contributors
-
-This script retrieves the list of recent contributors for the current page and prints them as a comma-separated string
-
-```html
-<div>
-    Recent contributors: <div id='contributors'>Loading...</div>
-</div>
-<div id="errors" style="color:red"></div>
-
-<script type="module">
-    window.onerror = (e) => document.getElementById('errors').innerHTML = e.toString();
-
-    const pageId = context.extension.content.id;
-    const versionsResponse = await requestConfluence(`/wiki/api/v2/pages/${pageId}?include-version=false&include-versions=true`, {
-        headers: {'Accept': 'application/json'}
-    });
-    if (versionsResponse.status !== 200) throw new Error(`Error getting page versions ${versionsResponse.statusText}`);
-    const pageWithVersions = await versionsResponse.json();
-
-    const authorIds = pageWithVersions.versions.results.map(version => version.authorId);
-    const uniqueAuthorIds = [...new Set(authorIds)];
-    const authorsQueryParams = uniqueAuthorIds.map(authorId => `accountId=${authorId}&`).join('');
-    const authorsResponse = await requestConfluence(`/wiki/rest/api/user/bulk?${authorsQueryParams}`, {
-        headers: {'Accept': 'application/json'}
-    });
-    if (authorsResponse.status !== 200) throw new Error(`Error getting contributor details ${authorsResponse.statusText}`);
-    const contributorsData = await authorsResponse.json();
-    
-    const allContributors = contributorsData.results.map(contributor => contributor.displayName);
-    const uniqueContributors = [...new Set(allContributors)];
-    const result = allContributors.length ? uniqueContributors.join(', ') : 'no contributors';
-    document.getElementById('contributors').textContent = result;
-</script>
-```
+- [Creating a Custom Action to show issue contributors](./example-issue-contributors.md). example to demonstrate how you can create a Custom Action that fetches and displays the list of all the user names who edited current issue.
+- [Find unused project components](./example-find-unused-components.md). As a fragment for the "Project Page" location, you can find all the components without any issues and delete them in bulk.
+- [Get recent page contributors](./example-page-contributors.md). This script retrieves the list of recent contributors for the current page and prints them as a comma-separated string.
 
 :::note More Examples
 

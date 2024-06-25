@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Web Triggers",
-    "permalink": "/docs/docs/script-master/web-triggers/"
+    "title": "Example: Authorization",
+    "permalink": "/docs/docs/script-master/web-triggers/example-authorization"
   },
   "next": {
     "title": "Use external editor with live reloading",

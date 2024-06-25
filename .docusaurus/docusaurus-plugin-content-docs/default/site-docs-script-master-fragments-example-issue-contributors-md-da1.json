@@ -1,0 +1,23 @@
+{
+  "id": "script-master/fragments/example-issue-contributors",
+  "title": "Jira Example: Creating a Custom Action to show issue contributors",
+  "description": "This example for Jira version of Fragments.",
+  "source": "@site/docs/script-master/fragments/example-issue-contributors.md",
+  "sourceDirName": "script-master/fragments",
+  "slug": "/script-master/fragments/example-issue-contributors",
+  "permalink": "/docs/docs/script-master/fragments/example-issue-contributors",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Jira Example: Find unused project components",
+    "permalink": "/docs/docs/script-master/fragments/example-find-unused-components"
+  },
+  "next": {
+    "title": "Confluence Example: Get recent page contributors",
+    "permalink": "/docs/docs/script-master/fragments/example-page-contributors"
+  }
+}

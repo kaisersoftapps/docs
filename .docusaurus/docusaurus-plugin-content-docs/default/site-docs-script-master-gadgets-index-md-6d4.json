@@ -16,11 +16,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Fragments",
-    "permalink": "/docs/docs/script-master/fragments/"
+    "title": "Confluence Example: Get recent page contributors",
+    "permalink": "/docs/docs/script-master/fragments/example-page-contributors"
   },
   "next": {
-    "title": "Macros",
-    "permalink": "/docs/docs/script-master/macros/"
+    "title": "Example: Embedding Markdown-Formatted Documents in Your Dashboard Gadgets",
+    "permalink": "/docs/docs/script-master/gadgets/example-markdown-editor"
   }
 }

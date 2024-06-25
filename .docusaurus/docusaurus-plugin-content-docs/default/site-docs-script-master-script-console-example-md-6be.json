@@ -1,0 +1,23 @@
+{
+  "id": "script-master/script-console/example",
+  "title": "Example: Automate creating issues",
+  "description": "This script saves time and effort by automating the issue creation process.",
+  "source": "@site/docs/script-master/script-console/example.md",
+  "sourceDirName": "script-master/script-console",
+  "slug": "/script-master/script-console/example",
+  "permalink": "/docs/docs/script-master/script-console/example",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "example-change-filter-owner",
+    "permalink": "/docs/docs/script-master/script-console/example-change-filter-owner"
+  },
+  "next": {
+    "title": "Fragments",
+    "permalink": "/docs/docs/script-master/fragments/"
+  }
+}

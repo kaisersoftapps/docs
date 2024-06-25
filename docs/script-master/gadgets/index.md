@@ -42,6 +42,10 @@ See it in action:
 ![](./img/gadget-in-use-3.png)
 
 
+## Examples
+
+- [Embedding Markdown-Formatted Documents in Your Dashboard Gadgets](./example-markdown-editor.md). This simple yet powerful example demonstrates how to embed markdown-formatted documents into your Dashboard Gadgets. Just place your content in the textarea, and the gadget will save it to the Gadget Entity Property and render the markdown to HTML.
+
 :::note
 
 [More Examples on GitHub](https://github.com/kaisersoftapps/script-master)

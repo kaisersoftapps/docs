@@ -66,8 +66,28 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/fragments/example-find-unused-components",
+              "path": "/docs/docs/script-master/fragments/example-find-unused-components",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/fragments/example-issue-contributors",
+              "path": "/docs/docs/script-master/fragments/example-issue-contributors",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/fragments/example-page-contributors",
+              "path": "/docs/docs/script-master/fragments/example-page-contributors",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/fragments/index",
               "path": "/docs/docs/script-master/fragments/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/gadgets/example-markdown-editor",
+              "path": "/docs/docs/script-master/gadgets/example-markdown-editor",
               "sidebar": "docs"
             },
             {
@@ -86,13 +106,38 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/macros/example-add-labels",
+              "path": "/docs/docs/script-master/macros/example-add-labels",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/macros/index",
               "path": "/docs/docs/script-master/macros/",
               "sidebar": "docs"
             },
             {
+              "id": "script-master/script-console/example-change-filters-owner",
+              "path": "/docs/docs/script-master/script-console/example-change-filters-owner",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/script-console/example-create-issue",
+              "path": "/docs/docs/script-master/script-console/example-create-issue",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/script-console/example-transfer-filters-ownership",
+              "path": "/docs/docs/script-master/script-console/example-transfer-filters-ownership",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/script-console/index",
               "path": "/docs/docs/script-master/script-console/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/web-triggers/example-authorization",
+              "path": "/docs/docs/script-master/web-triggers/example-authorization",
               "sidebar": "docs"
             },
             {

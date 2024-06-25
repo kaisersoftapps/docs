@@ -1,4 +1,10 @@
-# Automate creating issues
+# Jira Example: Automate creating issues
+
+:::tip Compatibility
+
+This example for **Jira** version of [Script Console](./index.md).
+
+:::
 
 This script saves time and effort by automating the issue creation process.
 

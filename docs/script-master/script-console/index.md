@@ -62,9 +62,16 @@ The in-app Snippets Library consists of various script examples that will help y
 </Tabs>
 
 
+## Examples
+
+- [Change the owner of multiple filters](./example-change-filters-owner.md). Change the ownership of multiple filters, identified by their IDs , to another user.
+- [Change the ownership of all filters from one use to another](./example-transfer-filters-ownership.md). This example demonstrates how to transfer complete ownership of filters from one user to another.
+- [Create issue](./example-create-issue.md). This script saves time and effort by automating the issue creation process.
+
 <!-- import Example1 from './_example.md';
 
 <Example1 /> -->
+
 
 :::note
 

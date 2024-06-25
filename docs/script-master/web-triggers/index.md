@@ -62,6 +62,10 @@ Web Triggers implement Forge backend FaaS function, allowing you to utilize all 
 - **Extending Functionality**: Enhance functionality of Jira or Confluence with custom actions or behaviors to meet organizational needs.
 
 
+## Examples
+
+- [Authorization](./example-authorization.md). Example of adding a check for an "authorization" header in the request and validate any provided token.
+
 :::note
 
 [More Examples on GitHub](https://github.com/kaisersoftapps/script-master)

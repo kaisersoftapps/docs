@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '2bc'),
+    component: ComponentCreator('/docs/docs', 'b73'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '5b9'),
+        component: ComponentCreator('/docs/docs', '857'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'b54'),
+            component: ComponentCreator('/docs/docs', 'a8f'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -133,8 +133,32 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/docs/script-master/fragments/example-find-unused-components',
+                component: ComponentCreator('/docs/docs/script-master/fragments/example-find-unused-components', 'e1b'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/fragments/example-issue-contributors',
+                component: ComponentCreator('/docs/docs/script-master/fragments/example-issue-contributors', '167'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/fragments/example-page-contributors',
+                component: ComponentCreator('/docs/docs/script-master/fragments/example-page-contributors', 'f49'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/docs/script-master/gadgets',
                 component: ComponentCreator('/docs/docs/script-master/gadgets', '666'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/gadgets/example-markdown-editor',
+                component: ComponentCreator('/docs/docs/script-master/gadgets/example-markdown-editor', 'fe0'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -151,14 +175,44 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/docs/script-master/macros/example-add-labels',
+                component: ComponentCreator('/docs/docs/script-master/macros/example-add-labels', '2bc'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/docs/script-master/script-console',
                 component: ComponentCreator('/docs/docs/script-master/script-console', '1fe'),
                 exact: true,
                 sidebar: "docs"
               },
               {
+                path: '/docs/docs/script-master/script-console/example-change-filters-owner',
+                component: ComponentCreator('/docs/docs/script-master/script-console/example-change-filters-owner', 'f18'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/script-console/example-create-issue',
+                component: ComponentCreator('/docs/docs/script-master/script-console/example-create-issue', '2bf'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/script-console/example-transfer-filters-ownership',
+                component: ComponentCreator('/docs/docs/script-master/script-console/example-transfer-filters-ownership', '334'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/docs/script-master/web-triggers',
                 component: ComponentCreator('/docs/docs/script-master/web-triggers', 'aef'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/web-triggers/example-authorization',
+                component: ComponentCreator('/docs/docs/script-master/web-triggers/example-authorization', 'f13'),
                 exact: true,
                 sidebar: "docs"
               },

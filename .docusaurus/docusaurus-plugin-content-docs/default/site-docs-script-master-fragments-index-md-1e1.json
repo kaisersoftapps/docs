@@ -17,11 +17,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Script Console",
-    "permalink": "/docs/docs/script-master/script-console/"
+    "title": "Jira Example: Transfer the ownership of all filters from one use to another",
+    "permalink": "/docs/docs/script-master/script-console/example-transfer-filters-ownership"
   },
   "next": {
-    "title": "Gadgets",
-    "permalink": "/docs/docs/script-master/gadgets/"
+    "title": "Jira Example: Find unused project components",
+    "permalink": "/docs/docs/script-master/fragments/example-find-unused-components"
   }
 }
