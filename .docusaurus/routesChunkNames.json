@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-b73": {
+  "/docs/docs-7a3": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-857": {
+  "/docs/docs-1ce": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-a8f": {
+  "/docs/docs-474": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -172,6 +172,14 @@
   "/docs/docs/team-voice-277": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-team-voice-7-ea-83a"
+  },
+  "/docs/docs/team-voice/access-tokens-528": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-team-voice-access-tokensfd-7-d0a"
+  },
+  "/docs/docs/team-voice/rest-api-c5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-team-voice-rest-api-799-3d5"
   },
   "/docs/docs/terms-of-use-69c": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -146,8 +146,18 @@
               "sidebar": "docs"
             },
             {
+              "id": "team-voice/access-tokens/index",
+              "path": "/docs/docs/team-voice/access-tokens/",
+              "sidebar": "docs"
+            },
+            {
               "id": "team-voice/index",
               "path": "/docs/docs/team-voice/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "team-voice/rest-api/index",
+              "path": "/docs/docs/team-voice/rest-api/",
               "sidebar": "docs"
             },
             {
