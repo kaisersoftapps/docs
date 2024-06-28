@@ -116,6 +116,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/script-console/example-bulk-clone-issues",
+              "path": "/docs/docs/script-master/script-console/example-bulk-clone-issues",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/script-console/example-change-filters-owner",
               "path": "/docs/docs/script-master/script-console/example-change-filters-owner",
               "sidebar": "docs"

@@ -161,4 +161,3 @@ This capability allows teams to build tailored solutions that meet specific coll
 ## Examples
 
 You can find multiple ready-to-go scripts and UI customization examples directly inside the app by using the "Snippets Library".
-Also, don't forget to check out our [public repository on GitHub](https://github.com/kaisersoftapps/script-master).

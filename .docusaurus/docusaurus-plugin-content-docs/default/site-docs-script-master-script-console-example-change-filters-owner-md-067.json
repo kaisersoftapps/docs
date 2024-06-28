@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Script Console",
-    "permalink": "/docs/docs/script-master/script-console/"
+    "title": "Jira Example: Bulk Clone Issues",
+    "permalink": "/docs/docs/script-master/script-console/example-bulk-clone-issues"
   },
   "next": {
     "title": "Jira Example: Automate creating issues",

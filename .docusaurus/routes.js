@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '7a3'),
+    component: ComponentCreator('/docs/docs', '759'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '1ce'),
+        component: ComponentCreator('/docs/docs', '88b'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '474'),
+            component: ComponentCreator('/docs/docs', 'bc3'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -183,6 +183,12 @@ export default [
               {
                 path: '/docs/docs/script-master/script-console',
                 component: ComponentCreator('/docs/docs/script-master/script-console', '1fe'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/script-console/example-bulk-clone-issues',
+                component: ComponentCreator('/docs/docs/script-master/script-console/example-bulk-clone-issues', '36e'),
                 exact: true,
                 sidebar: "docs"
               },

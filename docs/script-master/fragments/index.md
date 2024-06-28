@@ -158,6 +158,4 @@ Fragments can interact with internal data of Jira and Confluence as well as exte
 
 Find more fragment examples directly inside the app by using the "Snippets Library"
 
-Or in our public repository [on GitHub](https://github.com/kaisersoftapps/script-master)
-
 :::

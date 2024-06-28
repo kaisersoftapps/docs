@@ -20,7 +20,7 @@
     "permalink": "/docs/docs/script-master/getting-started"
   },
   "next": {
-    "title": "Jira Example: Change the owner of multiple filters",
-    "permalink": "/docs/docs/script-master/script-console/example-change-filters-owner"
+    "title": "Jira Example: Bulk Clone Issues",
+    "permalink": "/docs/docs/script-master/script-console/example-bulk-clone-issues"
   }
 }

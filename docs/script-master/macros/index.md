@@ -29,10 +29,3 @@ Macros implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs
 ## Examples
 
 - [Add labels](./example-add-labels.md). Read comma-separated labels from the Macro Body and add any missing labels to the current page every time the page is opened.
-
-
-:::note
-
-[More Examples on GitHub](https://github.com/kaisersoftapps/script-master)
-
-:::

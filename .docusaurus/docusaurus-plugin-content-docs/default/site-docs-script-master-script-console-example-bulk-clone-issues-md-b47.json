@@ -1,0 +1,23 @@
+{
+  "id": "script-master/script-console/example-bulk-clone-issues",
+  "title": "Jira Example: Bulk Clone Issues",
+  "description": "This example for Jira version of Script Console.",
+  "source": "@site/docs/script-master/script-console/example-bulk-clone-issues.md",
+  "sourceDirName": "script-master/script-console",
+  "slug": "/script-master/script-console/example-bulk-clone-issues",
+  "permalink": "/docs/docs/script-master/script-console/example-bulk-clone-issues",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Script Console",
+    "permalink": "/docs/docs/script-master/script-console/"
+  },
+  "next": {
+    "title": "Jira Example: Change the owner of multiple filters",
+    "permalink": "/docs/docs/script-master/script-console/example-change-filters-owner"
+  }
+}

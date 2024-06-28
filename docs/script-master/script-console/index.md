@@ -71,10 +71,3 @@ The in-app Snippets Library consists of various script examples that will help y
 <!-- import Example1 from './_example.md';
 
 <Example1 /> -->
-
-
-:::note
-
-[More Examples on GitHub](https://github.com/kaisersoftapps/script-master)
-
-:::
