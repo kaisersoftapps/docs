@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Jira Example: Automate creating issues",
-    "permalink": "/docs/docs/script-master/script-console/example-create-issue"
+    "title": "Confluence Example: Permanently purge trashed pages from multiple Confluence spaces",
+    "permalink": "/docs/docs/script-master/script-console/example-purge-trashed-pages"
   },
   "next": {
     "title": "Fragments",

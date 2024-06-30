@@ -64,9 +64,16 @@ The in-app Snippets Library consists of various script examples that will help y
 
 ## Examples
 
+### Jira 
+
+- [Bulk Clone Issues](./example-bulk-clone-issues.md). The script for the Scripted Console in Jira clones up issues based on a specified JQL.
 - [Change the owner of multiple filters](./example-change-filters-owner.md). Change the ownership of multiple filters, identified by their IDs , to another user.
 - [Change the ownership of all filters from one use to another](./example-transfer-filters-ownership.md). This example demonstrates how to transfer complete ownership of filters from one user to another.
 - [Create issue](./example-create-issue.md). This script saves time and effort by automating the issue creation process.
+
+### Confluence
+
+- [Permanently purge trashed pages from multiple Confluence spaces](example-purge-trashed-pages.md). This script allows you to permanently delete trash from multiple Confluence spaces. Be aware that this action is irreversible; once the trash is emptied, the content cannot be recovered.
 
 <!-- import Example1 from './_example.md';
 

@@ -131,6 +131,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/script-console/example-purge-trashed-pages",
+              "path": "/docs/docs/script-master/script-console/example-purge-trashed-pages",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/script-console/example-transfer-filters-ownership",
               "path": "/docs/docs/script-master/script-console/example-transfer-filters-ownership",
               "sidebar": "docs"

@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '759'),
+    component: ComponentCreator('/docs/docs', 'cac'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '88b'),
+        component: ComponentCreator('/docs/docs', 'e39'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'bc3'),
+            component: ComponentCreator('/docs/docs', '127'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -201,6 +201,12 @@ export default [
               {
                 path: '/docs/docs/script-master/script-console/example-create-issue',
                 component: ComponentCreator('/docs/docs/script-master/script-console/example-create-issue', '2bf'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/script-console/example-purge-trashed-pages',
+                component: ComponentCreator('/docs/docs/script-master/script-console/example-purge-trashed-pages', '65a'),
                 exact: true,
                 sidebar: "docs"
               },
