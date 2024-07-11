@@ -1,0 +1,26 @@
+{
+  "id": "field-craft/getting-started",
+  "title": "Getting Started",
+  "description": "Add a Custom Field",
+  "source": "@site/docs/field-craft/getting-started.md",
+  "sourceDirName": "field-craft",
+  "slug": "/field-craft/getting-started",
+  "permalink": "/docs/docs/field-craft/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "▮ FieldCraft: Custom fields",
+    "permalink": "/docs/docs/field-craft/"
+  },
+  "next": {
+    "title": "First/Last Field Change Time",
+    "permalink": "/docs/docs/field-craft/field-change-time/"
+  }
+}

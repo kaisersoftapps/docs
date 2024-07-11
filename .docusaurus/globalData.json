@@ -31,6 +31,31 @@
               "sidebar": "docs"
             },
             {
+              "id": "field-craft/field-change-time/index",
+              "path": "/docs/docs/field-craft/field-change-time/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "field-craft/getting-started",
+              "path": "/docs/docs/field-craft/getting-started",
+              "sidebar": "docs"
+            },
+            {
+              "id": "field-craft/index",
+              "path": "/docs/docs/field-craft/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "field-craft/time-in-status/index",
+              "path": "/docs/docs/field-craft/time-in-status/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "field-craft/transinions-count/index",
+              "path": "/docs/docs/field-craft/transinions-count/",
+              "sidebar": "docs"
+            },
+            {
               "id": "privacy-policy",
               "path": "/docs/docs/privacy-policy",
               "sidebar": "docs"

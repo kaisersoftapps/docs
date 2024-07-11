@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'cac'),
+    component: ComponentCreator('/docs/docs', '1ef'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'e39'),
+        component: ComponentCreator('/docs/docs', '7c4'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '127'),
+            component: ComponentCreator('/docs/docs', 'd08'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -75,6 +75,36 @@ export default [
               {
                 path: '/docs/docs/event-planner',
                 component: ComponentCreator('/docs/docs/event-planner', '57b'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft',
+                component: ComponentCreator('/docs/docs/field-craft', '60e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/field-change-time',
+                component: ComponentCreator('/docs/docs/field-craft/field-change-time', 'b41'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/getting-started',
+                component: ComponentCreator('/docs/docs/field-craft/getting-started', 'd2f'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/time-in-status',
+                component: ComponentCreator('/docs/docs/field-craft/time-in-status', '6a7'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/transinions-count',
+                component: ComponentCreator('/docs/docs/field-craft/transinions-count', 'f37'),
                 exact: true,
                 sidebar: "docs"
               },

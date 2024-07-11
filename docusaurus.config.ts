@@ -93,6 +93,7 @@ const config: Config = {
         { to: 'docs/script-master', label: 'Script Master', position: 'left' },
         { to: 'docs/event-planner', label: 'Event Planner', position: 'left' },
         { to: 'docs/team-voice', label: 'Team Voice', position: 'left' },
+        { to: 'docs/field-craft', label: 'FieldCraft', position: 'left' },
       ],
     },
     footer: {

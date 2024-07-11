@@ -25,6 +25,9 @@ import TabItem from '@theme/TabItem';
     |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Jira](docs/team-voice) |
     |---|---|
 
+    |<img src={require('/img/field-craft/field-craft-logo.png').default} style={{width: 64}} />|[FieldCraft: Custom Fields for Jira Cloud](docs/field-craft) |
+    |---|---|
+
   </TabItem>
 </Tabs>
 

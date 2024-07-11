@@ -87,6 +87,11 @@ export default {
           "to": "docs/team-voice",
           "label": "Team Voice",
           "position": "left"
+        },
+        {
+          "to": "docs/field-craft",
+          "label": "FieldCraft",
+          "position": "left"
         }
       ],
       "hideOnScroll": false

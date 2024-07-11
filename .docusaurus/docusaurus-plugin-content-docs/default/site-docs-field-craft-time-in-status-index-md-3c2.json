@@ -1,0 +1,23 @@
+{
+  "id": "field-craft/time-in-status/index",
+  "title": "Time in Status",
+  "description": "Overview",
+  "source": "@site/docs/field-craft/time-in-status/index.md",
+  "sourceDirName": "field-craft/time-in-status",
+  "slug": "/field-craft/time-in-status/",
+  "permalink": "/docs/docs/field-craft/time-in-status/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "First/Last Field Change Time",
+    "permalink": "/docs/docs/field-craft/field-change-time/"
+  },
+  "next": {
+    "title": "Transitions Count",
+    "permalink": "/docs/docs/field-craft/transinions-count/"
+  }
+}
