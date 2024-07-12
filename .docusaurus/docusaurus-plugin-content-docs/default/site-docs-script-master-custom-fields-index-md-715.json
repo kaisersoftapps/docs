@@ -1,0 +1,26 @@
+{
+  "id": "script-master/custom-fields/index",
+  "title": "Custom Fields",
+  "description": "This module available in Script Master for Jira only.",
+  "source": "@site/docs/script-master/custom-fields/index.md",
+  "sourceDirName": "script-master/custom-fields",
+  "slug": "/script-master/custom-fields/",
+  "permalink": "/docs/docs/script-master/custom-fields/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {
+    "sidebar_position": 70
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Example: Authorization",
+    "permalink": "/docs/docs/script-master/web-triggers/example-authorization"
+  },
+  "next": {
+    "title": "Code Editor",
+    "permalink": "/docs/docs/script-master/editor"
+  }
+}

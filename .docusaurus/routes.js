@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '1ef'),
+    component: ComponentCreator('/docs/docs', 'e3d'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '7c4'),
+        component: ComponentCreator('/docs/docs', '86a'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'd08'),
+            component: ComponentCreator('/docs/docs', '1a2'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -117,6 +117,12 @@ export default [
               {
                 path: '/docs/docs/script-master',
                 component: ComponentCreator('/docs/docs/script-master', '44a'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/custom-fields',
+                component: ComponentCreator('/docs/docs/script-master/custom-fields', '016'),
                 exact: true,
                 sidebar: "docs"
               },

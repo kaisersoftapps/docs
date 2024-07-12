@@ -61,6 +61,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/custom-fields/index",
+              "path": "/docs/docs/script-master/custom-fields/",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/diff-between-jira-and-conf",
               "path": "/docs/docs/script-master/diff-between-jira-and-conf",
               "sidebar": "docs"

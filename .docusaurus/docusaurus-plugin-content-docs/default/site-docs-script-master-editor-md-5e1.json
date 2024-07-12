@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Example: Authorization",
-    "permalink": "/docs/docs/script-master/web-triggers/example-authorization"
+    "title": "Custom Fields",
+    "permalink": "/docs/docs/script-master/custom-fields/"
   },
   "next": {
     "title": "Use external editor with live reloading",

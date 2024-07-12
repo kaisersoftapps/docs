@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-1ef": {
+  "/docs/docs-e3d": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-7c4": {
+  "/docs/docs-86a": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-d08": {
+  "/docs/docs-1a2": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -104,6 +104,10 @@
   "/docs/docs/script-master-44a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-script-master-461-016"
+  },
+  "/docs/docs/script-master/custom-fields-016": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-script-master-custom-fields-715-0f6"
   },
   "/docs/docs/script-master/diff-between-jira-and-conf-370": {
     "__comp": "__comp---theme-doc-item-178-a40",
