@@ -146,6 +146,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/post-functions/index",
+              "path": "/docs/docs/script-master/post-functions/",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/script-console/example-bulk-clone-issues",
               "path": "/docs/docs/script-master/script-console/example-bulk-clone-issues",
               "sidebar": "docs"

@@ -1,10 +1,10 @@
 ---
-sidebar_position: 90
+sidebar_position: 150
 ---
 
 # Forge Bridge API for backend FaaS functions
 
-Inside Forge backend FaaS function modules (like [Web Trigger](./web-triggers/)), you can use these global  bridge objects and functions from `'@forge/api'` to access your application:
+Inside Forge backend FaaS function modules (like [Web Trigger](./web-triggers/), [Custom Fields](./custom-fields/), [Workflow post-functions](./post-functions/)), you can use these global  bridge objects and functions from `'@forge/api'` to access your application:
 
 - `api`: The [api](https://developer.atlassian.com/platform/forge/apis-reference/fetch-api-product.requestjira/) provides access to both the [requestJira](https://developer.atlassian.com/platform/forge/apis-reference/fetch-api-product.requestjira/) and [requestConfluence](https://developer.atlassian.com/platform/forge/apis-reference/fetch-api-product.requestconfluence/), which allow you to access data from your application through the REST API.
  
@@ -17,14 +17,27 @@ Inside Forge backend FaaS function modules (like [Web Trigger](./web-triggers/))
 - `request`: "request" is an object sent to your backend function from an external caller. It contains all the information about the request, such as query parameters, headers, body, etc.
 Request format:
 
+  ```javascript
+  interface Request {
+    body: string;
+    headers: {[headerName: string]: string[]};
+    method: string;
+    path: string;
+    queryParameters: {[paramName: string]: string[]};
+  }
+  ```
+
+At the beginning of each script, Script Master automatically includes all necessary imports and special global objects, such as "request" for web-trigger scripts. This means you don't need to include them yourself; you can simply start writing your script.
+
 ```javascript
-interface Request {
-  body: string;
-  headers: {[headerName: string]: string[]};
-  method: string;
-  path: string;
-  queryParameters: {[paramName: string]: string[]};
-}
+// These components are added automatically by Script Master
+import api, { authorize, fetch, route } from '@forge/api';
+const request = '...request details...';
+
+// Your script starts here:
+
+your script
+
 ```
 
 

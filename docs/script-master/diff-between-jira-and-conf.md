@@ -1,5 +1,5 @@
 ---
-sidebar_position: 100
+sidebar_position: 200
 ---
 
 # Difference between versions for Jira and Confluence

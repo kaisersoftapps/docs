@@ -10,17 +10,17 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 80,
+  "sidebarPosition": 160,
   "frontMatter": {
-    "sidebar_position": 80
+    "sidebar_position": 160
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Use external editor with live reloading",
-    "permalink": "/docs/docs/script-master/external-editor"
-  },
-  "next": {
     "title": "Forge Bridge API for backend FaaS functions",
     "permalink": "/docs/docs/script-master/forge-bridge-back"
+  },
+  "next": {
+    "title": "Difference between versions for Jira and Confluence",
+    "permalink": "/docs/docs/script-master/diff-between-jira-and-conf"
   }
 }

@@ -10,9 +10,9 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 75,
+  "sidebarPosition": 110,
   "frontMatter": {
-    "sidebar_position": 75
+    "sidebar_position": 110
   },
   "sidebar": "docs",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/docs/script-master/editor"
   },
   "next": {
-    "title": "Forge Bridge API for Custom UI",
-    "permalink": "/docs/docs/script-master/forge-bridge-front"
+    "title": "Forge Bridge API for backend FaaS functions",
+    "permalink": "/docs/docs/script-master/forge-bridge-back"
   }
 }

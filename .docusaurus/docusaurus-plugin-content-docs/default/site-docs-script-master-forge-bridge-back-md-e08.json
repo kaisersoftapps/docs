@@ -1,7 +1,7 @@
 {
   "id": "script-master/forge-bridge-back",
   "title": "Forge Bridge API for backend FaaS functions",
-  "description": "Inside Forge backend FaaS function modules (like Web Trigger), you can use these global  bridge objects and functions from '@forge/api' to access your application:",
+  "description": "Inside Forge backend FaaS function modules (like Web Trigger, Custom Fields, Workflow post-functions), you can use these global  bridge objects and functions from '@forge/api' to access your application:",
   "source": "@site/docs/script-master/forge-bridge-back.md",
   "sourceDirName": "script-master",
   "slug": "/script-master/forge-bridge-back",
@@ -10,17 +10,17 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 90,
+  "sidebarPosition": 150,
   "frontMatter": {
-    "sidebar_position": 90
+    "sidebar_position": 150
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Forge Bridge API for Custom UI",
-    "permalink": "/docs/docs/script-master/forge-bridge-front"
+    "title": "Use external editor with live reloading",
+    "permalink": "/docs/docs/script-master/external-editor"
   },
   "next": {
-    "title": "Difference between versions for Jira and Confluence",
-    "permalink": "/docs/docs/script-master/diff-between-jira-and-conf"
+    "title": "Forge Bridge API for Custom UI",
+    "permalink": "/docs/docs/script-master/forge-bridge-front"
   }
 }

@@ -10,14 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 70,
+  "sidebarPosition": 100,
   "frontMatter": {
-    "sidebar_position": 70
+    "sidebar_position": 100
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Custom Fields",
-    "permalink": "/docs/docs/script-master/custom-fields/"
+    "title": "Workflow post-functions",
+    "permalink": "/docs/docs/script-master/post-functions/"
   },
   "next": {
     "title": "Use external editor with live reloading",

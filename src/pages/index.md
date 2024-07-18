@@ -19,13 +19,13 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="jira" label="Jira apps" default>
 
-    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Jira](docs/script-master) |
+    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Jira](docs/script-master) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
     |---|---|
 
-    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Jira](docs/team-voice) |
+    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Jira](docs/team-voice) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
     |---|---|
 
-    |<img src={require('/img/field-craft/field-craft-logo.png').default} style={{width: 64}} />|[FieldCraft: Custom Fields for Jira Cloud](docs/field-craft) |
+    |<img src={require('/img/field-craft/field-craft-logo.png').default} style={{width: 64}} />|[FieldCraft: Custom Fields for Jira Cloud](docs/field-craft) &nbsp; &nbsp; &nbsp; |
     |---|---|
 
   </TabItem>
@@ -35,13 +35,13 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="confluence" label="Confluence apps" default>
 
-    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Confluence](docs/script-master) |
+    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Confluence](docs/script-master) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
     |---|---|
 
-    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Confluence](docs/team-voice) |
+    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Confluence](docs/team-voice) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
     |---|---|
 
-    |<img src={require('/img/event-planner-logo.png').default} style={{width: 64}} />|[Event Planner](docs/event-planner) |
+    |<img src={require('/img/event-planner-logo.png').default} style={{width: 64}} />|[Event Planner](docs/event-planner) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
     |---|---|
 
   </TabItem>

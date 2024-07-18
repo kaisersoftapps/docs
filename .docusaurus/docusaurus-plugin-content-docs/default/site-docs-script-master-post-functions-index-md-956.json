@@ -1,0 +1,26 @@
+{
+  "id": "script-master/post-functions/index",
+  "title": "Workflow post-functions",
+  "description": "This module available in Script Master for Jira only.",
+  "source": "@site/docs/script-master/post-functions/index.md",
+  "sourceDirName": "script-master/post-functions",
+  "slug": "/script-master/post-functions/",
+  "permalink": "/docs/docs/script-master/post-functions/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {
+    "sidebar_position": 80
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Custom Fields",
+    "permalink": "/docs/docs/script-master/custom-fields/"
+  },
+  "next": {
+    "title": "Code Editor",
+    "permalink": "/docs/docs/script-master/editor"
+  }
+}
