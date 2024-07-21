@@ -67,13 +67,14 @@ interface Payload {
 
 ## Configuration
 
-
-
 Screenshots:
 
 ![](./img/configure-postfunction-screenshot-1.png)
 ![](./img/configure-postfunction-screenshot-2.png)
 
+All available scripted extensions will be displayed in the 'Workflow' section of the Script Master:
+
+![](./img/workflows-tab.png)
 
 ## Examples
 
