@@ -46,6 +46,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "field-craft/parent-field/index",
+              "path": "/docs/docs/field-craft/parent-field/",
+              "sidebar": "docs"
+            },
+            {
               "id": "field-craft/time-in-status/index",
               "path": "/docs/docs/field-craft/time-in-status/",
               "sidebar": "docs"

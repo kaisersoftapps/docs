@@ -1,0 +1,23 @@
+{
+  "id": "field-craft/parent-field/index",
+  "title": "Parent Field",
+  "description": "Overview",
+  "source": "@site/docs/field-craft/parent-field/index.md",
+  "sourceDirName": "field-craft/parent-field",
+  "slug": "/field-craft/parent-field/",
+  "permalink": "/docs/docs/field-craft/parent-field/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "First/Last Field Change Time",
+    "permalink": "/docs/docs/field-craft/field-change-time/"
+  },
+  "next": {
+    "title": "Time in Status",
+    "permalink": "/docs/docs/field-craft/time-in-status/"
+  }
+}

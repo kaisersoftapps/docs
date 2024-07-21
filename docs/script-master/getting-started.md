@@ -54,4 +54,6 @@ The app doesn't require any additional configuration, as it serves as a configur
 - [Gadgets](./gadgets/index.md)
 - [Macros](./macros/index.md)
 - [Wen Triggers](./web-triggers/index.md)
+- [Workflow post-functions](./post-functions/)
+- [Custom fields](./custom-fields/)
 
