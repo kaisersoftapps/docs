@@ -10,7 +10,6 @@ This module is available for both the **Jira** and **Confluence** versions of th
 
 :::
 
-
 ## Overview
 
 The Script Console is a tool for executing ad hoc scripts and experimenting with the Jira or Confluence REST API and Forge-compatible scripts. You can input scripts directly into the Script Console editor and run them with your current permissions. It's useful for displaying information, performing one-off cleanup tasks, and bulk updating various Jira or Confluence elements. For instance, as an admin, you can swiftly change the ownership of multiple filters or dashboards in Jira and spaces in Confluence in bulk, rather than manually searching for and updating the owner of each one individually.
@@ -37,7 +36,6 @@ import TabItem from '@theme/TabItem';
 
 We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
 
-
 ## Context
 
 The Script Console runs all scripts in the context of the current user, adhering to their permissions. This means it cannot read or modify any content that the current user does not have access to. You can use JavaScript to perform external `fetch` calls and employ special bridge methods for seamless interaction between your script and Jira/Confluence.
@@ -60,6 +58,10 @@ The in-app Snippets Library consists of various script examples that will help y
     ![](./img/conf-scripted-console-snippets.png)
   </TabItem>
 </Tabs>
+
+How to use examples from the Snippet Library:
+
+![](./img/live-1.gif)
 
 
 ## Examples

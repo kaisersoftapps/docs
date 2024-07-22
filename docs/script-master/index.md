@@ -19,6 +19,7 @@ Script Master could replace dozens of other apps because you don't need to insta
 1. It is 100% a Forge app, and not one byte will leave your instance or Atlassian infrastructure. All the scripts and customizations are hosted directly on your instance and within the Atlassian platform.
 2. It is fully compatible with the latest Forge version, and you can take the built script and start making an independent Forge app at any time if you decide that your customization requires more independence.
 3. It is the one and only app that allows Administrators to create custom Issue Panels, Project Pages, Gadgets, Macros and many more directly inside the Jira or Confluence platform and implement all the needs of your users without installing new apps from the Marketplace.
+4. It allows you to use both the [Backend API: Forge FaaS (Functions as a Service)](./forge-bridge-back.md) and [Frontend API: Forge Custom UI](./forge-bridge-front.md) directly from your Jira instance in real-time.
 
 
 ## Installation and configuration

@@ -25,6 +25,15 @@ Fragments are powerful blocks that extend the UI of Jira and Confluence, allowin
 
 We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="jira" label="In Jira version" default>
+    ![](./img/fragments-live-2.gif)
+  </TabItem>
+</Tabs>
+
 
 ## Context
 

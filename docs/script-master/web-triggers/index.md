@@ -36,6 +36,15 @@ sequenceDiagram
 
 We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="jira" label="In Jira version" default>
+    ![](./img/weg-triggers-live-1.gif)
+  </TabItem>
+</Tabs>
+
 ## Context
 
 Web Triggers implement Forge backend FaaS function, allowing you to utilize all [Bridge API for Forge backend FaaS function](../forge-bridge-back.md). Among the most useful are `api` and `request`.
