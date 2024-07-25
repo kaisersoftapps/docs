@@ -1,0 +1,23 @@
+{
+  "id": "script-master/validators/example-add-comment",
+  "title": "Add a Comment to an Issue",
+  "description": "Let's create a post-function that adds a comment to an issue when it transitions to some status.",
+  "source": "@site/docs/script-master/validators/example-add-comment.md",
+  "sourceDirName": "script-master/validators",
+  "slug": "/script-master/validators/example-add-comment",
+  "permalink": "/docs/docs/script-master/validators/example-add-comment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Workflow Validators",
+    "permalink": "/docs/docs/script-master/validators/"
+  },
+  "next": {
+    "title": "Code Editor",
+    "permalink": "/docs/docs/script-master/editor"
+  }
+}

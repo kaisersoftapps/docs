@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Workflow post-functions",
-    "permalink": "/docs/docs/script-master/post-functions/"
+    "title": "Workflow Validators",
+    "permalink": "/docs/docs/script-master/validators/"
   },
   "next": {
     "title": "Use external editor with live reloading",

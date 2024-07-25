@@ -1,0 +1,26 @@
+{
+  "id": "script-master/post-functions copy/index",
+  "title": "Workflow post-functions",
+  "description": "This module available in Script Master for Jira only.",
+  "source": "@site/docs/script-master/post-functions copy/index.md",
+  "sourceDirName": "script-master/post-functions copy",
+  "slug": "/script-master/post-functions copy/",
+  "permalink": "/docs/docs/script-master/post-functions copy/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {
+    "sidebar_position": 80
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Add a Comment to an Issue",
+    "permalink": "/docs/docs/script-master/post-functions/example-add-comment"
+  },
+  "next": {
+    "title": "Add a Comment to an Issue",
+    "permalink": "/docs/docs/script-master/post-functions copy/example-add-comment"
+  }
+}

@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'c17'),
+    component: ComponentCreator('/docs/docs', '00e'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'ef5'),
+        component: ComponentCreator('/docs/docs', '636'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'cfb'),
+            component: ComponentCreator('/docs/docs', '6bc'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -229,6 +229,12 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/docs/script-master/post-functions/example-add-comment',
+                component: ComponentCreator('/docs/docs/script-master/post-functions/example-add-comment', '501'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/docs/script-master/script-console',
                 component: ComponentCreator('/docs/docs/script-master/script-console', '1fe'),
                 exact: true,
@@ -261,6 +267,12 @@ export default [
               {
                 path: '/docs/docs/script-master/script-console/example-transfer-filters-ownership',
                 component: ComponentCreator('/docs/docs/script-master/script-console/example-transfer-filters-ownership', '334'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/validators',
+                component: ComponentCreator('/docs/docs/script-master/validators', '14b'),
                 exact: true,
                 sidebar: "docs"
               },

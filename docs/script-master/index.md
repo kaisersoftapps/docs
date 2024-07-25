@@ -96,6 +96,8 @@ stateDiagram-v2
     }
     state "Forge backend FaaS function" as fif {
         fif1 : Web Triggers
+        fif2 : Workflow post-functions
+        fif3 : Custom fields
     }
 ```
 
@@ -156,7 +158,7 @@ This capability allows teams to build tailored solutions that meet specific coll
 [Web Triggers](./web-triggers/index.md) are "Forge backend FaaS function" - JavaScript functions running on the Forge backend that respond to HTTP requests. Key features include:
 
 - No User Authentication Required: Web Triggers can be run without user authentication, making them accessible via their URL.
-- Communication with Jira: The URL can communicate with Jira or Confluence on behalf of the app using the `useApp()` method.
+- Communication with Application: User can communicate with Jira or Confluence on behalf of the app using the `api.useApp()` method.
 
 
 ## Examples

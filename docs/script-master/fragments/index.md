@@ -159,9 +159,9 @@ Fragments can interact with internal data of Jira and Confluence as well as exte
 
 ## Examples
 
-- [Creating a Custom Action to show issue contributors](./example-issue-contributors.md). example to demonstrate how you can create a Custom Action that fetches and displays the list of all the user names who edited current issue.
-- [Find unused project components](./example-find-unused-components.md). As a fragment for the "Project Page" location, you can find all the components without any issues and delete them in bulk.
-- [Get recent page contributors](./example-page-contributors.md). This script retrieves the list of recent contributors for the current page and prints them as a comma-separated string.
+- [Jira: Creating a Custom Action to show issue contributors](./example-issue-contributors.md). example to demonstrate how you can create a Custom Action that fetches and displays the list of all the user names who edited current issue.
+- [Jira: Find unused project components](./example-find-unused-components.md). As a fragment for the "Project Page" location, you can find all the components without any issues and delete them in bulk.
+- [Confluence: Get recent page contributors](./example-page-contributors.md). This script retrieves the list of recent contributors for the current page and prints them as a comma-separated string.
 
 :::note More Examples
 

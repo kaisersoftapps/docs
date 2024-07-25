@@ -151,6 +151,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/post-functions/example-add-comment",
+              "path": "/docs/docs/script-master/post-functions/example-add-comment",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/post-functions/index",
               "path": "/docs/docs/script-master/post-functions/",
               "sidebar": "docs"
@@ -183,6 +188,11 @@
             {
               "id": "script-master/script-console/index",
               "path": "/docs/docs/script-master/script-console/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/validators/index",
+              "path": "/docs/docs/script-master/validators/",
               "sidebar": "docs"
             },
             {

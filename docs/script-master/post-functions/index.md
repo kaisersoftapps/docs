@@ -78,6 +78,8 @@ All available scripted extensions will be displayed in the 'Workflow' section of
 
 ## Examples
 
+For a detailed example, see [Add a Comment to an Issue](./example-add-comment.md). Below are some simple examples.
+
 ### Update issue
 
 This example demonstrates a post-function that updates an issue and sets specific fields.

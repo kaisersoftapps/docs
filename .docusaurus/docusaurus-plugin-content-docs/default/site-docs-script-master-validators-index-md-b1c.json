@@ -1,0 +1,26 @@
+{
+  "id": "script-master/validators/index",
+  "title": "Workflow Validators",
+  "description": "This module available in Script Master for Jira only.",
+  "source": "@site/docs/script-master/validators/index.md",
+  "sourceDirName": "script-master/validators",
+  "slug": "/script-master/validators/",
+  "permalink": "/docs/docs/script-master/validators/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 85,
+  "frontMatter": {
+    "sidebar_position": 85
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Add a Comment to an Issue",
+    "permalink": "/docs/docs/script-master/post-functions/example-add-comment"
+  },
+  "next": {
+    "title": "Code Editor",
+    "permalink": "/docs/docs/script-master/editor"
+  }
+}
