@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Workflow Validators",
-    "permalink": "/docs/docs/script-master/validators/"
+    "title": "Workflow Conditions",
+    "permalink": "/docs/docs/script-master/workflow-conditions/"
   },
   "next": {
     "title": "Use external editor with live reloading",

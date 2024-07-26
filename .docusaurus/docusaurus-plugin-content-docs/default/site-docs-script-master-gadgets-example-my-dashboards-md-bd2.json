@@ -1,0 +1,23 @@
+{
+  "id": "script-master/gadgets/example-my-dashboards",
+  "title": "Example: My Dashboards",
+  "description": "This example for Jira version of Gadgets.",
+  "source": "@site/docs/script-master/gadgets/example-my-dashboards.md",
+  "sourceDirName": "script-master/gadgets",
+  "slug": "/script-master/gadgets/example-my-dashboards",
+  "permalink": "/docs/docs/script-master/gadgets/example-my-dashboards",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Example: Embedding Markdown-Formatted Documents in Your Dashboard Gadgets",
+    "permalink": "/docs/docs/script-master/gadgets/example-markdown-editor"
+  },
+  "next": {
+    "title": "Macros",
+    "permalink": "/docs/docs/script-master/macros/"
+  }
+}

@@ -126,6 +126,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/gadgets/example-my-dashboards",
+              "path": "/docs/docs/script-master/gadgets/example-my-dashboards",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/gadgets/index",
               "path": "/docs/docs/script-master/gadgets/",
               "sidebar": "docs"
@@ -148,16 +153,6 @@
             {
               "id": "script-master/macros/index",
               "path": "/docs/docs/script-master/macros/",
-              "sidebar": "docs"
-            },
-            {
-              "id": "script-master/post-functions/example-add-comment",
-              "path": "/docs/docs/script-master/post-functions/example-add-comment",
-              "sidebar": "docs"
-            },
-            {
-              "id": "script-master/post-functions/index",
-              "path": "/docs/docs/script-master/post-functions/",
               "sidebar": "docs"
             },
             {
@@ -191,11 +186,6 @@
               "sidebar": "docs"
             },
             {
-              "id": "script-master/validators/index",
-              "path": "/docs/docs/script-master/validators/",
-              "sidebar": "docs"
-            },
-            {
               "id": "script-master/web-triggers/example-authorization",
               "path": "/docs/docs/script-master/web-triggers/example-authorization",
               "sidebar": "docs"
@@ -203,6 +193,26 @@
             {
               "id": "script-master/web-triggers/index",
               "path": "/docs/docs/script-master/web-triggers/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/workflow-conditions/index",
+              "path": "/docs/docs/script-master/workflow-conditions/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/workflow-post-functions/example-add-comment",
+              "path": "/docs/docs/script-master/workflow-post-functions/example-add-comment",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/workflow-post-functions/index",
+              "path": "/docs/docs/script-master/workflow-post-functions/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/workflow-validators/index",
+              "path": "/docs/docs/script-master/workflow-validators/",
               "sidebar": "docs"
             },
             {

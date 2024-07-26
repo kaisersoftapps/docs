@@ -1,0 +1,26 @@
+{
+  "id": "script-master/workflow-conditions/index",
+  "title": "Workflow Conditions",
+  "description": "This module available in Script Master for Jira only.",
+  "source": "@site/docs/script-master/workflow-conditions/index.md",
+  "sourceDirName": "script-master/workflow-conditions",
+  "slug": "/script-master/workflow-conditions/",
+  "permalink": "/docs/docs/script-master/workflow-conditions/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 87,
+  "frontMatter": {
+    "sidebar_position": 87
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Workflow Validators",
+    "permalink": "/docs/docs/script-master/workflow-validators/"
+  },
+  "next": {
+    "title": "Code Editor",
+    "permalink": "/docs/docs/script-master/editor"
+  }
+}

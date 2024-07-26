@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '00e'),
+    component: ComponentCreator('/docs/docs', '1a8'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '636'),
+        component: ComponentCreator('/docs/docs', 'bc8'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '6bc'),
+            component: ComponentCreator('/docs/docs', 'fad'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -205,6 +205,12 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/docs/script-master/gadgets/example-my-dashboards',
+                component: ComponentCreator('/docs/docs/script-master/gadgets/example-my-dashboards', '4df'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/docs/script-master/getting-started',
                 component: ComponentCreator('/docs/docs/script-master/getting-started', 'dbe'),
                 exact: true,
@@ -219,18 +225,6 @@ export default [
               {
                 path: '/docs/docs/script-master/macros/example-add-labels',
                 component: ComponentCreator('/docs/docs/script-master/macros/example-add-labels', '2bc'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/docs/docs/script-master/post-functions',
-                component: ComponentCreator('/docs/docs/script-master/post-functions', '348'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/docs/docs/script-master/post-functions/example-add-comment',
-                component: ComponentCreator('/docs/docs/script-master/post-functions/example-add-comment', '501'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -271,12 +265,6 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/validators',
-                component: ComponentCreator('/docs/docs/script-master/validators', '14b'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
                 path: '/docs/docs/script-master/web-triggers',
                 component: ComponentCreator('/docs/docs/script-master/web-triggers', 'aef'),
                 exact: true,
@@ -285,6 +273,30 @@ export default [
               {
                 path: '/docs/docs/script-master/web-triggers/example-authorization',
                 component: ComponentCreator('/docs/docs/script-master/web-triggers/example-authorization', 'f13'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/workflow-conditions',
+                component: ComponentCreator('/docs/docs/script-master/workflow-conditions', 'd2b'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/workflow-post-functions',
+                component: ComponentCreator('/docs/docs/script-master/workflow-post-functions', '107'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/workflow-post-functions/example-add-comment',
+                component: ComponentCreator('/docs/docs/script-master/workflow-post-functions/example-add-comment', '0f0'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/workflow-validators',
+                component: ComponentCreator('/docs/docs/script-master/workflow-validators', '908'),
                 exact: true,
                 sidebar: "docs"
               },

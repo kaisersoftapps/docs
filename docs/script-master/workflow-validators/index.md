@@ -24,12 +24,18 @@ Here's a brief summary of the key points about Scripted Validators:
 
 Overall, Scripted Validators offer a robust solution for implementing advanced validation scenarios in Jira workflows.
 
-Scripted Validators implements [Forge Jira workflow validator](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-workflow-validator/) module. 
+Scripted Validators implements [Forge Jira workflow validator module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-workflow-validator/). 
 
 
 ## Context
 
-Jira expressions use JavaScript-like syntax. They support a subset of JavaScript constructs and features, here is a brief overview of some of the main ones [Jira Expressions](https://developer.atlassian.com/cloud/jira/platform/jira-expressions/)
+[Jira Expressions](https://developer.atlassian.com/cloud/jira/platform/jira-expressions/) use JavaScript-like syntax. They support a subset of JavaScript constructs and features, here is a brief overview of some of the main ones 
+
+- `user` (User): The user the condition is evaluated for.
+- `issue` (Issue): The issue selected for the transition.
+- `project` (Project): The project the issue belongs to.
+- `transition` (Transition): The transition that the condition is being evaluated against.
+- `workflow` (Workflow): The workflow that contains the condition.
 
 
 ## Configuration
@@ -61,6 +67,6 @@ Transition is allowed only if the issue has a comment from the current user.
 
 ```javascript
 issue.comments
-    .filter(c => c.author.accountId == user.accountId)
-    .length > 0
+  .filter(c => c.author.accountId == user.accountId)
+  .length > 0
 ```

@@ -18,7 +18,7 @@ These post-functions can be configured to perform a variety of tasks, such as se
   
 Please note that the script size for a workflow post-function must not exceed 100 kB; otherwise, it will not be saved.
 
-Scripted post-functions implements [Forge Jira workflow post function](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-workflow-post-function/) module. 
+Scripted post-functions implements [Forge Jira workflow post function module](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-workflow-post-function/). 
 
 
 ## Context

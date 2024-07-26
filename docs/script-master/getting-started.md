@@ -50,10 +50,15 @@ The app doesn't require any additional configuration, as it serves as a configur
 ### Start your customization journey with one of these modules:
 
 - [Script Console](./script-console/index.md)
+  - Powerful interface for executing and testing JavaScript code directly within the browser, offering immediate feedback and debugging capabilities. This feature allows users to streamline development processes, experiment with code snippets, and troubleshoot issues efficiently without the need for a separate development environment.
 - [Fragments](./fragments/index.md)
+  - Create reusable HTML and JavaScript UI blocks to extend your Jira and Confluence interfaces in multiple locations. It integrates with Forge Custom UI and Forge bridge APIs for advanced customization.
 - [Gadgets](./gadgets/index.md)
+  - Enhance Jira dashboards by allowing users to create and configure custom gadgets using HTML, CSS, and JavaScript. This flexibility enables dynamic visualizations, automation of workflows, and tailored interfaces, improving dashboard functionality and user interaction. It integrates with Forge Custom UI and Forge bridge APIs for advanced customization.
 - [Macros](./macros/index.md)
-- [Wen Triggers](./web-triggers/index.md)
-- [Workflow post-functions](./post-functions/)
+  - Enhance page content by allowing users to create dynamic, interactive macros tailored to their needs. They enable automation, custom layouts, and data integration, improving both functionality and usability of Confluence pages.
+- [Web Triggers](./web-triggers/index.md)
+  - Seamless integration of Jira or Confluence with external systems via JavaScript functions that respond to HTTP requests. They require no user authentication, support robust error handling and performance optimization, and offer scalability. Key benefits include ease of communication with Jira, automation of workflows, and enhanced functionality through custom actions.
 - [Custom fields](./custom-fields/)
+- Workflow [Post-functions](./post-functions/), [Validators](./workflow-validators/), [Conditions](./workflow-conditions/)
 
