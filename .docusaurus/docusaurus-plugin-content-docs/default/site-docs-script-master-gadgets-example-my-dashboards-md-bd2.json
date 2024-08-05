@@ -1,6 +1,6 @@
 {
   "id": "script-master/gadgets/example-my-dashboards",
-  "title": "Example: My Dashboards",
+  "title": "Example: My Dashboards gadget",
   "description": "This example for Jira version of Gadgets.",
   "source": "@site/docs/script-master/gadgets/example-my-dashboards.md",
   "sourceDirName": "script-master/gadgets",
@@ -17,7 +17,7 @@
     "permalink": "/docs/docs/script-master/gadgets/example-markdown-editor"
   },
   "next": {
-    "title": "Macros",
-    "permalink": "/docs/docs/script-master/macros/"
+    "title": "Example: My Filters gadget",
+    "permalink": "/docs/docs/script-master/gadgets/example-my-filters"
   }
 }

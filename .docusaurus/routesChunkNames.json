@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-1a8": {
+  "/docs/docs-3f9": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-bc8": {
+  "/docs/docs-ab3": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-fad": {
+  "/docs/docs-406": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -164,6 +164,10 @@
   "/docs/docs/script-master/gadgets/example-my-dashboards-4df": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-script-master-gadgets-example-my-dashboardsbd-2-107"
+  },
+  "/docs/docs/script-master/gadgets/example-my-filters-162": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-script-master-gadgets-example-my-filtersb-79-2fc"
   },
   "/docs/docs/script-master/getting-started-dbe": {
     "__comp": "__comp---theme-doc-item-178-a40",

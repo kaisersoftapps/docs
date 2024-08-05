@@ -1,4 +1,4 @@
-# Example: My Dashboards
+# Example: My Dashboards gadget
 
 :::tip Compatibility
 

@@ -131,6 +131,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/gadgets/example-my-filters",
+              "path": "/docs/docs/script-master/gadgets/example-my-filters",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/gadgets/index",
               "path": "/docs/docs/script-master/gadgets/",
               "sidebar": "docs"

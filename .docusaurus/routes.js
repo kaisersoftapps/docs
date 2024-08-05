@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '1a8'),
+    component: ComponentCreator('/docs/docs', '3f9'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'bc8'),
+        component: ComponentCreator('/docs/docs', 'ab3'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'fad'),
+            component: ComponentCreator('/docs/docs', '406'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -207,6 +207,12 @@ export default [
               {
                 path: '/docs/docs/script-master/gadgets/example-my-dashboards',
                 component: ComponentCreator('/docs/docs/script-master/gadgets/example-my-dashboards', '4df'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/gadgets/example-my-filters',
+                component: ComponentCreator('/docs/docs/script-master/gadgets/example-my-filters', '162'),
                 exact: true,
                 sidebar: "docs"
               },
