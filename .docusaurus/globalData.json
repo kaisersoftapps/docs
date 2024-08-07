@@ -46,6 +46,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "field-craft/modified-by/index",
+              "path": "/docs/docs/field-craft/modified-by/",
+              "sidebar": "docs"
+            },
+            {
               "id": "field-craft/parent-field/index",
               "path": "/docs/docs/field-craft/parent-field/",
               "sidebar": "docs"
