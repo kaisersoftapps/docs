@@ -2,7 +2,8 @@
 
 ## Overview
 
-The Time in Status field is a read-only metric that displays how long an issue remains in a specified status in Jira. It can monitor single or multiple statuses and automatically updates whenever an issue is opened or modified. To create and configure this field, refer to the [native Jira Custom Fields page](../getting-started.md).
+| ![](./img/time-in-status.png) | The Time in Status field is a read-only metric that displays how long an issue remains in a specified status in Jira. It can monitor single or multiple statuses and automatically updates whenever an issue is opened or modified. To create and configure this field, refer to the [native Jira Custom Fields page](../getting-started.md). |
+|---|:---|
 
 To use this field effectively, ensure you add statuses to monitor. If no statuses are specified, the field calculates the total time across all statuses.
 
@@ -38,3 +39,7 @@ graph LR
     E:::leadTime
     F:::cycleTime
 ```
+
+## Create and configure the custom field
+
+Create and configure your custom field by following the instructions in our [Getting Started](../getting-started.md) guide on FieldCraft Custom Field Configuration.

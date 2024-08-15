@@ -1,0 +1,23 @@
+{
+  "id": "content-craft/index",
+  "title": "▮ ContentCraft: Mermaid diagrams for Confluence",
+  "description": "Overview",
+  "source": "@site/docs/content-craft/index.md",
+  "sourceDirName": "content-craft",
+  "slug": "/content-craft/",
+  "permalink": "/docs/docs/content-craft/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "pagination_prev": null
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/ask-for-help/"
+  }
+}

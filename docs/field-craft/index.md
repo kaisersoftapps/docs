@@ -83,3 +83,13 @@ FieldCraft provides multiple custom field types with robust configuration to cus
 **Use Cases:**
 - Measure cycle time and lead time for issue resolution.
 - Monitor work in progress (WIP) time to optimize workflows.
+
+### [Calculated Metrics](./metrics/index.md)
+
+**Overview:**
+- A comprehensive set of automatically generated fields that present key metrics based on predefined criteria. Select from a variety of available options, such as the number of comments, linked issues, sub-tasks, components, and more, to display specific information on an issue.
+
+**Use Cases:**
+- Automatically display the number of linked issues or sub-tasks associated with a parent issue, making it easier to monitor dependencies and progress at a glance.
+- Track the number of comments on an issue to gauge the level of team engagement and communication.
+- Display the number of components or custom attributes linked to an issue, providing project managers with quick insights into the complexity and scope of the task.

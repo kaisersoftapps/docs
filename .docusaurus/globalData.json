@@ -21,6 +21,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "content-craft/index",
+              "path": "/docs/docs/content-craft/",
+              "sidebar": "docs"
+            },
+            {
               "id": "eula",
               "path": "/docs/docs/eula",
               "sidebar": "docs"
@@ -43,6 +48,11 @@
             {
               "id": "field-craft/index",
               "path": "/docs/docs/field-craft/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "field-craft/metrics/index",
+              "path": "/docs/docs/field-craft/metrics/",
               "sidebar": "docs"
             },
             {
@@ -258,15 +268,6 @@
         }
       ],
       "breadcrumbs": true
-    }
-  },
-  "docusaurus-plugin-google-gtag": {
-    "default": {
-      "trackingID": [
-        "G-MVSZZG9F0H"
-      ],
-      "anonymizeIP": true,
-      "id": "default"
     }
   }
 }

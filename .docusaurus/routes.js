@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'b7d'),
+    component: ComponentCreator('/docs/docs', '20e'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '501'),
+        component: ComponentCreator('/docs/docs', '689'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '2e4'),
+            component: ComponentCreator('/docs/docs', 'c1d'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -63,6 +63,12 @@ export default [
               {
                 path: '/docs/docs/ask-for-help/create-har-file',
                 component: ComponentCreator('/docs/docs/ask-for-help/create-har-file', 'e49'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft',
+                component: ComponentCreator('/docs/docs/content-craft', '0ed'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -93,6 +99,12 @@ export default [
               {
                 path: '/docs/docs/field-craft/getting-started',
                 component: ComponentCreator('/docs/docs/field-craft/getting-started', 'd2f'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/metrics',
+                component: ComponentCreator('/docs/docs/field-craft/metrics', 'fd1'),
                 exact: true,
                 sidebar: "docs"
               },

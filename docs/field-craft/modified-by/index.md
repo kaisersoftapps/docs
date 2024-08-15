@@ -2,10 +2,10 @@
 
 ## Overview
 
-This read-only calculated custom field identifies the user who made the first or most recent update to the issue or a specific field within the issue. To create and configure this field, refer to the [native Jira Custom Fields page](../getting-started.md).
+| ![](./img/modified-by.png) | This read-only calculated custom field identifies the user who made the first or most recent update to the issue or a specific field within the issue. To create and configure this field, refer to the [native Jira Custom Fields page](../getting-started.md).  |
+|---|:---|
 
 
-## Purpose
 The "Modified By" field helps track changes and identify contributors, enhancing traceability and accountability within the project.
 
 
@@ -30,3 +30,8 @@ This field can be particularly useful for:
 - **Auditing Purposes**: Ensuring a clear record of who made changes and when.
 - **Monitoring Activity**: Keeping track of active contributors and the frequency of changes.
 - **Understanding Change History**: Gaining insights into the progression and updates made to an issue over time.
+
+
+## Create and configure the custom field
+
+Create and configure your custom field by following the instructions in our [Getting Started](../getting-started.md) guide on FieldCraft Custom Field Configuration.

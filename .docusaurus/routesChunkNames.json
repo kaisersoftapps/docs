@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-b7d": {
+  "/docs/docs-20e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-501": {
+  "/docs/docs-689": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-2e4": {
+  "/docs/docs-c1d": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -68,6 +68,10 @@
   "/docs/docs/ask-for-help/create-har-file-e49": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-ask-for-help-create-har-file-10-f-ac8"
+  },
+  "/docs/docs/content-craft-0ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-content-craftda-1-4e6"
   },
   "/docs/docs/eula-795": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -88,6 +92,10 @@
   "/docs/docs/field-craft/getting-started-d2f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-field-craft-getting-started-91-f-ad5"
+  },
+  "/docs/docs/field-craft/metrics-fd1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-field-craft-metricsbcd-d6b"
   },
   "/docs/docs/field-craft/modified-by-cc4": {
     "__comp": "__comp---theme-doc-item-178-a40",

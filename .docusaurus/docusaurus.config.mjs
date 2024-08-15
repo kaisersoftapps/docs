@@ -92,6 +92,11 @@ export default {
           "to": "docs/field-craft",
           "label": "FieldCraft",
           "position": "left"
+        },
+        {
+          "to": "docs/content-craft",
+          "label": "ContentCraft",
+          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -325,6 +330,11 @@ export default {
       "sidebar": {
         "hideable": false,
         "autoCollapseCategories": false
+      }
+    },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
       }
     },
     "metadata": [],

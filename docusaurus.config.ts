@@ -94,6 +94,7 @@ const config: Config = {
         { to: 'docs/event-planner', label: 'Event Planner', position: 'left' },
         { to: 'docs/team-voice', label: 'Team Voice', position: 'left' },
         { to: 'docs/field-craft', label: 'FieldCraft', position: 'left' },
+        { to: 'docs/content-craft', label: 'ContentCraft', position: 'left' },
       ],
     },
     footer: {

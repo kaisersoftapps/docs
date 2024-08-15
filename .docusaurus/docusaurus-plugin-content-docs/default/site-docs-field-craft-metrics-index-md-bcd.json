@@ -1,0 +1,23 @@
+{
+  "id": "field-craft/metrics/index",
+  "title": "Calculated Metrics",
+  "description": "Overview",
+  "source": "@site/docs/field-craft/metrics/index.md",
+  "sourceDirName": "field-craft/metrics",
+  "slug": "/field-craft/metrics/",
+  "permalink": "/docs/docs/field-craft/metrics/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "First/Last Field Change Time",
+    "permalink": "/docs/docs/field-craft/field-change-time/"
+  },
+  "next": {
+    "title": "Modified By",
+    "permalink": "/docs/docs/field-craft/modified-by/"
+  }
+}
