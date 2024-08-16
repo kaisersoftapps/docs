@@ -8,19 +8,31 @@ pagination_prev: null
 
 ## Overview
 
-| ![](/img/event-planner-logo.png) | Effortlessly plan and manage events with [Free Event Planner for Confluence](https://marketplace.atlassian.com/apps/1233865). |
-|---|:---|
+| ![](/img/event-planner-logo.png) | Effortlessly plan and manage events with [Free Event Planner for Confluence](https://marketplace.atlassian.com/apps/1233865) and [Free Event Planner for Jira](https://marketplace.atlassian.com/apps/1235075). |
+| -------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
 
- This intuitive [Confluence Macro](https://support.atlassian.com/confluence-cloud/docs/what-are-macros/) lets you create and edit events directly in view mode, providing a clear overview of upcoming events. Ideal for collaborative planning, it securely stores all data on your instance, enhancing teamwork and productivity — all at no cost. Elevate your event planning experience today with this user-friendly and secure tool.
+ This intuitive [Confluence Macro](https://support.atlassian.com/confluence-cloud/docs/what-are-macros/) or Issue Panel lets you create and edit events directly in view mode, providing a clear overview of upcoming events. Ideal for collaborative planning, it securely stores all data on your instance, enhancing teamwork and productivity — all at no cost. Elevate your event planning experience today with this user-friendly and secure tool.
+
 
 ## Quick start
 
-There are two ways to start using the "Event Planner" macro:
-1. Type "/event" in the Editor to find the macro.
-![](./img/intro-screenshot-1.png)
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-2. Select a macro from the list of all macros in the Editor.
-![](./img/intro-screenshot-2.png)
+<Tabs>
+  <TabItem value="conf" label="In Confluence version" default>
+    There are two ways to start using the "Event Planner" macro:
+    1. Type "/event" in the Editor to find the macro.
+    ![](./img/conf/intro-screenshot-1.png)
+
+    2. Select a macro from the list of all macros in the Editor.
+    ![](./img/conf/intro-screenshot-2.png)
+  </TabItem>
+  <TabItem value="jira" label="In Jira version">
+    Open "Event Planner" Issue Panel
+    ![](./img/jira/intro-screenshot-1.png)
+  </TabItem>
+</Tabs>
 
 
 ## Key Features
@@ -62,8 +74,7 @@ The macro provides beautiful export capabilities. You can export your event cale
 
 - **Intuitive Event Planning:** Simplify your event planning process with easy creation and editing of events in view mode.
 - **Collaborative Planning:** Enhance teamwork and productivity with a tool designed for collaborative editing.
-- **Data Security:** Keep all your data securely stored on your Confluence instance.
+- **Data Security:** Keep all your data securely stored on your Cloud instance.
 - **Free of Charge:** Enjoy all these features without any cost.
 
-Elevate your event planning experience today with Free Event Planner for Confluence!
-
+Elevate your event planning experience today with Free Event Planner!
