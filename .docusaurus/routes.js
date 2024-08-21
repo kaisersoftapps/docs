@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '201'),
+    component: ComponentCreator('/docs/docs', '118'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '7d2'),
+        component: ComponentCreator('/docs/docs', '565'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'a3d'),
+            component: ComponentCreator('/docs/docs', 'b40'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -453,6 +453,12 @@ export default [
               {
                 path: '/docs/docs/script-master/workflow-validators',
                 component: ComponentCreator('/docs/docs/script-master/workflow-validators', '908'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/security-policy',
+                component: ComponentCreator('/docs/docs/security-policy', '0fc'),
                 exact: true,
                 sidebar: "docs"
               },

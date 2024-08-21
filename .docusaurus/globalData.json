@@ -346,6 +346,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "security-policy",
+              "path": "/docs/docs/security-policy",
+              "sidebar": "docs"
+            },
+            {
               "id": "team-voice/access-tokens/index",
               "path": "/docs/docs/team-voice/access-tokens/",
               "sidebar": "docs"

@@ -18,5 +18,9 @@
   "previous": {
     "title": "Privacy Policy",
     "permalink": "/docs/docs/privacy-policy"
+  },
+  "next": {
+    "title": "Security Policy",
+    "permalink": "/docs/docs/security-policy"
   }
 }

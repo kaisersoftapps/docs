@@ -1,0 +1,22 @@
+{
+  "id": "security-policy",
+  "title": "Security Policy",
+  "description": "Principles",
+  "source": "@site/docs/security-policy.md",
+  "sourceDirName": ".",
+  "slug": "/security-policy",
+  "permalink": "/docs/docs/security-policy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "sidebar_position": 40
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "End-user license agreement",
+    "permalink": "/docs/docs/eula"
+  }
+}
