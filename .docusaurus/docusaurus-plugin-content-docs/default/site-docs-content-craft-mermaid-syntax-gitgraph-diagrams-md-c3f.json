@@ -1,0 +1,23 @@
+{
+  "id": "content-craft/mermaid-syntax/gitgraph-diagrams",
+  "title": "Gitgraph Diagrams",
+  "description": "Overview",
+  "source": "@site/docs/content-craft/mermaid-syntax/gitgraph-diagrams.md",
+  "sourceDirName": "content-craft/mermaid-syntax",
+  "slug": "/content-craft/mermaid-syntax/gitgraph-diagrams",
+  "permalink": "/docs/docs/content-craft/mermaid-syntax/gitgraph-diagrams",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Gantt diagrams",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/gantt-diagrams"
+  },
+  "next": {
+    "title": "Mindmap",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/mindmap"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "script-master/custom-fields/example-attachments-count",
+  "title": "Number field. Attachments count",
+  "description": "This example of a Number scripted field returns the count of attachments for the current issue.",
+  "source": "@site/docs/script-master/custom-fields/example-attachments-count.md",
+  "sourceDirName": "script-master/custom-fields",
+  "slug": "/script-master/custom-fields/example-attachments-count",
+  "permalink": "/docs/docs/script-master/custom-fields/example-attachments-count",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Custom Fields",
+    "permalink": "/docs/docs/script-master/custom-fields/"
+  },
+  "next": {
+    "title": "Number field. Comments count",
+    "permalink": "/docs/docs/script-master/custom-fields/example-comments-count"
+  }
+}

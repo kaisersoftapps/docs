@@ -1,0 +1,23 @@
+{
+  "id": "content-craft/mermaid-syntax/sankey-diagram",
+  "title": "Sankey diagram",
+  "description": "Overview",
+  "source": "@site/docs/content-craft/mermaid-syntax/sankey-diagram.md",
+  "sourceDirName": "content-craft/mermaid-syntax",
+  "slug": "/content-craft/mermaid-syntax/sankey-diagram",
+  "permalink": "/docs/docs/content-craft/mermaid-syntax/sankey-diagram",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Requirement diagram",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/requirement-diagram"
+  },
+  "next": {
+    "title": "Sequence diagram",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/sequence-diagrams"
+  }
+}

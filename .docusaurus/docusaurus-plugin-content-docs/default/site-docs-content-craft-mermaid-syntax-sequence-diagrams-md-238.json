@@ -1,0 +1,23 @@
+{
+  "id": "content-craft/mermaid-syntax/sequence-diagrams",
+  "title": "Sequence diagram",
+  "description": "Overview",
+  "source": "@site/docs/content-craft/mermaid-syntax/sequence-diagrams.md",
+  "sourceDirName": "content-craft/mermaid-syntax",
+  "slug": "/content-craft/mermaid-syntax/sequence-diagrams",
+  "permalink": "/docs/docs/content-craft/mermaid-syntax/sequence-diagrams",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Sankey diagram",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/sankey-diagram"
+  },
+  "next": {
+    "title": "State diagram",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/state-diagrams"
+  }
+}

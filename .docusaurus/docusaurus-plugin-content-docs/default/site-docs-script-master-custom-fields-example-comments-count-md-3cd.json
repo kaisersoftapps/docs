@@ -1,0 +1,23 @@
+{
+  "id": "script-master/custom-fields/example-comments-count",
+  "title": "Number field. Comments count",
+  "description": "This example of a Number scripted field returns the count of comments for the current issue.",
+  "source": "@site/docs/script-master/custom-fields/example-comments-count.md",
+  "sourceDirName": "script-master/custom-fields",
+  "slug": "/script-master/custom-fields/example-comments-count",
+  "permalink": "/docs/docs/script-master/custom-fields/example-comments-count",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Number field. Attachments count",
+    "permalink": "/docs/docs/script-master/custom-fields/example-attachments-count"
+  },
+  "next": {
+    "title": "User field. Parent Assignee",
+    "permalink": "/docs/docs/script-master/custom-fields/example-parent-assignee"
+  }
+}

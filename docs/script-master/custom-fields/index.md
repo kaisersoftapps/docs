@@ -82,56 +82,13 @@ To edit a scripted custom field:
 
 ## Examples
 
-### Number field. Comments count
-
-This example of a Number scripted field returns the count of comments for the current issue. 
-It uses a clever workaround with the "startAt=9999&maxResults=0" parameters. 
-By requesting Jira to "give me 0 issue comments, starting from comment 9999," the response always returns zero results. 
-However, the response includes a "total" property, which provides the total number of comments for the issue. 
-This method is much faster than retrieving and counting the actual comments.
-
-REST API for getting issue comments https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-comments/#api-rest-api-3-issue-issueidorkey-comment-get
-
-```javascript
-const response = await api.asUser().requestJira(route`/rest/api/3/issue/${payload.issue.id}/comment?startAt=9999&maxResults=0`, {
-  headers: { 'Accept': 'application/json'}
-});
-const data = await response.json();
-
-return data.total ?? 0;
-```
-
-
-### String field. Parent Status
-
-Displays the status of the parent issue.
-
-REST API for getting issue fields https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/#api-rest-api-3-issue-issueidorkey-get
-
-```javascript
-const response = await api.asUser().requestJira(route`/rest/api/3/issue/${payload.issue.id}?fields=parent`, {
-  headers: { 'Accept': 'application/json'}
-});
-const data = await response.json();
-
-return data?.fields?.parent?.fields?.status?.name; 
-```
-
-
-### User field. Parent Assignee
-
-Displays the Asssignee of the parent issue.
-
-REST API for getting issue fields https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/#api-rest-api-3-issue-issueidorkey-get
-
-```javascript
-const currentIssueResponse = await api.asUser().requestJira(route`/rest/api/3/issue/${payload.issue.id}?fields=parent`);
-const currentIssueData = await currentIssueResponse.json();
-
-const parentIssueResponse = await api.asUser().requestJira(route`/rest/api/3/issue/${currentIssueData?.fields?.parent?.id}?fields=assignee`);
-const parentIssueData = await parentIssueResponse.json();
-
-return {
-    accountId: parentIssueData?.fields?.assignee?.accountId
-}
-```
+- ### [Number field. Comments count](./example-comments-count.md)
+  - This example of a Number scripted field returns the count of comments for the current issue. 
+- ### [Number field. Attachments count](example-attachments-count.md)
+  - This example of a Number scripted field returns the count of attachments for the current issue. 
+- ### [Number field. Sub-tasks count](example-sub-tasks-count.md)
+  - This example of a Number scripted field returns the count of sub-tasks for the current issue. 
+- ### [String field. Parent Status](./example-parent-status.md)
+  -  Displays the status of the parent issue.
+- ### [User field. Parent Assignee](./example-parent-assignee.md)
+  - Displays the Asssignee of the parent issue.

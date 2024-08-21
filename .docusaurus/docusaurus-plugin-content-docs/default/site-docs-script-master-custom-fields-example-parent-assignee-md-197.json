@@ -1,0 +1,23 @@
+{
+  "id": "script-master/custom-fields/example-parent-assignee",
+  "title": "User field. Parent Assignee",
+  "description": "Displays the Asssignee of the parent issue.",
+  "source": "@site/docs/script-master/custom-fields/example-parent-assignee.md",
+  "sourceDirName": "script-master/custom-fields",
+  "slug": "/script-master/custom-fields/example-parent-assignee",
+  "permalink": "/docs/docs/script-master/custom-fields/example-parent-assignee",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Number field. Comments count",
+    "permalink": "/docs/docs/script-master/custom-fields/example-comments-count"
+  },
+  "next": {
+    "title": "String field. Parent Status",
+    "permalink": "/docs/docs/script-master/custom-fields/example-parent-status"
+  }
+}

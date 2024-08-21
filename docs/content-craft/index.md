@@ -24,23 +24,22 @@ Install the app from Atlassian Marketplace.
 The "Mermaid Diagram" macro allows you to create and display various types of diagrams directly on Confluence pages using Mermaid syntax. With support for flowcharts, sequence diagrams, Gantt charts, and more, this macro makes it easy to visualize complex information. It integrates seamlessly into Confluence, enabling dynamic, interactive diagrams that enhance your team's documentation and collaboration.
 
 Full list of supported diagram types:
-- Flowchart
-- Sequence Diagram
-- Class Diagram
-- State Diagram
-- Entity Relationship Diagram
-- User Journey
-- Gantt
-- Pie Chart
-- Quadrant Chart
-- Requirement Diagram
-- Gitgraph (Git) Diagram
-- Mindmaps
-- Timeline
-- Zenuml
-- Sankey
-- XYChart 🔥
-- Block Diagram 🔥
+- [Flowchart](./mermaid-syntax/flowcharts.md)
+- [Sequence Diagram](./mermaid-syntax/sequence-diagrams.md)
+- [Class Diagram](./mermaid-syntax/class-diagrams.md)
+- [State Diagram](./mermaid-syntax/state-diagrams.md)
+- [Entity Relationship Diagram](./mermaid-syntax/entity-relationship-diagrams.md)
+- [User Journey](./mermaid-syntax/user-journey-diagram.md)
+- [Gantt](./mermaid-syntax/gantt-diagrams.md)
+- [Pie Chart](./mermaid-syntax/pie-chart-diagrams.md)
+- [Quadrant Chart](./mermaid-syntax/quadrant-chart.md)
+- [Requirement Diagram](./mermaid-syntax/requirement-diagram.md)
+- [Gitgraph (Git) Diagram](./mermaid-syntax/)
+- [Mindmaps](./mermaid-syntax/mindmap.md)
+- [Timeline](./mermaid-syntax/timeline.md)
+- [Sankey](./mermaid-syntax/sankey-diagram.md)
+- [XYChart 🔥](./mermaid-syntax/xy-chart.md)
+- [Block Diagram 🔥](./mermaid-syntax/block-diagrams-documentation.md)
 
 ![](./img/screenshot-1.png)
 ![](./img/screenshot-2.png)

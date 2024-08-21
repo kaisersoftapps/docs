@@ -26,6 +26,91 @@
               "sidebar": "docs"
             },
             {
+              "id": "content-craft/mermaid-syntax/block-diagrams-documentation",
+              "path": "/docs/docs/content-craft/mermaid-syntax/block-diagrams-documentation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/class-diagrams",
+              "path": "/docs/docs/content-craft/mermaid-syntax/class-diagrams",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/entity-relationship-diagrams",
+              "path": "/docs/docs/content-craft/mermaid-syntax/entity-relationship-diagrams",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/flowcharts",
+              "path": "/docs/docs/content-craft/mermaid-syntax/flowcharts",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/gantt-diagrams",
+              "path": "/docs/docs/content-craft/mermaid-syntax/gantt-diagrams",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/gitgraph-diagrams",
+              "path": "/docs/docs/content-craft/mermaid-syntax/gitgraph-diagrams",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/index",
+              "path": "/docs/docs/content-craft/mermaid-syntax/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/mindmap",
+              "path": "/docs/docs/content-craft/mermaid-syntax/mindmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/pie-chart-diagrams",
+              "path": "/docs/docs/content-craft/mermaid-syntax/pie-chart-diagrams",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/quadrant-chart",
+              "path": "/docs/docs/content-craft/mermaid-syntax/quadrant-chart",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/requirement-diagram",
+              "path": "/docs/docs/content-craft/mermaid-syntax/requirement-diagram",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/sankey-diagram",
+              "path": "/docs/docs/content-craft/mermaid-syntax/sankey-diagram",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/sequence-diagrams",
+              "path": "/docs/docs/content-craft/mermaid-syntax/sequence-diagrams",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/state-diagrams",
+              "path": "/docs/docs/content-craft/mermaid-syntax/state-diagrams",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/timeline",
+              "path": "/docs/docs/content-craft/mermaid-syntax/timeline",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/user-journey-diagram",
+              "path": "/docs/docs/content-craft/mermaid-syntax/user-journey-diagram",
+              "sidebar": "docs"
+            },
+            {
+              "id": "content-craft/mermaid-syntax/xy-chart",
+              "path": "/docs/docs/content-craft/mermaid-syntax/xy-chart",
+              "sidebar": "docs"
+            },
+            {
               "id": "eula",
               "path": "/docs/docs/eula",
               "sidebar": "docs"
@@ -78,6 +163,31 @@
             {
               "id": "privacy-policy",
               "path": "/docs/docs/privacy-policy",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/custom-fields/example-attachments-count",
+              "path": "/docs/docs/script-master/custom-fields/example-attachments-count",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/custom-fields/example-comments-count",
+              "path": "/docs/docs/script-master/custom-fields/example-comments-count",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/custom-fields/example-parent-assignee",
+              "path": "/docs/docs/script-master/custom-fields/example-parent-assignee",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/custom-fields/example-parent-status",
+              "path": "/docs/docs/script-master/custom-fields/example-parent-status",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/custom-fields/example-sub-tasks-count",
+              "path": "/docs/docs/script-master/custom-fields/example-sub-tasks-count",
               "sidebar": "docs"
             },
             {

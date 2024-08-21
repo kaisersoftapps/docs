@@ -1,0 +1,23 @@
+{
+  "id": "content-craft/mermaid-syntax/user-journey-diagram",
+  "title": "User Journey Diagram",
+  "description": "Overview",
+  "source": "@site/docs/content-craft/mermaid-syntax/user-journey-diagram.md",
+  "sourceDirName": "content-craft/mermaid-syntax",
+  "slug": "/content-craft/mermaid-syntax/user-journey-diagram",
+  "permalink": "/docs/docs/content-craft/mermaid-syntax/user-journey-diagram",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Timeline diagram",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/timeline"
+  },
+  "next": {
+    "title": "XY Chart",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/xy-chart"
+  }
+}

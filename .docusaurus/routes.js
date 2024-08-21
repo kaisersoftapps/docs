@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '20e'),
+    component: ComponentCreator('/docs/docs', '201'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '689'),
+        component: ComponentCreator('/docs/docs', '7d2'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'c1d'),
+            component: ComponentCreator('/docs/docs', 'a3d'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -69,6 +69,108 @@ export default [
               {
                 path: '/docs/docs/content-craft',
                 component: ComponentCreator('/docs/docs/content-craft', '0ed'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax', '48a'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/block-diagrams-documentation',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/block-diagrams-documentation', 'a5a'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/class-diagrams',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/class-diagrams', 'd12'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/entity-relationship-diagrams',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/entity-relationship-diagrams', '1c7'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/flowcharts',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/flowcharts', '207'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/gantt-diagrams',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/gantt-diagrams', 'd05'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/gitgraph-diagrams',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/gitgraph-diagrams', '697'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/mindmap',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/mindmap', '68c'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/pie-chart-diagrams',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/pie-chart-diagrams', '7bc'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/quadrant-chart',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/quadrant-chart', '21c'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/requirement-diagram',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/requirement-diagram', '66e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/sankey-diagram',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/sankey-diagram', '92b'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/sequence-diagrams',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/sequence-diagrams', '9e4'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/state-diagrams',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/state-diagrams', '3de'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/timeline',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/timeline', 'dd2'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/user-journey-diagram',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/user-journey-diagram', 'bec'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/content-craft/mermaid-syntax/xy-chart',
+                component: ComponentCreator('/docs/docs/content-craft/mermaid-syntax/xy-chart', '9c6'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -147,6 +249,36 @@ export default [
               {
                 path: '/docs/docs/script-master/custom-fields',
                 component: ComponentCreator('/docs/docs/script-master/custom-fields', '016'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/custom-fields/example-attachments-count',
+                component: ComponentCreator('/docs/docs/script-master/custom-fields/example-attachments-count', '88b'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/custom-fields/example-comments-count',
+                component: ComponentCreator('/docs/docs/script-master/custom-fields/example-comments-count', '36d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/custom-fields/example-parent-assignee',
+                component: ComponentCreator('/docs/docs/script-master/custom-fields/example-parent-assignee', 'b57'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/custom-fields/example-parent-status',
+                component: ComponentCreator('/docs/docs/script-master/custom-fields/example-parent-status', '5ec'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/custom-fields/example-sub-tasks-count',
+                component: ComponentCreator('/docs/docs/script-master/custom-fields/example-sub-tasks-count', '003'),
                 exact: true,
                 sidebar: "docs"
               },

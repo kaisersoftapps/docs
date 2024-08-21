@@ -1,0 +1,23 @@
+{
+  "id": "script-master/custom-fields/example-parent-status",
+  "title": "String field. Parent Status",
+  "description": "Displays the status of the parent issue.",
+  "source": "@site/docs/script-master/custom-fields/example-parent-status.md",
+  "sourceDirName": "script-master/custom-fields",
+  "slug": "/script-master/custom-fields/example-parent-status",
+  "permalink": "/docs/docs/script-master/custom-fields/example-parent-status",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "User field. Parent Assignee",
+    "permalink": "/docs/docs/script-master/custom-fields/example-parent-assignee"
+  },
+  "next": {
+    "title": "Number field. Sub-tasks count",
+    "permalink": "/docs/docs/script-master/custom-fields/example-sub-tasks-count"
+  }
+}

@@ -34,8 +34,8 @@ This CSS file from Atlaskit provides a minimal reset along with base styles for 
 Check for datails [https://atlassian.design/components/css-reset/examples](https://atlassian.design/components/css-reset/examples).
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@atlaskit/css-reset@3.0.1/dist/bundle.css" />
-...the rest part of your custom UI...
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@atlaskit/css-reset" />
+<!-- ...the rest part of your custom UI... -->
 ```
 
 
@@ -54,12 +54,49 @@ To catch all errors in your code and display them as meaningful messages, use th
 ```
 
 
+### "strict mode"
+
+Defines that JavaScript code should be executed in "strict mode".  It helps you to write cleaner code, like preventing you from using undeclared variables.
+
+```html
+<!-- ...the rest part of your custom UI... -->
+<script type="module">
+    'use strict';
+     // the rest part of your amazing script
+</script>
+```
+
+
+### Dark Mode support
+
+```html
+<!-- ...the rest part of your custom UI... -->
+<script type="module">
+    // Dark theme support
+    document.querySelector(":root").setAttribute("data-color-mode", theme.colorMode);
+    document.querySelector(":root").setAttribute("data-theme", `${theme.colorMode}:${theme.colorMode}`);
+    document.querySelector(":root").insertAdjacentHTML("afterbegin", `<link rel="stylesheet" href="https://forge.cdn.prod.atlassian-dev.net/atlaskit-tokens_${theme.colorMode}.css" />`);
+</script>
+```
+
+
+### Resize window to content
+
+```html
+<!-- ...the rest part of your custom UI... -->
+<script type="module">
+    // Resize window
+    setHeight(document.querySelector(':root').scrollHeight + 'px');
+</script>
+```
+
+
 ### Hidden Macro
 
 Sometimes a macro should add functionality to the page without being visible. You can place the macro at the bottom of the page and set its height to the smallest possible value.
 
 ```html
-...the rest part of your custom UI...
+<!-- ...the rest part of your custom UI... -->
 <script type="module">
     setHeight('0px'); // Set the macro height as small as possible
 </script>

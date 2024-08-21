@@ -1,0 +1,23 @@
+{
+  "id": "content-craft/mermaid-syntax/flowcharts copy",
+  "title": "Flowcharts",
+  "description": "Overview",
+  "source": "@site/docs/content-craft/mermaid-syntax/flowcharts copy.md",
+  "sourceDirName": "content-craft/mermaid-syntax",
+  "slug": "/content-craft/mermaid-syntax/flowcharts copy",
+  "permalink": "/docs/docs/content-craft/mermaid-syntax/flowcharts copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Class diagrams",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/class-diagrams"
+  },
+  "next": {
+    "title": "Flowcharts",
+    "permalink": "/docs/docs/content-craft/mermaid-syntax/flowcharts"
+  }
+}
