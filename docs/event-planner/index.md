@@ -13,6 +13,8 @@ pagination_prev: null
 
  This intuitive [Confluence Macro](https://support.atlassian.com/confluence-cloud/docs/what-are-macros/) or Issue Panel lets you create and edit events directly in view mode, providing a clear overview of upcoming events. Ideal for collaborative planning, it securely stores all data on your instance, enhancing teamwork and productivity — all at no cost. Elevate your event planning experience today with this user-friendly and secure tool.
 
+ <iframe width="100%" src="https://www.youtube.com/watch?v=0uNdy_QY9sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Quick start
 
