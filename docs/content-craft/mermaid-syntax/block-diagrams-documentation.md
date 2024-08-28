@@ -15,7 +15,7 @@ In mermaid flowcharts, automatic layout can sometimes move shapes to undesired p
 block-beta
 columns 1
   db(("DB"))
-  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
+  blockArrowId6<[" "]>(down)
   block:ID
     A
     B["A wide one in the middle"]
@@ -26,7 +26,6 @@ columns 1
   ID --> D
   C --> D
   style B fill:#969,stroke:#333,stroke-width:4px
-
 ```
 
 ## Example
@@ -35,7 +34,7 @@ columns 1
 block-beta
 columns 1
   db(("DB"))
-  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
+  blockArrowId6<[" "]>(down)
   block:ID
     A
     B["A wide one in the middle"]
@@ -46,5 +45,4 @@ columns 1
   ID --> D
   C --> D
   style B fill:#969,stroke:#333,stroke-width:4px
-
 ```

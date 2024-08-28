@@ -3,25 +3,47 @@ sidebar_position: 5
 pagination_prev: null
 ---
 
-# ▮ ContentCraft: Mermaid diagrams for Confluence
+# ▮ ContentCraft: Mermaid diagrams for Confluence and Jira
 
 ## Overview
 
-| ![](./img/cc-logo.png) | "ContentCraft: Mermaid diagrams for Confluence" is an app, that  provides a powerful "Mermaid Diagram" macro that enables users to effortlessly create and render diagrams using Mermaid syntax directly on their Confluence pages. This tool is perfect for visually representing complex information such as flowcharts, sequence diagrams, Gantt charts, and more. By integrating Mermaid syntax, users can enhance their documentation with visually appealing and easy-to-understand diagrams, making their Confluence pages more dynamic and informative. The app is ideal for teams looking to improve their communication and documentation through clear and concise visual representations. |
+| ![](./img/cc-logo.png) | [ContentCraft: Mermaid diagrams for Confluence](https://marketplace.atlassian.com/apps/1235105) and [ContentCraft: Mermaid diagrams for Jira](https://marketplace.atlassian.com/apps/1235178) are powerful apps that provide a "Mermaid Diagram" viewer and editor, allowing users to effortlessly create and render diagrams using Mermaid syntax directly within Atlassian Cloud instances. These tools are perfect for visually representing complex information such as flowcharts, sequence diagrams, Gantt charts, and more. By integrating Mermaid syntax, users can enhance their documentation with visually appealing and easy-to-understand diagrams, making Confluence pages or Jira issues more dynamic and informative. These apps are ideal for teams looking to improve their communication and documentation through clear and concise visual representations. |
 |---|:---|
 
 
 ### Who is this app for?
-This app is for teams and individuals who use Confluence and want to easily create and embed visually appealing diagrams using Mermaid syntax to enhance their documentation and communication.
 
-## Installation and configuration
+This app is designed for teams and individuals using Confluence Cloud or Jira Cloud who want to easily create and embed visually appealing diagrams using Mermaid syntax. It enhances documentation and communication by providing clear, visual representations of information.
 
-Install the app from Atlassian Marketplace.
+
+## Installation and Configuration
+
+Install the app from the Atlassian Marketplace:
+
+-  [ContentCraft: Mermaid diagrams for Confluence](https://marketplace.atlassian.com/apps/1235105)
+-  [ContentCraft: Mermaid diagrams for Jira](https://marketplace.atlassian.com/apps/1235178)
+
+
+To use the app:
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="jira" label="In Jira version" default>
+    - Open any Jira issue
+    - Enable "Diagrams" panel
+  </TabItem>
+  <TabItem value="conf" label="In Confluence version">
+    - Open any Confluence page
+    - Insert "Mermaid Diagram" macro
+  </TabItem>
+</Tabs>
 
 
 ## Features Overview
 
-The "Mermaid Diagram" macro allows you to create and display various types of diagrams directly on Confluence pages using Mermaid syntax. With support for flowcharts, sequence diagrams, Gantt charts, and more, this macro makes it easy to visualize complex information. It integrates seamlessly into Confluence, enabling dynamic, interactive diagrams that enhance your team's documentation and collaboration.
+The "ContentCraft" app allows you to create and display various types of diagrams directly on Confluence pages or Jira issues using Mermaid syntax. With support for flowcharts, sequence diagrams, Gantt charts, and more, this app makes it easy to visualize complex information. It integrates seamlessly into your Atlassian Cloud application, enabling dynamic, interactive diagrams that enhance your team's documentation and collaboration.
 
 Full list of supported diagram types:
 - [Flowchart](./mermaid-syntax/flowcharts.md)
