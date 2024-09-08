@@ -43,3 +43,5 @@ graph LR
 ## Create and configure the custom field
 
 Create and configure your custom field by following the instructions in our [Getting Started](../getting-started.md) guide on FieldCraft Custom Field Configuration.
+
+For detailed instructions on how to configure working hours, refer to the [Work Calendars guide](../work-calendars.md).

@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '118'),
+    component: ComponentCreator('/docs/docs', '0e2'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '565'),
+        component: ComponentCreator('/docs/docs', '584'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'b40'),
+            component: ComponentCreator('/docs/docs', '1a9'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -231,6 +231,12 @@ export default [
               {
                 path: '/docs/docs/field-craft/transinions-count',
                 component: ComponentCreator('/docs/docs/field-craft/transinions-count', 'f37'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/work-calendars',
+                component: ComponentCreator('/docs/docs/field-craft/work-calendars', 'eee'),
                 exact: true,
                 sidebar: "docs"
               },

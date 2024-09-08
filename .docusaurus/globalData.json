@@ -161,6 +161,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "field-craft/work-calendars",
+              "path": "/docs/docs/field-craft/work-calendars",
+              "sidebar": "docs"
+            },
+            {
               "id": "privacy-policy",
               "path": "/docs/docs/privacy-policy",
               "sidebar": "docs"
