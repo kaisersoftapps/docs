@@ -21,6 +21,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "config-master/index",
+              "path": "/docs/docs/config-master/",
+              "sidebar": "docs"
+            },
+            {
               "id": "content-craft/index",
               "path": "/docs/docs/content-craft/",
               "sidebar": "docs"

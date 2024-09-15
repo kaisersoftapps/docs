@@ -28,15 +28,20 @@ To use the app:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import ReactPlayer from 'react-player'
 
 <Tabs>
   <TabItem value="jira" label="In Jira version" default>
     - Open any Jira issue
     - Enable "Diagrams" panel
+
+    <ReactPlayer controls width='100%' url='https://www.youtube.com/watch?v=pX7ML3Ikxuo' />
   </TabItem>
   <TabItem value="conf" label="In Confluence version">
     - Open any Confluence page
     - Insert "Mermaid Diagram" macro
+
+    <ReactPlayer controls width='100%' url='https://www.youtube.com/watch?v=4DJH-C6wJlg' />
   </TabItem>
 </Tabs>
 

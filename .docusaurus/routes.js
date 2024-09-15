@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '0e2'),
+    component: ComponentCreator('/docs/docs', '726'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '584'),
+        component: ComponentCreator('/docs/docs', 'edb'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '1a9'),
+            component: ComponentCreator('/docs/docs', 'b19'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -63,6 +63,12 @@ export default [
               {
                 path: '/docs/docs/ask-for-help/create-har-file',
                 component: ComponentCreator('/docs/docs/ask-for-help/create-har-file', 'e49'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/config-master',
+                component: ComponentCreator('/docs/docs/config-master', 'd8f'),
                 exact: true,
                 sidebar: "docs"
               },

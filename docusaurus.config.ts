@@ -95,6 +95,7 @@ const config: Config = {
         { to: 'docs/team-voice', label: 'Team Voice', position: 'left' },
         { to: 'docs/field-craft', label: 'FieldCraft', position: 'left' },
         { to: 'docs/content-craft', label: 'ContentCraft', position: 'left' },
+        { to: 'docs/config-master', label: 'ConfigMaster', position: 'left' },
       ],
     },
     footer: {

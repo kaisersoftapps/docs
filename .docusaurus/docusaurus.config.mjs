@@ -97,6 +97,11 @@ export default {
           "to": "docs/content-craft",
           "label": "ContentCraft",
           "position": "left"
+        },
+        {
+          "to": "docs/config-master",
+          "label": "ConfigMaster",
+          "position": "left"
         }
       ],
       "hideOnScroll": false
