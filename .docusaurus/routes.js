@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '726'),
+    component: ComponentCreator('/docs/docs', 'c9e'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'edb'),
+        component: ComponentCreator('/docs/docs', '23b'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'b19'),
+            component: ComponentCreator('/docs/docs', '349'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -243,6 +243,12 @@ export default [
               {
                 path: '/docs/docs/field-craft/work-calendars',
                 component: ComponentCreator('/docs/docs/field-craft/work-calendars', 'eee'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/host-checker',
+                component: ComponentCreator('/docs/docs/host-checker', '03a'),
                 exact: true,
                 sidebar: "docs"
               },

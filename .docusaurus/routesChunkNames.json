@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-726": {
+  "/docs/docs-c9e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-edb": {
+  "/docs/docs-23b": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-b19": {
+  "/docs/docs-349": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -188,6 +188,10 @@
   "/docs/docs/field-craft/work-calendars-eee": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-field-craft-work-calendars-9-e-2-974"
+  },
+  "/docs/docs/host-checker-03a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-host-checker-008-07f"
   },
   "/docs/docs/privacy-policy-905": {
     "__comp": "__comp---theme-doc-item-178-a40",

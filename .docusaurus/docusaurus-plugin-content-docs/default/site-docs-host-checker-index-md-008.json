@@ -1,0 +1,23 @@
+{
+  "id": "host-checker/index",
+  "title": "▮ Host Checker",
+  "description": "Overview",
+  "source": "@site/docs/host-checker/index.md",
+  "sourceDirName": "host-checker",
+  "slug": "/host-checker/",
+  "permalink": "/docs/docs/host-checker/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "pagination_prev": null
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/ask-for-help/"
+  }
+}

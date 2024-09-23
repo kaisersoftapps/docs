@@ -1,11 +1,11 @@
 {
-  "id": "config-master/index",
+  "id": "config-master copy/index",
   "title": "▮ ConfigMaster: Configuration Export for Jira",
   "description": "Overview",
-  "source": "@site/docs/config-master/index.md",
-  "sourceDirName": "config-master",
-  "slug": "/config-master/",
-  "permalink": "/docs/docs/config-master/",
+  "source": "@site/docs/config-master copy/index.md",
+  "sourceDirName": "config-master copy",
+  "slug": "/config-master copy/",
+  "permalink": "/docs/docs/config-master copy/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,7 +17,7 @@
   },
   "sidebar": "docs",
   "next": {
-    "title": "▮ Host Checker",
-    "permalink": "/docs/docs/host-checker/"
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/ask-for-help/"
   }
 }

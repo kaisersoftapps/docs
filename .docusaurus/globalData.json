@@ -171,6 +171,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "host-checker/index",
+              "path": "/docs/docs/host-checker/",
+              "sidebar": "docs"
+            },
+            {
               "id": "privacy-policy",
               "path": "/docs/docs/privacy-policy",
               "sidebar": "docs"
