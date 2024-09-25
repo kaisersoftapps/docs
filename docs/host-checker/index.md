@@ -9,6 +9,12 @@ pagination_prev: null
 
 **Host Checker for Jira & Confluence** allows you to monitor the availability of URLs and host names within both Jira issues and Confluence pages. It provides real-time status updates, showing whether a site is online or offline, making it an essential tool for tracking key systems and services, performing inventory checks, and building simple status pages.
 
+:::note
+
+Please note that the app does not check for specific status codes. Instead, it only verifies that a response is received. As a result, status codes in the 4xx and 5xx range will still be interpreted as "online" because the host is responding, even though these indicate errors.
+
+:::
+
 
 ## Installation and Configuration
 
@@ -33,7 +39,7 @@ import ReactPlayer from 'react-player'
   </TabItem>
   <TabItem value="conf" label="In Confluence version">
     - Open any Confluence page
-    - Insert "Host Checkerm" macro
+    - Insert "Host Checker" macro
     ![](./img/conf-macro-screenshot-1.png)
     ![](./img/conf-macro-screenshot-2.png)
   </TabItem>
