@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'c9e'),
+    component: ComponentCreator('/docs/docs', 'bda'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '23b'),
+        component: ComponentCreator('/docs/docs', 'ef7'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '349'),
+            component: ComponentCreator('/docs/docs', '2a7'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -237,6 +237,12 @@ export default [
               {
                 path: '/docs/docs/field-craft/transinions-count',
                 component: ComponentCreator('/docs/docs/field-craft/transinions-count', 'f37'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/troubleshooting-and-support',
+                component: ComponentCreator('/docs/docs/field-craft/troubleshooting-and-support', '494'),
                 exact: true,
                 sidebar: "docs"
               },

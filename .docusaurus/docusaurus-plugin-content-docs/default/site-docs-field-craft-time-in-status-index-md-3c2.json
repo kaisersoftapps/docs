@@ -10,14 +10,17 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 80,
+  "frontMatter": {
+    "sidebar_position": 80
+  },
   "sidebar": "docs",
   "previous": {
-    "title": "Parent Field",
-    "permalink": "/docs/docs/field-craft/parent-field/"
-  },
-  "next": {
     "title": "Transitions Count",
     "permalink": "/docs/docs/field-craft/transinions-count/"
+  },
+  "next": {
+    "title": "Work Calendars",
+    "permalink": "/docs/docs/field-craft/work-calendars"
   }
 }

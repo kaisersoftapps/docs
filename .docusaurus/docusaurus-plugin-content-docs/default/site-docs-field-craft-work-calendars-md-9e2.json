@@ -10,14 +10,17 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 90,
+  "frontMatter": {
+    "sidebar_position": 90
+  },
   "sidebar": "docs",
   "previous": {
-    "title": "Transitions Count",
-    "permalink": "/docs/docs/field-craft/transinions-count/"
+    "title": "Time in Status",
+    "permalink": "/docs/docs/field-craft/time-in-status/"
   },
   "next": {
-    "title": "▮ ContentCraft: Mermaid diagrams for Confluence and Jira",
-    "permalink": "/docs/docs/content-craft/"
+    "title": "Troubleshooting and Support",
+    "permalink": "/docs/docs/field-craft/troubleshooting-and-support"
   }
 }

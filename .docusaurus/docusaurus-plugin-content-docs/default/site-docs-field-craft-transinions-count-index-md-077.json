@@ -10,14 +10,17 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 70,
+  "frontMatter": {
+    "sidebar_position": 70
+  },
   "sidebar": "docs",
   "previous": {
-    "title": "Time in Status",
-    "permalink": "/docs/docs/field-craft/time-in-status/"
+    "title": "Parent Field",
+    "permalink": "/docs/docs/field-craft/parent-field/"
   },
   "next": {
-    "title": "Work Calendars",
-    "permalink": "/docs/docs/field-craft/work-calendars"
+    "title": "Time in Status",
+    "permalink": "/docs/docs/field-craft/time-in-status/"
   }
 }

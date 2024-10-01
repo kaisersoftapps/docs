@@ -1,0 +1,26 @@
+{
+  "id": "field-craft/troubleshooting-and-support",
+  "title": "Troubleshooting and Support",
+  "description": "If you have any questions or encounter issues while using our app, please don't hesitate to reach out to our support team.",
+  "source": "@site/docs/field-craft/troubleshooting-and-support.md",
+  "sourceDirName": "field-craft",
+  "slug": "/field-craft/troubleshooting-and-support",
+  "permalink": "/docs/docs/field-craft/troubleshooting-and-support",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 999,
+  "frontMatter": {
+    "sidebar_position": 999
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Work Calendars",
+    "permalink": "/docs/docs/field-craft/work-calendars"
+  },
+  "next": {
+    "title": "▮ ContentCraft: Mermaid diagrams for Confluence and Jira",
+    "permalink": "/docs/docs/content-craft/"
+  }
+}

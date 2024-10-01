@@ -10,7 +10,10 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "sidebar_position": 40
+  },
   "sidebar": "docs",
   "previous": {
     "title": "Calculated Metrics",

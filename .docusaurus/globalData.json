@@ -166,6 +166,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "field-craft/troubleshooting-and-support",
+              "path": "/docs/docs/field-craft/troubleshooting-and-support",
+              "sidebar": "docs"
+            },
+            {
               "id": "field-craft/work-calendars",
               "path": "/docs/docs/field-craft/work-calendars",
               "sidebar": "docs"

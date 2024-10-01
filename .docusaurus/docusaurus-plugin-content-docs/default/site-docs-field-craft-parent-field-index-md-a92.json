@@ -10,14 +10,17 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 50,
+  "frontMatter": {
+    "sidebar_position": 50
+  },
   "sidebar": "docs",
   "previous": {
     "title": "Modified By",
     "permalink": "/docs/docs/field-craft/modified-by/"
   },
   "next": {
-    "title": "Time in Status",
-    "permalink": "/docs/docs/field-craft/time-in-status/"
+    "title": "Transitions Count",
+    "permalink": "/docs/docs/field-craft/transinions-count/"
   }
 }
