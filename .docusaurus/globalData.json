@@ -181,6 +181,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "free-view/index",
+              "path": "/docs/docs/free-view/",
+              "sidebar": "docs"
+            },
+            {
               "id": "host-checker/index",
               "path": "/docs/docs/host-checker/",
               "sidebar": "docs"

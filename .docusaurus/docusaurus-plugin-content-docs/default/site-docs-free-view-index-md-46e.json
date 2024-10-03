@@ -1,0 +1,23 @@
+{
+  "id": "free-view/index",
+  "title": "▮ FreeView: Share content with External Users",
+  "description": "Overview",
+  "source": "@site/docs/free-view/index.md",
+  "sourceDirName": "free-view",
+  "slug": "/free-view/",
+  "permalink": "/docs/docs/free-view/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "pagination_prev": null
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/ask-for-help/"
+  }
+}
