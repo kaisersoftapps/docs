@@ -1,0 +1,26 @@
+{
+  "id": "field-craft/reindex",
+  "title": "Reindexing",
+  "description": "Overview",
+  "source": "@site/docs/field-craft/reindex.md",
+  "sourceDirName": "field-craft",
+  "slug": "/field-craft/reindex",
+  "permalink": "/docs/docs/field-craft/reindex",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 91,
+  "frontMatter": {
+    "sidebar_position": 91
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Work Calendars",
+    "permalink": "/docs/docs/field-craft/work-calendars"
+  },
+  "next": {
+    "title": "Troubleshooting and Support",
+    "permalink": "/docs/docs/field-craft/troubleshooting-and-support"
+  }
+}
