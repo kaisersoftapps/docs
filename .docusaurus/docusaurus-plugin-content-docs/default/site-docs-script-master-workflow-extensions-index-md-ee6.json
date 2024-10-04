@@ -1,0 +1,26 @@
+{
+  "id": "script-master/workflow-extensions/index",
+  "title": "Workflow Extensions",
+  "description": "This module available in Script Master for Jira only.",
+  "source": "@site/docs/script-master/workflow-extensions/index.md",
+  "sourceDirName": "script-master/workflow-extensions",
+  "slug": "/script-master/workflow-extensions/",
+  "permalink": "/docs/docs/script-master/workflow-extensions/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 86,
+  "frontMatter": {
+    "sidebar_position": 86
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Number field. Sub-tasks count",
+    "permalink": "/docs/docs/script-master/custom-fields/example-sub-tasks-count"
+  },
+  "next": {
+    "title": "Workflow post-functions",
+    "permalink": "/docs/docs/script-master/workflow-extensions/workflow-post-functions/"
+  }
+}

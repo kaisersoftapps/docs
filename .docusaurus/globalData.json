@@ -356,23 +356,28 @@
               "sidebar": "docs"
             },
             {
-              "id": "script-master/workflow-conditions/index",
-              "path": "/docs/docs/script-master/workflow-conditions/",
+              "id": "script-master/workflow-extensions/index",
+              "path": "/docs/docs/script-master/workflow-extensions/",
               "sidebar": "docs"
             },
             {
-              "id": "script-master/workflow-post-functions/example-add-comment",
-              "path": "/docs/docs/script-master/workflow-post-functions/example-add-comment",
+              "id": "script-master/workflow-extensions/workflow-conditions/index",
+              "path": "/docs/docs/script-master/workflow-extensions/workflow-conditions/",
               "sidebar": "docs"
             },
             {
-              "id": "script-master/workflow-post-functions/index",
-              "path": "/docs/docs/script-master/workflow-post-functions/",
+              "id": "script-master/workflow-extensions/workflow-post-functions/example-add-comment",
+              "path": "/docs/docs/script-master/workflow-extensions/workflow-post-functions/example-add-comment",
               "sidebar": "docs"
             },
             {
-              "id": "script-master/workflow-validators/index",
-              "path": "/docs/docs/script-master/workflow-validators/",
+              "id": "script-master/workflow-extensions/workflow-post-functions/index",
+              "path": "/docs/docs/script-master/workflow-extensions/workflow-post-functions/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/workflow-extensions/workflow-validators/index",
+              "path": "/docs/docs/script-master/workflow-extensions/workflow-validators/",
               "sidebar": "docs"
             },
             {

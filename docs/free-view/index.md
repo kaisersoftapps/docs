@@ -39,7 +39,6 @@ import ReactPlayer from 'react-player'
 - **External Access**: Allow unlicensed users to view shared content.
 - **Easy Sharing**: Seamless sharing via "Share Public Link" in issue/page actions.
 - **Content Control**: Each link is unique; control who has access by managing link distribution.
-- **Compatible with Jira and Confluence**: Works across both platforms for consistent sharing.
 
 
 ## Testimonials from our internal Atlassian consultants

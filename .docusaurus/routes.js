@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '1ed'),
+    component: ComponentCreator('/docs/docs', '48c'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'eca'),
+        component: ComponentCreator('/docs/docs', '332'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '7d4'),
+            component: ComponentCreator('/docs/docs', 'ffa'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -469,26 +469,32 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/workflow-conditions',
-                component: ComponentCreator('/docs/docs/script-master/workflow-conditions', 'd2b'),
+                path: '/docs/docs/script-master/workflow-extensions',
+                component: ComponentCreator('/docs/docs/script-master/workflow-extensions', '887'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/workflow-post-functions',
-                component: ComponentCreator('/docs/docs/script-master/workflow-post-functions', '107'),
+                path: '/docs/docs/script-master/workflow-extensions/workflow-conditions',
+                component: ComponentCreator('/docs/docs/script-master/workflow-extensions/workflow-conditions', '6b3'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/workflow-post-functions/example-add-comment',
-                component: ComponentCreator('/docs/docs/script-master/workflow-post-functions/example-add-comment', '0f0'),
+                path: '/docs/docs/script-master/workflow-extensions/workflow-post-functions',
+                component: ComponentCreator('/docs/docs/script-master/workflow-extensions/workflow-post-functions', 'f0c'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/workflow-validators',
-                component: ComponentCreator('/docs/docs/script-master/workflow-validators', '908'),
+                path: '/docs/docs/script-master/workflow-extensions/workflow-post-functions/example-add-comment',
+                component: ComponentCreator('/docs/docs/script-master/workflow-extensions/workflow-post-functions/example-add-comment', 'f85'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/workflow-extensions/workflow-validators',
+                component: ComponentCreator('/docs/docs/script-master/workflow-extensions/workflow-validators', '197'),
                 exact: true,
                 sidebar: "docs"
               },

@@ -17,7 +17,7 @@
   "sidebar": "docs",
   "previous": {
     "title": "Workflow Conditions",
-    "permalink": "/docs/docs/script-master/workflow-conditions/"
+    "permalink": "/docs/docs/script-master/workflow-extensions/workflow-conditions/"
   },
   "next": {
     "title": "Use external editor with live reloading",
