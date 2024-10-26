@@ -1,11 +1,11 @@
 {
-  "id": "free-view/index",
+  "id": "free-view copy/index",
   "title": "▮ FreeView: Share content with External Users",
   "description": "Overview",
-  "source": "@site/docs/free-view/index.md",
-  "sourceDirName": "free-view",
-  "slug": "/free-view/",
-  "permalink": "/docs/docs/free-view/",
+  "source": "@site/docs/free-view copy/index.md",
+  "sourceDirName": "free-view copy",
+  "slug": "/free-view copy/",
+  "permalink": "/docs/docs/free-view copy/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,7 +17,7 @@
   },
   "sidebar": "docs",
   "next": {
-    "title": "▮ Secrets for Jira: Password-Protected Content",
-    "permalink": "/docs/docs/secrets/"
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/ask-for-help/"
   }
 }

@@ -381,6 +381,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "secrets/index",
+              "path": "/docs/docs/secrets/",
+              "sidebar": "docs"
+            },
+            {
               "id": "security-policy",
               "path": "/docs/docs/security-policy",
               "sidebar": "docs"
