@@ -48,6 +48,13 @@ pagination_prev: null
 ![](/img/team-voice/Screenshot2024-05-23at12.03.04.png)
 
 
+## Poll Permissions
+
+- **Participate:** *View* permission (Confluence/Jira).  
+- **Create/Edit/Delete:** *Edit* permission (Confluence/Jira).
+
+See [Permissions](./permissions/index.md) for details. 
+
 ## Benefits
 
 - **Improved Team Engagement**: By simplifying the polling process, Team Voice encourages more frequent and meaningful participation from team members.

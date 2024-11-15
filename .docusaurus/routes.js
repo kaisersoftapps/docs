@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'ace'),
+    component: ComponentCreator('/docs/docs', 'ed5'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '3aa'),
+        component: ComponentCreator('/docs/docs', 'a41'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '251'),
+            component: ComponentCreator('/docs/docs', '24a'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -519,6 +519,12 @@ export default [
               {
                 path: '/docs/docs/team-voice/access-tokens',
                 component: ComponentCreator('/docs/docs/team-voice/access-tokens', '528'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/team-voice/permissions',
+                component: ComponentCreator('/docs/docs/team-voice/permissions', '745'),
                 exact: true,
                 sidebar: "docs"
               },

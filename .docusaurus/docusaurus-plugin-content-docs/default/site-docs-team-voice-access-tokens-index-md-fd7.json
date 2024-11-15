@@ -10,14 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 10,
+  "sidebarPosition": 20,
   "frontMatter": {
-    "sidebar_position": 10
+    "sidebar_position": 20
   },
   "sidebar": "docs",
   "previous": {
-    "title": "▮ Team Voice app",
-    "permalink": "/docs/docs/team-voice/"
+    "title": "Permissions",
+    "permalink": "/docs/docs/team-voice/permissions/"
   },
   "next": {
     "title": "REST API",

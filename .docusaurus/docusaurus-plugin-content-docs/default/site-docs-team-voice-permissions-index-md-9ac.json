@@ -1,0 +1,26 @@
+{
+  "id": "team-voice/permissions/index",
+  "title": "Permissions",
+  "description": "Participate in a Poll or Vote",
+  "source": "@site/docs/team-voice/permissions/index.md",
+  "sourceDirName": "team-voice/permissions",
+  "slug": "/team-voice/permissions/",
+  "permalink": "/docs/docs/team-voice/permissions/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "▮ Team Voice app",
+    "permalink": "/docs/docs/team-voice/"
+  },
+  "next": {
+    "title": "Access Tokens",
+    "permalink": "/docs/docs/team-voice/access-tokens/"
+  }
+}
