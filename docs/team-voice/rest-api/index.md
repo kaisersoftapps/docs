@@ -33,6 +33,7 @@ Get polls related to content (issues in Jira and pages in Confluence).
 - `workspace` (required): Project key in Jira and Space id in Confluence
 - `content` (required): Issue key for Jira and page id in Confluence
 - `container` (required for Confluence only): Empty in Jira and macro id in Confluence
+- `expand` (optional): Use the value 'results' to retrieve polls that include calculated results.
 
 **Example for Jira version:**
 
