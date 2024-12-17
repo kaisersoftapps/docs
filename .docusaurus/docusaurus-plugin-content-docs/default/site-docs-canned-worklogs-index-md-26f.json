@@ -1,0 +1,23 @@
+{
+  "id": "canned-worklogs/index",
+  "title": "▮ Canned Worklogs",
+  "description": "Save time and ensure consistency with reusable worklog templates for your recurring tasks.",
+  "source": "@site/docs/canned-worklogs/index.md",
+  "sourceDirName": "canned-worklogs",
+  "slug": "/canned-worklogs/",
+  "permalink": "/docs/docs/canned-worklogs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20,
+    "pagination_prev": null
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Ask for Help",
+    "permalink": "/docs/docs/ask-for-help/"
+  }
+}

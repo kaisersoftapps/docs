@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'ed5'),
+    component: ComponentCreator('/docs/docs', '7fd'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'a41'),
+        component: ComponentCreator('/docs/docs', '44e'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '24a'),
+            component: ComponentCreator('/docs/docs', 'e75'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -63,6 +63,12 @@ export default [
               {
                 path: '/docs/docs/ask-for-help/create-har-file',
                 component: ComponentCreator('/docs/docs/ask-for-help/create-har-file', 'e49'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/canned-worklogs',
+                component: ComponentCreator('/docs/docs/canned-worklogs', '1c3'),
                 exact: true,
                 sidebar: "docs"
               },

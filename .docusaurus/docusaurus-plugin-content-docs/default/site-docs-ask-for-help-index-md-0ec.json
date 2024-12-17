@@ -10,9 +10,9 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 10,
+  "sidebarPosition": 100,
   "frontMatter": {
-    "sidebar_position": 10,
+    "sidebar_position": 100,
     "pagination_next": "terms-of-use",
     "pagination_prev": null
   },

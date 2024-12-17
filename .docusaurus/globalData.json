@@ -21,6 +21,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "canned-worklogs/index",
+              "path": "/docs/docs/canned-worklogs/",
+              "sidebar": "docs"
+            },
+            {
               "id": "config-master/index",
               "path": "/docs/docs/config-master/",
               "sidebar": "docs"

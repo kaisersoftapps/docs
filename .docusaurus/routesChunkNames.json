@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-ed5": {
+  "/docs/docs-7fd": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-a41": {
+  "/docs/docs-44e": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-24a": {
+  "/docs/docs-e75": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -68,6 +68,10 @@
   "/docs/docs/ask-for-help/create-har-file-e49": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-ask-for-help-create-har-file-10-f-ac8"
+  },
+  "/docs/docs/canned-worklogs-1c3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-canned-worklogs-26-f-b1e"
   },
   "/docs/docs/config-master-d8f": {
     "__comp": "__comp---theme-doc-item-178-a40",

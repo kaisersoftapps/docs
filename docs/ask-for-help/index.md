@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 100
 pagination_next: terms-of-use
 pagination_prev: null
 ---
