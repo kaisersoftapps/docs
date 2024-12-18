@@ -99,6 +99,11 @@ export default {
           "position": "left"
         },
         {
+          "to": "docs/secrets",
+          "label": "Secrets",
+          "position": "left"
+        },
+        {
           "to": "docs/config-master",
           "label": "ConfigMaster",
           "position": "left"
