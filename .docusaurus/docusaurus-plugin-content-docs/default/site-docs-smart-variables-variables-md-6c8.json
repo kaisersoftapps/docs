@@ -1,0 +1,23 @@
+{
+  "id": "smart-variables/variables",
+  "title": "Variable Reference Guide",
+  "description": "Smart variables are dynamic variables that can make your content more flexible. Each smart variable is constructed using a specific syntax called dot notation inside double mustache brackets. It's written as a hierarchy, starting with a top-level object and followed by properties of that object, {{object.property.subProperty}}. Notice that multiword properties use camelCase capitalization.",
+  "source": "@site/docs/smart-variables/variables.md",
+  "sourceDirName": "smart-variables",
+  "slug": "/smart-variables/variables",
+  "permalink": "/docs/docs/smart-variables/variables",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "▮ Smart Variables",
+    "permalink": "/docs/docs/smart-variables/"
+  },
+  "next": {
+    "title": "▮ Canned Worklogs",
+    "permalink": "/docs/docs/canned-worklogs/"
+  }
+}

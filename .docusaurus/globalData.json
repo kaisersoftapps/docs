@@ -396,6 +396,16 @@
               "sidebar": "docs"
             },
             {
+              "id": "smart-variables/index",
+              "path": "/docs/docs/smart-variables/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "smart-variables/variables",
+              "path": "/docs/docs/smart-variables/variables",
+              "sidebar": "docs"
+            },
+            {
               "id": "team-voice/access-tokens/index",
               "path": "/docs/docs/team-voice/access-tokens/",
               "sidebar": "docs"

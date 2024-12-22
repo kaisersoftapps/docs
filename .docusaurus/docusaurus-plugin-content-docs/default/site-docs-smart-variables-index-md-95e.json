@@ -1,0 +1,23 @@
+{
+  "id": "smart-variables/index",
+  "title": "▮ Smart Variables",
+  "description": "The Smart Variables empowers your Confluence pages with rich, dynamic content. By inserting variables like {{space.status}} or {{page.author.email}}, you can effortlessly pull live data about your Confluence spaces and pages, turning static pages into powerful, interactive content hubs.",
+  "source": "@site/docs/smart-variables/index.md",
+  "sourceDirName": "smart-variables",
+  "slug": "/smart-variables/",
+  "permalink": "/docs/docs/smart-variables/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "pagination_prev": null
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Variable Reference Guide",
+    "permalink": "/docs/docs/smart-variables/variables"
+  }
+}

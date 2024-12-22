@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '7fd'),
+    component: ComponentCreator('/docs/docs', 'c3e'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '44e'),
+        component: ComponentCreator('/docs/docs', '360'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'e75'),
+            component: ComponentCreator('/docs/docs', 'a33'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -513,6 +513,18 @@ export default [
               {
                 path: '/docs/docs/security-policy',
                 component: ComponentCreator('/docs/docs/security-policy', '0fc'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/smart-variables',
+                component: ComponentCreator('/docs/docs/smart-variables', '0da'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/smart-variables/variables',
+                component: ComponentCreator('/docs/docs/smart-variables/variables', 'b09'),
                 exact: true,
                 sidebar: "docs"
               },

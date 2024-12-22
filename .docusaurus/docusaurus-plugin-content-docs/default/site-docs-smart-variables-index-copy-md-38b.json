@@ -1,0 +1,23 @@
+{
+  "id": "smart-variables/index copy",
+  "title": "▮ Smart Variables",
+  "description": "The Smart Variables empowers your Confluence pages with rich, dynamic content. By inserting variables like {{space.status}} or {{page.author.email}}, you can effortlessly pull live data about your Confluence spaces and pages, turning static pages into powerful, interactive content hubs.",
+  "source": "@site/docs/smart-variables/index copy.md",
+  "sourceDirName": "smart-variables",
+  "slug": "/smart-variables/index copy",
+  "permalink": "/docs/docs/smart-variables/index copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "pagination_prev": null
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "▮ Canned Worklogs",
+    "permalink": "/docs/docs/canned-worklogs/"
+  }
+}
