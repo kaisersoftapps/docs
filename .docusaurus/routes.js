@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'c3e'),
+    component: ComponentCreator('/docs/docs', 'c99'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '360'),
+        component: ComponentCreator('/docs/docs', 'ee7'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'a33'),
+            component: ComponentCreator('/docs/docs', '798'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -350,13 +350,13 @@ export default [
               },
               {
                 path: '/docs/docs/script-master/forge-bridge-back',
-                component: ComponentCreator('/docs/docs/script-master/forge-bridge-back', 'e06'),
+                component: ComponentCreator('/docs/docs/script-master/forge-bridge-back', 'f16'),
                 exact: true,
                 sidebar: "docs"
               },
               {
                 path: '/docs/docs/script-master/forge-bridge-front',
-                component: ComponentCreator('/docs/docs/script-master/forge-bridge-front', 'c22'),
+                component: ComponentCreator('/docs/docs/script-master/forge-bridge-front', 'a1b'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -415,6 +415,12 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/docs/script-master/listeners',
+                component: ComponentCreator('/docs/docs/script-master/listeners', '94a'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/docs/script-master/macros',
                 component: ComponentCreator('/docs/docs/script-master/macros', '7ed'),
                 exact: true,
@@ -423,6 +429,12 @@ export default [
               {
                 path: '/docs/docs/script-master/macros/example-add-labels',
                 component: ComponentCreator('/docs/docs/script-master/macros/example-add-labels', '2bc'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/scheduled-jobs',
+                component: ComponentCreator('/docs/docs/script-master/scheduled-jobs', '6e7'),
                 exact: true,
                 sidebar: "docs"
               },

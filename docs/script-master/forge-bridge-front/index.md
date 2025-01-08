@@ -6,7 +6,10 @@ sidebar_position: 160
 
 ## Forge API
 
-Inside Custom UI related modules (like [Script Console](./script-console/) or [Fragments](./fragments/)), you can use these global forge bridge objects and functions to access your application:
+<div style={{ display: "flex", gap: "20px", "justify-content": "space-between", "align-content": "center", width: "100%" }}>
+  <div><img src={require('./img/front-end-script.png').default} style={{width: 100}} /></div>
+  <div>Inside Custom UI related modules (like [Script Console](./script-console/) or [Fragments](./fragments/)), you can use these global forge bridge objects and functions to access your application:</div>
+</div>
 
 - `view`: The [view](https://developer.atlassian.com/platform/forge/apis-reference/ui-api-bridge/view/) object represents the context in which a resource is loaded, such as within a modal dialog. This context provides relevant information and methods for managing the resource.
 
@@ -102,6 +105,9 @@ Sometimes a macro should add functionality to the page without being visible. Yo
 </script>
 ```
 
+## Logging and debugging
+
+<iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/embed/s1QtjiFlrsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 :::note
 

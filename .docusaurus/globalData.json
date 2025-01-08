@@ -251,13 +251,13 @@
               "sidebar": "docs"
             },
             {
-              "id": "script-master/forge-bridge-back",
-              "path": "/docs/docs/script-master/forge-bridge-back",
+              "id": "script-master/forge-bridge-back/index",
+              "path": "/docs/docs/script-master/forge-bridge-back/",
               "sidebar": "docs"
             },
             {
-              "id": "script-master/forge-bridge-front",
-              "path": "/docs/docs/script-master/forge-bridge-front",
+              "id": "script-master/forge-bridge-front/index",
+              "path": "/docs/docs/script-master/forge-bridge-front/",
               "sidebar": "docs"
             },
             {
@@ -311,6 +311,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/listeners/index",
+              "path": "/docs/docs/script-master/listeners/",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/macros/example-add-labels",
               "path": "/docs/docs/script-master/macros/example-add-labels",
               "sidebar": "docs"
@@ -318,6 +323,11 @@
             {
               "id": "script-master/macros/index",
               "path": "/docs/docs/script-master/macros/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/scheduled-jobs/index",
+              "path": "/docs/docs/script-master/scheduled-jobs/",
               "sidebar": "docs"
             },
             {

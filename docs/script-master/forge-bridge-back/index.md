@@ -4,7 +4,12 @@ sidebar_position: 150
 
 # Forge Bridge API for backend FaaS functions
 
-Inside Forge backend FaaS function modules (like [Web Trigger](./web-triggers/), [Custom Fields](./custom-fields/), [Workflow post-functions](./post-functions/)), you can use these global  bridge objects and functions from `'@forge/api'` to access your application:
+<div style={{ display: "flex", gap: "20px", "justify-content": "space-between", "align-content": "center", width: "100%" }}>
+  <div><img src={require('./img/back-end-script.png').default} style={{width: 100}} /></div>
+  <div>Inside Forge backend FaaS function modules (like [Web Trigger](./web-triggers/), [Custom Fields](./custom-fields/), [Workflow post-functions](./post-functions/)), you can use these global  bridge objects and functions from `'@forge/api'` to access your application:</div>
+</div>
+
+## API
 
 - `api`: The [api](https://developer.atlassian.com/platform/forge/apis-reference/fetch-api-product.requestjira/) provides access to both the [requestJira](https://developer.atlassian.com/platform/forge/apis-reference/fetch-api-product.requestjira/) and [requestConfluence](https://developer.atlassian.com/platform/forge/apis-reference/fetch-api-product.requestconfluence/), which allow you to access data from your application through the REST API.
  
@@ -39,6 +44,10 @@ const request = '...request details...';
 your script
 
 ```
+
+## Logging and debugging
+
+<iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/embed/dj7WeGBfl7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 :::note

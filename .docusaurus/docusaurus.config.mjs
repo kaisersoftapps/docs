@@ -124,7 +124,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 KaiserSoft"
+      "copyright": "Copyright © 2025 KaiserSoft"
     },
     "prism": {
       "theme": {

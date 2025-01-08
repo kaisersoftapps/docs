@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Overview
 
 | ![](/img/script-master-logo.png) | Script Master is a unique app built on top of the [Atlassian Forge framework](https://developer.atlassian.com/platform/forge/). It allows Atlassian Administrators to build Forge-compatible scripts, UI extensions, and integrations directly within Jira Cloud and Confluence Cloud, without the need for complex build processes or additional infrastructure. |
-|---|:---|
+| -------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### Who is this app for?
 First of all, it is for Atlassian Consultants and Atlassian Administrators, who need to perform bulk updates, automate tasks, extend the UI of Jira Cloud and Confluence Cloud, and create flexible integrations.
@@ -16,10 +16,33 @@ Script Master could replace dozens of other apps because you don't need to insta
 
 
 ### The uniqueness of the app
+
+<div style={{ display: "flex", gap: "20px", "justify-content": "space-between", "align-content": "center", width: "100%" }}>
+  <div style={{ display: "flex", "flex-direction": "column", "justify-content": "flex-start", "align-content": "center", "align-items": "center", width: "100%" }}>
+    <div>![](./img/get-started.png)</div>
+    <h3>Start Small, Build Only What You Need</h3>
+    <div>Jump in with minimal effort - try out the app and get a feel for the experience. With so many ways to customize Jira and Confluence, you can start with just the features you need, without worrying about disrupting anything else.</div>
+  </div>
+  <div style={{ display: "flex", "flex-direction": "column", "justify-content": "flex-start", "align-content": "center", "align-items": "center", width: "100%" }}>
+    <div>![](./img/grow-as-you-go.png)</div>
+    <h3>Grow at Your Own Pace</h3>
+    <div>Get started quickly with built-in code snippets and ready-to-use examples. As your needs expand, create fully Forge-compatible apps with advanced, custom business logic - no limits, no hassle.</div>
+  </div>
+  <div style={{ display: "flex", "flex-direction": "column", "justify-content": "flex-start", "align-content": "center", "align-items": "center", width: "100%" }}>
+    <div>![](./img/leave-anytime.png)</div>
+    <h3>No Strings Attached</h3>
+    <div>Outgrow the app? No problem. If your functionality gets too big, it’s easy to transition to a standalone Forge app. You’re never locked in, so you can scale however you like.</div>
+  </div>
+</div>
+
+---
+
 1. It is 100% a Forge app, and not one byte will leave your instance or Atlassian infrastructure. All the scripts and customizations are hosted directly on your instance and within the Atlassian platform.
 2. It is fully compatible with the latest Forge version, and you can take the built script and start making an independent Forge app at any time if you decide that your customization requires more independence.
-3. It is the one and only app that allows Administrators to create custom Issue Panels, Project Pages, Gadgets, Macros and many more directly inside the Jira or Confluence platform and implement all the needs of your users without installing new apps from the Marketplace.
+3. It is the one and only app that allows Administrators to create custom scripted [Issue Panels, Project Pages](./fragments/index.md), [Gadgets](./gadgets/index.md), [Custom Fields](./custom-fields/index.md), [Post-functions](./workflow-extensions/workflow-post-functions/index.md), [Macros](./macros/index.md) and many more directly inside the Jira or Confluence platform and implement all the needs of your users without installing new apps from the Marketplace.
 4. It allows you to use both the [Backend API: Forge FaaS (Functions as a Service)](./forge-bridge-back.md) and [Frontend API: Forge Custom UI](./forge-bridge-front.md) directly from your Jira instance in real-time.
+
+
 
 
 ## Installation and configuration

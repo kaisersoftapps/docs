@@ -1,0 +1,26 @@
+{
+  "id": "script-master/listeners/index",
+  "title": "Listeners",
+  "description": "What are Listeners?",
+  "source": "@site/docs/script-master/listeners/index.md",
+  "sourceDirName": "script-master/listeners",
+  "slug": "/script-master/listeners/",
+  "permalink": "/docs/docs/script-master/listeners/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 62,
+  "frontMatter": {
+    "sidebar_position": 62
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Scheduled Jobs",
+    "permalink": "/docs/docs/script-master/scheduled-jobs/"
+  },
+  "next": {
+    "title": "Custom Fields",
+    "permalink": "/docs/docs/script-master/custom-fields/"
+  }
+}

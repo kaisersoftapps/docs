@@ -1,0 +1,26 @@
+{
+  "id": "script-master/scheduled-jobs/index",
+  "title": "Scheduled Jobs",
+  "description": "This module is available for both the Jira and Confluence versions of the app.",
+  "source": "@site/docs/script-master/scheduled-jobs/index.md",
+  "sourceDirName": "script-master/scheduled-jobs",
+  "slug": "/script-master/scheduled-jobs/",
+  "permalink": "/docs/docs/script-master/scheduled-jobs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 61,
+  "frontMatter": {
+    "sidebar_position": 61
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Example: Authorization",
+    "permalink": "/docs/docs/script-master/web-triggers/example-authorization"
+  },
+  "next": {
+    "title": "Listeners",
+    "permalink": "/docs/docs/script-master/listeners/"
+  }
+}
