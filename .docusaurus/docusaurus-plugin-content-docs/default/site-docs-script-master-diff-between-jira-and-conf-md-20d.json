@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Forge Bridge API for Custom UI",
-    "permalink": "/docs/docs/script-master/forge-bridge-front/"
+    "title": "Protected Scripts Execution",
+    "permalink": "/docs/docs/script-master/protected-script-execution"
   },
   "next": {
     "title": "FAQ",

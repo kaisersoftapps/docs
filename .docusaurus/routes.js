@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'c99'),
+    component: ComponentCreator('/docs/docs', '161'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', 'ee7'),
+        component: ComponentCreator('/docs/docs', '185'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '798'),
+            component: ComponentCreator('/docs/docs', 'f76'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -429,6 +429,12 @@ export default [
               {
                 path: '/docs/docs/script-master/macros/example-add-labels',
                 component: ComponentCreator('/docs/docs/script-master/macros/example-add-labels', '2bc'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/protected-script-execution',
+                component: ComponentCreator('/docs/docs/script-master/protected-script-execution', 'ec8'),
                 exact: true,
                 sidebar: "docs"
               },

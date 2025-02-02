@@ -326,6 +326,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/protected-script-execution",
+              "path": "/docs/docs/script-master/protected-script-execution",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/scheduled-jobs/index",
               "path": "/docs/docs/script-master/scheduled-jobs/",
               "sidebar": "docs"
