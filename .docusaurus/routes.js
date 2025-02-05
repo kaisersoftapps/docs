@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '161'),
+    component: ComponentCreator('/docs/docs', '71e'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '185'),
+        component: ComponentCreator('/docs/docs', '021'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'f76'),
+            component: ComponentCreator('/docs/docs', 'f3d'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -433,12 +433,6 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/docs/docs/script-master/protected-script-execution',
-                component: ComponentCreator('/docs/docs/script-master/protected-script-execution', 'ec8'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
                 path: '/docs/docs/script-master/scheduled-jobs',
                 component: ComponentCreator('/docs/docs/script-master/scheduled-jobs', '6e7'),
                 exact: true,
@@ -477,6 +471,12 @@ export default [
               {
                 path: '/docs/docs/script-master/script-console/example-transfer-filters-ownership',
                 component: ComponentCreator('/docs/docs/script-master/script-console/example-transfer-filters-ownership', '334'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/secured-script-execution',
+                component: ComponentCreator('/docs/docs/script-master/secured-script-execution', '759'),
                 exact: true,
                 sidebar: "docs"
               },

@@ -326,11 +326,6 @@
               "sidebar": "docs"
             },
             {
-              "id": "script-master/protected-script-execution",
-              "path": "/docs/docs/script-master/protected-script-execution",
-              "sidebar": "docs"
-            },
-            {
               "id": "script-master/scheduled-jobs/index",
               "path": "/docs/docs/script-master/scheduled-jobs/",
               "sidebar": "docs"
@@ -363,6 +358,11 @@
             {
               "id": "script-master/script-console/index",
               "path": "/docs/docs/script-master/script-console/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/secured-script-execution",
+              "path": "/docs/docs/script-master/secured-script-execution",
               "sidebar": "docs"
             },
             {

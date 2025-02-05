@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-161": {
+  "/docs/docs-71e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-185": {
+  "/docs/docs-021": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-f76": {
+  "/docs/docs-f3d": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -313,10 +313,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-script-master-macros-example-add-labels-7-c-8-671"
   },
-  "/docs/docs/script-master/protected-script-execution-ec8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docs-script-master-protected-script-execution-25-e-8a9"
-  },
   "/docs/docs/script-master/scheduled-jobs-6e7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-script-master-scheduled-jobs-8-f-8-2ab"
@@ -344,6 +340,10 @@
   "/docs/docs/script-master/script-console/example-transfer-filters-ownership-334": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-script-master-script-console-example-transfer-filters-ownership-8-b-6-ee8"
+  },
+  "/docs/docs/script-master/secured-script-execution-759": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-script-master-secured-script-execution-479-578"
   },
   "/docs/docs/script-master/web-triggers-aef": {
     "__comp": "__comp---theme-doc-item-178-a40",

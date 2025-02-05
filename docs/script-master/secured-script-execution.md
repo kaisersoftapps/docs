@@ -8,7 +8,7 @@ sidebar_position: 170
 
 The app allows executing custom JavaScript scripts in two modes: **Secured** and **Unsecured**.
 
-- **Unsecured Execution** (deprecated): Scripts run directly in the shared Forge backend context. This mode is intended for testing purposes only, as it poses security risks due to shared tenancy. **We strongly advise against using this mode.**
+- **Unsecured Execution** (deprecated): Scripts run directly in the shared Forge backend context. This mode is intended for testing purposes only, as it poses security risks due to shared tenancy. **We strongly advise against using this mode**.
 
 - **Secured Execution**: Scripts are executed securely through a dedicated external app, isolating script execution from the shared Forge backend and ensuring robust security.
 
