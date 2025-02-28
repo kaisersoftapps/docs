@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-71e": {
+  "/docs/docs-0ec": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-021": {
+  "/docs/docs-6b6": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-f3d": {
+  "/docs/docs-345": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -180,6 +180,10 @@
   "/docs/docs/field-craft/parent-field-947": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-field-craft-parent-fielda-92-c05"
+  },
+  "/docs/docs/field-craft/performance-limitations-90c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-field-craft-performance-limitationsba-9-033"
   },
   "/docs/docs/field-craft/reindex-087": {
     "__comp": "__comp---theme-doc-item-178-a40",

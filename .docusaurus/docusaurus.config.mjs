@@ -122,6 +122,15 @@ export default {
               "to": "https://marketplace.atlassian.com/vendors/1225884/"
             }
           ]
+        },
+        {
+          "title": "Youtube",
+          "items": [
+            {
+              "label": "Guides, Tutorials and more",
+              "to": "https://www.youtube.com/@KaiserSoft"
+            }
+          ]
         }
       ],
       "copyright": "Copyright © 2025 KaiserSoft"

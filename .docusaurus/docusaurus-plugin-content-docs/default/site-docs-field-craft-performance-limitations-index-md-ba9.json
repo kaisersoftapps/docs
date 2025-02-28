@@ -1,0 +1,26 @@
+{
+  "id": "field-craft/performance-limitations/index",
+  "title": "Performance and limitations",
+  "description": "FieldCraft, as an Atlassian Forge app, provides Calculated Custom Fields functionality and has some limitations due to the Forge platform's architecture.",
+  "source": "@site/docs/field-craft/performance-limitations/index.md",
+  "sourceDirName": "field-craft/performance-limitations",
+  "slug": "/field-craft/performance-limitations/",
+  "permalink": "/docs/docs/field-craft/performance-limitations/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 900,
+  "frontMatter": {
+    "sidebar_position": 900
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Reindexing",
+    "permalink": "/docs/docs/field-craft/reindex/"
+  },
+  "next": {
+    "title": "Troubleshooting and Support",
+    "permalink": "/docs/docs/field-craft/troubleshooting-and-support/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "field-craft/troubleshooting-and-support copy/index",
+  "title": "Troubleshooting and Support",
+  "description": "Questions, bug reports, feature requests",
+  "source": "@site/docs/field-craft/troubleshooting-and-support copy/index.md",
+  "sourceDirName": "field-craft/troubleshooting-and-support copy",
+  "slug": "/field-craft/troubleshooting-and-support copy/",
+  "permalink": "/docs/docs/field-craft/troubleshooting-and-support copy/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 999,
+  "frontMatter": {
+    "sidebar_position": 999
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Troubleshooting and Support",
+    "permalink": "/docs/docs/field-craft/troubleshooting-and-support/"
+  },
+  "next": {
+    "title": "▮ ContentCraft: Mermaid diagrams for Confluence and Jira",
+    "permalink": "/docs/docs/content-craft/"
+  }
+}

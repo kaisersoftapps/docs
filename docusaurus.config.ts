@@ -112,6 +112,15 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: "Youtube",
+          items: [
+            {
+              label: "Guides, Tutorials and more",
+              to: "https://www.youtube.com/@KaiserSoft",
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} KaiserSoft`,
     },

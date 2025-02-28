@@ -93,3 +93,31 @@ FieldCraft provides multiple custom field types with robust configuration to cus
 - Automatically display the number of linked issues or sub-tasks associated with a parent issue, making it easier to monitor dependencies and progress at a glance.
 - Track the number of comments on an issue to gauge the level of team engagement and communication.
 - Display the number of components or custom attributes linked to an issue, providing project managers with quick insights into the complexity and scope of the task.
+
+### [Parent Field Value](./parent-field/index.md)
+
+**Overview:**
+- Easily display a parent ticket’s field value on a sub-task. This is perfect for monitoring the parent’s status or any other key field. The functionality also works for fetching Epic fields in linked issues and parent fields in sub-tasks.
+
+**Use Cases:**
+- **Parent Assignee/Status/Labels/Priority and other fields:** Display the value of the parent issue's field (epic for standard tasks, standard tasks for sub-tasks) without needing to switch between the current issue and its parent.
+
+
+### [Modified by](./modified-by/index.md)
+
+**Overview:**
+- The field type identifies the user who made the first or most recent update to the issue or a specific field within the issue. 
+
+**Use Cases:**
+- **Auditing Purposes**: Ensuring a clear record of who made changes and when.
+- **Monitoring Activity**: Keeping track of active contributors and the frequency of changes.
+- **Understanding Change History**: Gaining insights into the progression and updates made to an issue over time.
+
+
+## Performance and limitations
+
+:::warning
+
+Please pay attention to [some limitations of calculated Custom Fields](./performance-limitations/index.md)
+
+:::

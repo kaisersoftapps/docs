@@ -161,6 +161,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "field-craft/performance-limitations/index",
+              "path": "/docs/docs/field-craft/performance-limitations/",
+              "sidebar": "docs"
+            },
+            {
               "id": "field-craft/reindex/index",
               "path": "/docs/docs/field-craft/reindex/",
               "sidebar": "docs"

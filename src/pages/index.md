@@ -10,52 +10,24 @@ Welcome to the documentation for our Jira and Confluence apps! Whether you're a 
 
 The suite of apps, developed by KaiserSoft, extends the capabilities of Jira and Confluence, providing you with advanced features to streamline your workflow, improve team collaboration, and boost productivity.
 
-Links to the apps documentation:
+
+## Jira apps
+
+- [<img src={require('/img/script-master-logo.png').default} style={{width: 16}} /> Script Master for Jira](docs/script-master)
+- [<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 16}} /> Team Voice for Jira](docs/team-voice)
+- [<img src={require('/img/field-craft/field-craft-logo.png').default} style={{width: 16}} /> FieldCraft: Custom Fields for Jira](docs/field-craft)
+- [<img src={require('/img/event-planner-logo.png').default} style={{width: 16}} /> Event Planner for Jira](docs/event-planner)
+- [<img src={require('/docs/content-craft/img/cc-logo.png').default} style={{width: 16}} /> Mermaid Diagrams for Jira](docs/content-craft)
+- [<img src={require('/docs/secrets/img/app-icon.png').default} style={{width: 16}} /> Secrets for Jira: Password-Protected Content](docs/secrets)
 
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+## Confluence apps
 
-<Tabs>
-  <TabItem value="jira" label="Jira apps" default>
+- [<img src={require('/img/script-master-logo.png').default} style={{width: 16}} /> Script Master for Confluence](docs/script-master)
+- [<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 16}} /> Team Voice for Confluence](docs/team-voice)
+- [<img src={require('/img/event-planner-logo.png').default} style={{width: 16}} /> Event Planner for Confluence](docs/event-planner)
+- [<img src={require('/docs/secrets/img/app-icon.png').default} style={{width: 16}} /> Secrets for Confluence: Password-Protected Content](docs/secrets)
 
-    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Jira](docs/script-master) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-    |---|---|
-
-    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Jira](docs/team-voice) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-    |---|---|
-
-    |<img src={require('/img/field-craft/field-craft-logo.png').default} style={{width: 64}} />|[FieldCraft: Custom Fields for Jira Cloud](docs/field-craft) &nbsp; &nbsp; &nbsp; |
-    |---|---|
-
-  </TabItem>
-</Tabs>
-
-
-<Tabs>
-  <TabItem value="confluence" label="Confluence apps" default>
-
-    |<img src={require('/img/script-master-logo.png').default} style={{width: 64}} />|[Script Master for Confluence](docs/script-master) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
-    |---|---|
-
-    |<img src={require('/img/team-voice/team-voice-logo.png').default} style={{width: 64}} />|[Team Voice for Confluence](docs/team-voice) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-    |---|---|
-
-    |<img src={require('/img/event-planner-logo.png').default} style={{width: 64}} />|[Event Planner](docs/event-planner) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-    |---|---|
-
-  </TabItem>
-</Tabs>
-
-
-## Getting Started
-
-To help you get started, we’ve provided comprehensive guides and tutorials. These resources will walk you through the installation process, configuration options, and basic usage of each application. Here’s how to begin:
-
-- **Installation**: Follow our step-by-step instructions to install the applications on your Jira and Confluence instances.
-- **Configuration**: Customize the settings to align with your team’s needs and preferences.
-- **User Guides**: Explore detailed guides that cover all functionalities, from basic to advanced features.
-- **Support**: Access our support resources if you encounter any issues or have questions.
 
 ## Support and Feedback
 

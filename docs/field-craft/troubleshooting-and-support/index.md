@@ -43,10 +43,10 @@ This guide will help you review the calculation details for custom fields like "
 
 ## "Time in Status" Calculation is Not Fully Precise
 
-Currently, the app calculates ["Time in Status"](../time-in-status/index.md) based on [Work Calendars](../work-calendars.md) and Jira time settings. However, this approach may lead to discrepancies in change log timestamps and durations.  
+Currently, the app calculates ["Time in Status"](../time-in-status/index.md) based on [Work Calendars](../work-calendars.md) and Jira time settings. However, this approach may lead to discrepancies in change log timestamps and durations.ку
 
 **Key Issues:**
-1. **Time Zone Differences** – Each user views issue history with their own time zone offset. As a result, a status change made during a user's working hours might appear outside of working hours in the Work Calendar.  
-2. **Skipped Short-Term Changes** – Due to performance constraints and [calculation limitations in Forge](https://developer.atlassian.com/platform/forge/platform-quotas-and-limits/), frequent or short-duration status changes (e.g., a status change lasting only a few minutes) might be skipped.  
+1. **Time Zone Differences** – Each user views issue history with their own time zone offset. As a result, a status change made during a user's working hours might appear outside of working hours in the Work Calendar.
+2. **Skipped Short-Term Changes** – Due to performance constraints and [calculation limitations in Forge](https://developer.atlassian.com/platform/forge/platform-quotas-and-limits/), frequent or short-duration status changes (e.g., a status change lasting only a few minutes) might be skipped.
 
-These factors can affect the accuracy of "Time in Status" calculations, potentially leading to misleading results.  
+These factors can affect the accuracy of "Time in Status" calculations, potentially leading to misleading results.

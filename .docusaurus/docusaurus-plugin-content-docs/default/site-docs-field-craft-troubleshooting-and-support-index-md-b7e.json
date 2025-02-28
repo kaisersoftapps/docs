@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Reindexing",
-    "permalink": "/docs/docs/field-craft/reindex/"
+    "title": "Performance and limitations",
+    "permalink": "/docs/docs/field-craft/performance-limitations/"
   },
   "next": {
     "title": "▮ ContentCraft: Mermaid diagrams for Confluence and Jira",
