@@ -22,7 +22,7 @@ Custom scripted Gadget implements [Forge Jira dashboard gadget](https://develope
 
 ## Context
 
-Gadgets implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front.md). Among the most useful are `view`, `requestJira`.
+Gadgets implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front/index.md). Among the most useful are `view`, `requestJira`.
 
 
 ## Configuration

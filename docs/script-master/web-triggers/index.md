@@ -47,7 +47,7 @@ import TabItem from '@theme/TabItem';
 
 ## Context
 
-Web Triggers implement Forge backend FaaS function, allowing you to utilize all [Bridge API for Forge backend FaaS function](../forge-bridge-back.md). Among the most useful are `api` and `request`.
+Web Triggers implement Forge backend FaaS function, allowing you to utilize all [Bridge API for Forge backend FaaS function](../forge-bridge-back/index.md). Among the most useful are `api` and `request`.
 
 
 ## Best Practices

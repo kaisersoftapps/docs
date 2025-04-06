@@ -21,7 +21,7 @@ In Script Master, Macros serve as an extension of [Forge Macro module](https://d
 
 ## Context
 
-Macros implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front.md). Among the most useful are `view`, `requestConfluence`.
+Macros implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front/index.md). Among the most useful are `view`, `requestConfluence`.
 
 ![](./img/conf-macros-edit.png)
 

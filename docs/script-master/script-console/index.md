@@ -42,7 +42,7 @@ The Script Console runs all scripts in the context of the current user, adhering
 
 To output relevant information, use `console.log()` or the `return` statement at the end of your script. For more insights and examples, refer to the 'Snippets Library' directly inside the app.
 
-Because Script Console implements Forge Custom UI, you can utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front.md). Among the most useful are `view`, `requestConfluence`, `requestJira`.
+Because Script Console implements Forge Custom UI, you can utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front/index.md). Among the most useful are `view`, `requestConfluence`, `requestJira`.
 
 
 ## Snippets Library

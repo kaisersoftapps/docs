@@ -50,6 +50,20 @@
 
 .theme-doc-markdown.markdown a {
   text-decoration: underline;
+  /* text-decoration-thickness: 1px; */
+  text-decoration-color: color-mix(in srgb, currentColor 20%, transparent);
+}
+
+a.navbar__item.navbar__link {
+  color: #43546f;
+  line-height: 110%;
+}
+a.navbar__item.navbar__link:hover {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 20%, transparent);
+}
+[data-theme="dark"] a.navbar__item.navbar__link {
+  color: #a0adbc;
 }
 
 /* Adjust footer link colors */

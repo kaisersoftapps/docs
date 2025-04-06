@@ -27,7 +27,7 @@ As a Forge back-end SaaS function, scripted post-functions are executed on the F
 
 To make requests to Jira, use the `api.asApp().requestJira()` bridge method.
 
-[Bridge API for Forge backend FaaS function](../forge-bridge-back.md). 
+[Bridge API for Forge backend FaaS function](../../forge-bridge-back/index.md). 
 
 Information about the current issue and transitions could be acccessed from `payload` object.
 

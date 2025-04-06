@@ -13,7 +13,7 @@ This module is available for both the **Jira** and **Confluence** versions of th
 
 ## Overview
 
-Scheduled Jobs are [Forge backend JavaScript functions](../forge-bridge-back.md) allow you to automate tasks and workflows in **Jira** and **Confluence**. These jobs enable you to run scripts at regular intervals to perform a variety of actions, such as:
+Scheduled Jobs are [Forge backend JavaScript functions](../forge-bridge-back/index.md) allow you to automate tasks and workflows in **Jira** and **Confluence**. These jobs enable you to run scripts at regular intervals to perform a variety of actions, such as:
 
 - **Syncing data between systems**
 - **Creating and updating content**
