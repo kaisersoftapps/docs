@@ -1,0 +1,26 @@
+{
+  "id": "field-craft/expressions-text/index",
+  "title": "Jira Expressions - Text",
+  "description": "Overview",
+  "source": "@site/docs/field-craft/expressions-text/index.md",
+  "sourceDirName": "field-craft/expressions-text",
+  "slug": "/field-craft/expressions-text/",
+  "permalink": "/docs/docs/field-craft/expressions-text/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 85,
+  "frontMatter": {
+    "sidebar_position": 85
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Time in Status",
+    "permalink": "/docs/docs/field-craft/time-in-status/"
+  },
+  "next": {
+    "title": "Work Calendars",
+    "permalink": "/docs/docs/field-craft/work-calendars"
+  }
+}

@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '0ec'),
+    component: ComponentCreator('/docs/docs', '34e'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '6b6'),
+        component: ComponentCreator('/docs/docs', '25a'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '345'),
+            component: ComponentCreator('/docs/docs', 'f7c'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -201,6 +201,12 @@ export default [
               {
                 path: '/docs/docs/field-craft',
                 component: ComponentCreator('/docs/docs/field-craft', '60e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/field-craft/expressions-text',
+                component: ComponentCreator('/docs/docs/field-craft/expressions-text', 'e2e'),
                 exact: true,
                 sidebar: "docs"
               },

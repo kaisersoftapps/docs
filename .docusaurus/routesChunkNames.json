@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-0ec": {
+  "/docs/docs-34e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-6b6": {
+  "/docs/docs-25a": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-345": {
+  "/docs/docs-f7c": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -160,6 +160,10 @@
   "/docs/docs/field-craft-60e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-field-craft-035-7c4"
+  },
+  "/docs/docs/field-craft/expressions-text-e2e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-field-craft-expressions-text-16-b-1a5"
   },
   "/docs/docs/field-craft/field-change-time-b41": {
     "__comp": "__comp---theme-doc-item-178-a40",

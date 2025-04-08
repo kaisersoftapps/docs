@@ -131,6 +131,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "field-craft/expressions-text/index",
+              "path": "/docs/docs/field-craft/expressions-text/",
+              "sidebar": "docs"
+            },
+            {
               "id": "field-craft/field-change-time/index",
               "path": "/docs/docs/field-craft/field-change-time/",
               "sidebar": "docs"
