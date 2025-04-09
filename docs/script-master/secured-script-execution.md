@@ -31,7 +31,16 @@ Administrators can execute unprotected scripts for testing purposes. However, fo
 
 ## Configuration
 
-Follow the step-by-step guide in [Script Master: Sandbox](https://github.com/kaisersoftapps/script-master-sandbox) to build, install, and configure the companion app.
+Follow the video guide:
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import ReactPlayer from 'react-player'
+
+<ReactPlayer controls width='100%' url='https://www.youtube.com/watch?v=DQoEmN9w8-0' />
+
+
+Or follow the step-by-step guide in [Script Master: Sandbox](https://github.com/kaisersoftapps/script-master-sandbox) to build, install, and configure the companion app.
 
 On the configuration page, the status should be changed from **Unsecured Execution** to **Secured Execution**.
 
