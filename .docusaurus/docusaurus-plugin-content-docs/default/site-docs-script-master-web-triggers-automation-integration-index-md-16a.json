@@ -1,0 +1,23 @@
+{
+  "id": "script-master/web-triggers/automation-integration/index",
+  "title": "Automation Integration",
+  "description": "This example both for Jira and Confluence versions of Web Triggers.",
+  "source": "@site/docs/script-master/web-triggers/automation-integration/index.md",
+  "sourceDirName": "script-master/web-triggers/automation-integration",
+  "slug": "/script-master/web-triggers/automation-integration/",
+  "permalink": "/docs/docs/script-master/web-triggers/automation-integration/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Web Triggers",
+    "permalink": "/docs/docs/script-master/web-triggers/"
+  },
+  "next": {
+    "title": "Example: Authorization",
+    "permalink": "/docs/docs/script-master/web-triggers/example-authorization"
+  }
+}

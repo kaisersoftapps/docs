@@ -272,9 +272,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atlaskit/tokens@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "@atlaskit/tokens@npm:4.6.0"
+"@atlaskit/tokens@npm:^4.8.0":
+  version: 4.8.0
+  resolution: "@atlaskit/tokens@npm:4.8.0"
   dependencies:
     "@atlaskit/ds-lib": "npm:^4.0.0"
     "@atlaskit/platform-feature-flags": "npm:^1.1.0"
@@ -284,7 +284,7 @@ __metadata:
     bind-event-listener: "npm:^3.0.0"
   peerDependencies:
     react: ^18.2.0
-  checksum: 10c0/1d5a24ab139d19088001a140b155eeddbf3b1a8ab05c42ae2f87ccb55829945a9bef2e1c37297b28b26225c939ee4ba0d8d5ea51c5b6c534fa25e03221a88514
+  checksum: 10c0/9dcc9f4760900225ee803ffd0bf714b6db6e692e03fc866eff0e551bc3b5edf0e7cc067ec1da8731af937853d4a89002a009fc8d18281b37ab7e198b3ea81bec
   languageName: node
   linkType: hard
 
@@ -6850,7 +6850,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:."
   dependencies:
-    "@atlaskit/tokens": "npm:^4.6.0"
+    "@atlaskit/tokens": "npm:^4.8.0"
     "@docusaurus/core": "npm:^3.7.0"
     "@docusaurus/module-type-aliases": "npm:^3.7.0"
     "@docusaurus/plugin-google-gtag": "npm:^3.7.0"

@@ -48,17 +48,17 @@
       "plugin": "plugin---docs-search-138-773"
     }
   },
-  "/docs/docs-34e": {
+  "/docs/docs-52b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-docsaba-31e"
     }
   },
-  "/docs/docs-25a": {
+  "/docs/docs-4ac": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-docsa-20-f19"
   },
-  "/docs/docs-f7c": {
+  "/docs/docs-509": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/docs/ask-for-help-ed9": {
@@ -356,6 +356,10 @@
   "/docs/docs/script-master/web-triggers-aef": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docs-script-master-web-triggers-5-ba-27a"
+  },
+  "/docs/docs/script-master/web-triggers/automation-integration-af8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docs-script-master-web-triggers-automation-integration-16-a-8a9"
   },
   "/docs/docs/script-master/web-triggers/example-authorization-f13": {
     "__comp": "__comp---theme-doc-item-178-a40",

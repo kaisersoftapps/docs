@@ -376,6 +376,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/web-triggers/automation-integration/index",
+              "path": "/docs/docs/script-master/web-triggers/automation-integration/",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/web-triggers/example-authorization",
               "path": "/docs/docs/script-master/web-triggers/example-authorization",
               "sidebar": "docs"

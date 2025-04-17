@@ -16,7 +16,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@atlaskit/tokens": "^4.6.0",
+    "@atlaskit/tokens": "^4.8.0",
     "@docusaurus/core": "^3.7.0",
     "@docusaurus/plugin-google-gtag": "^3.7.0",
     "@docusaurus/preset-classic": "^3.7.0",

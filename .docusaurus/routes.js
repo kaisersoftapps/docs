@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '34e'),
+    component: ComponentCreator('/docs/docs', '52b'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '25a'),
+        component: ComponentCreator('/docs/docs', '4ac'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'f7c'),
+            component: ComponentCreator('/docs/docs', '509'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -495,6 +495,12 @@ export default [
               {
                 path: '/docs/docs/script-master/web-triggers',
                 component: ComponentCreator('/docs/docs/script-master/web-triggers', 'aef'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/web-triggers/automation-integration',
+                component: ComponentCreator('/docs/docs/script-master/web-triggers/automation-integration', 'af8'),
                 exact: true,
                 sidebar: "docs"
               },

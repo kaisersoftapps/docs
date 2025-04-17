@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Web Triggers",
-    "permalink": "/docs/docs/script-master/web-triggers/"
+    "title": "Automation Integration",
+    "permalink": "/docs/docs/script-master/web-triggers/automation-integration/"
   },
   "next": {
     "title": "Scheduled Jobs",
