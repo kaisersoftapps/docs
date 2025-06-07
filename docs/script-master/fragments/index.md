@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
 
 ## Context
 
-Fragments implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front.md). Among the most useful are `view`, `requestConfluence`, `requestJira`.
+Fragments implement Forge Custom UI, allowing you to utilize all [Forge bridge APIs from Custom UI](../forge-bridge-front/index.md). Among the most useful are `view`, `requestConfluence`, `requestJira`.
 
 
 ## Available locations
@@ -155,7 +155,7 @@ When creating Fragments, you can utilize standard web technologies to build and 
 
 ### Accessing Application Data
 
-Fragments can interact with internal data of Jira and Confluence as well as external REST services. This allows you to create dynamic and context-aware UI components. To access your cloud application use [Forge Bridge API for Custom UI](../forge-bridge-front.md).
+Fragments can interact with internal data of Jira and Confluence as well as external REST services. This allows you to create dynamic and context-aware UI components. To access your cloud application use [Forge Bridge API for Custom UI](../forge-bridge-front/index.md).
 
 ## Examples
 

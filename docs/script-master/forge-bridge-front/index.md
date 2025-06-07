@@ -105,6 +105,48 @@ Sometimes a macro should add functionality to the page without being visible. Yo
 </script>
 ```
 
+
+### Fetches issues using JQL
+
+```js
+/**
+ * Fetches issues using JQL
+ * @param {string} jql 
+ * @returns {Promise<Array>} List of issues
+ */
+const fetchIssuesByJQL = async (jql) => {
+    const response = await requestJira(`/rest/api/3/search?jql=${encodeURIComponent(jql)}`);
+    
+    if (!response.ok) {
+        throw new Error(`JQL search failed: ${response.status}`);
+    }
+
+    const data = await response.json();
+    return data.issues || [];
+};
+```
+
+
+### Fetches changelog for a specific issue
+
+```js
+/**
+ * Fetches changelog for a specific issue
+ * @param {string} issueKey 
+ * @returns {Promise<Array>} Changelog entries
+ */
+const fetchIssueChangelog = async (issueKey) => {
+    const response = await requestJira(`/rest/api/3/issue/${issueKey}/changelog`);
+    
+    if (!response.ok) {
+        throw new Error(`Changelog fetch failed for ${issueKey}: ${response.status}`);
+    }
+
+    const data = await response.json();
+    return data.values || [];
+};
+```
+
 ## Logging and debugging
 
 <iframe width="100%" style={{"aspect-ratio": "16 / 9"}} src="https://www.youtube.com/embed/s1QtjiFlrsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
