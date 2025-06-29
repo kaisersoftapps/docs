@@ -1,0 +1,26 @@
+{
+  "id": "field-craft/work-calendars/index",
+  "title": "Work Calendars",
+  "description": "Overview",
+  "source": "@site/docs/field-craft/work-calendars/index.md",
+  "sourceDirName": "field-craft/work-calendars",
+  "slug": "/field-craft/work-calendars/",
+  "permalink": "/docs/docs/field-craft/work-calendars/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {
+    "sidebar_position": 90
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Jira Expressions - Text",
+    "permalink": "/docs/docs/field-craft/expressions-text/"
+  },
+  "next": {
+    "title": "Reindexing",
+    "permalink": "/docs/docs/field-craft/reindex/"
+  }
+}

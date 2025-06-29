@@ -272,9 +272,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atlaskit/tokens@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "@atlaskit/tokens@npm:5.1.0"
+"@atlaskit/tokens@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "@atlaskit/tokens@npm:5.3.0"
   dependencies:
     "@atlaskit/ds-lib": "npm:^4.0.0"
     "@atlaskit/platform-feature-flags": "npm:^1.1.0"
@@ -284,7 +284,7 @@ __metadata:
     bind-event-listener: "npm:^3.0.0"
   peerDependencies:
     react: ^18.2.0
-  checksum: 10c0/d348b7b1088d1e6eec4c9748e23dc9fa0e9c1f608b4083db7ff277cf84857fb0f656900d14ab2ea840183f032dac8a7e139b9138ab7e1f32a4a71059407942f6
+  checksum: 10c0/21ae01996d3753e967bc16d5f9803726f7ba84060633caee54fb136a2245bc049af1c55a586038b00f51850d5932a9389f5fa150fddf4a4ed34d874ae703f469
   languageName: node
   linkType: hard
 
@@ -3458,9 +3458,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@easyops-cn/docusaurus-search-local@npm:^0.50.0":
-  version: 0.50.0
-  resolution: "@easyops-cn/docusaurus-search-local@npm:0.50.0"
+"@easyops-cn/docusaurus-search-local@npm:^0.51.1":
+  version: 0.51.1
+  resolution: "@easyops-cn/docusaurus-search-local@npm:0.51.1"
   dependencies:
     "@docusaurus/plugin-content-docs": "npm:^2 || ^3"
     "@docusaurus/theme-translations": "npm:^2 || ^3"
@@ -3483,7 +3483,7 @@ __metadata:
     "@docusaurus/theme-common": ^2 || ^3
     react: ^16.14.0 || ^17 || ^18 || ^19
     react-dom: ^16.14.0 || 17 || ^18 || ^19
-  checksum: 10c0/d0c5e262617b9159ea4aa9f5dd52e11523e01a2ef5649d5ee66a054a0ed1fc096e32b4cb0e9facfc26808c025d0874e38322dc376931b75079bc155cfe695f8a
+  checksum: 10c0/7cc36b748614b4f4ffe80eec877ef089eef1a41a251e8b15d4dcb5d9bac8513c704b7164cf69b7ea3339af7417db83387e26806f63a7147971c342c59240b0fd
   languageName: node
   linkType: hard
 
@@ -7279,7 +7279,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:."
   dependencies:
-    "@atlaskit/tokens": "npm:^5.1.0"
+    "@atlaskit/tokens": "npm:^5.3.0"
     "@docusaurus/core": "npm:^3.8.1"
     "@docusaurus/module-type-aliases": "npm:^3.8.1"
     "@docusaurus/plugin-google-gtag": "npm:^3.8.1"
@@ -7287,7 +7287,7 @@ __metadata:
     "@docusaurus/theme-mermaid": "npm:^3.8.1"
     "@docusaurus/tsconfig": "npm:^3.8.1"
     "@docusaurus/types": "npm:^3.8.1"
-    "@easyops-cn/docusaurus-search-local": "npm:^0.50.0"
+    "@easyops-cn/docusaurus-search-local": "npm:^0.51.1"
     "@mdx-js/react": "npm:^3.1.0"
     clsx: "npm:^2.1.1"
     prism-react-renderer: "npm:^2.4.1"

@@ -43,7 +43,7 @@ This guide will help you review the calculation details for custom fields like "
 
 ## "Time in Status" Calculation is Not Fully Precise
 
-Currently, the app calculates ["Time in Status"](../time-in-status/index.md) based on [Work Calendars](../work-calendars.md) and Jira time settings. However, this approach may lead to discrepancies in change log timestamps and durations.ку
+Currently, the app calculates ["Time in Status"](../time-in-status/index.md) based on [Work Calendars](../work-calendars/index.md) and Jira time settings. However, this approach may lead to discrepancies in change log timestamps and durations.ку
 
 **Key Issues:**
 1. **Time Zone Differences** – Each user views issue history with their own time zone offset. As a result, a status change made during a user's working hours might appear outside of working hours in the Work Calendar.

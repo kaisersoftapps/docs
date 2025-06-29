@@ -22,7 +22,7 @@ Scripted Custom Fields implements [Forge Jira custom field type](https://develop
 
 ## Context
 
-Scripted Custom Fields implement Forge backend FaaS function, allowing you to utilize all [Bridge API for Forge backend FaaS function](../forge-bridge-back.md). Information about the current issue and field could be acccessed from `payload` object.
+Scripted Custom Fields implement Forge backend FaaS function, allowing you to utilize all [Bridge API for Forge backend FaaS function](../forge-bridge-back/index.md). Information about the current issue and field could be acccessed from `payload` object.
 
 
 ## Configuration

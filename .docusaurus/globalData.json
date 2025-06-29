@@ -191,8 +191,8 @@
               "sidebar": "docs"
             },
             {
-              "id": "field-craft/work-calendars",
-              "path": "/docs/docs/field-craft/work-calendars",
+              "id": "field-craft/work-calendars/index",
+              "path": "/docs/docs/field-craft/work-calendars/",
               "sidebar": "docs"
             },
             {
@@ -333,6 +333,11 @@
             {
               "id": "script-master/macros/index",
               "path": "/docs/docs/script-master/macros/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/migrate-to-forge/index",
+              "path": "/docs/docs/script-master/migrate-to-forge/",
               "sidebar": "docs"
             },
             {

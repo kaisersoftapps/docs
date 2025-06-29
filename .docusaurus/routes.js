@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '52b'),
+    component: ComponentCreator('/docs/docs', '49a'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '4ac'),
+        component: ComponentCreator('/docs/docs', '326'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '509'),
+            component: ComponentCreator('/docs/docs', 'a3b'),
             routes: [
               {
                 path: '/docs/docs/ask-for-help',
@@ -272,7 +272,7 @@ export default [
               },
               {
                 path: '/docs/docs/field-craft/work-calendars',
-                component: ComponentCreator('/docs/docs/field-craft/work-calendars', 'eee'),
+                component: ComponentCreator('/docs/docs/field-craft/work-calendars', 'a05'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -441,6 +441,12 @@ export default [
               {
                 path: '/docs/docs/script-master/macros/example-add-labels',
                 component: ComponentCreator('/docs/docs/script-master/macros/example-add-labels', '2bc'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/docs/script-master/migrate-to-forge',
+                component: ComponentCreator('/docs/docs/script-master/migrate-to-forge', '78e'),
                 exact: true,
                 sidebar: "docs"
               },
