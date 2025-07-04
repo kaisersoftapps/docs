@@ -8,7 +8,7 @@ This example for **Jira** version of [Gadgets](./index.md).
 
 Embed a view of your plan in Jira Gadget. Use gadget script below.
 
-To create an <iframe> element of your plan:
+To create an `<iframe>` element of your plan:
 1. In your plan, select Share, then choose iFrame.
 2. Copy the generated iFrame using the Copy button.
 2. Add this to the gadget’s HTML code below.
