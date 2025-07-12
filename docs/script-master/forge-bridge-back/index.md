@@ -6,7 +6,7 @@ sidebar_position: 150
 
 <div style={{ display: "flex", gap: "20px", "justify-content": "space-between", "align-content": "center", width: "100%" }}>
   <div><img src={require('./img/back-end-script.png').default} style={{width: 100}} /></div>
-  <div>Inside Forge backend FaaS function modules (like [Web Trigger](./web-triggers/), [Custom Fields](./custom-fields/), [Workflow post-functions](./post-functions/)), you can use these global  bridge objects and functions from `'@forge/api'` to access your application:</div>
+  <div>Inside Forge backend FaaS function modules (like [Web Trigger](./web-triggers/), [Custom Fields](./custom-fields/), [Workflow extensions](../workflow-extensions/index.md)), you can use these global  bridge objects and functions from `'@forge/api'` to access your application:</div>
 </div>
 
 ## API

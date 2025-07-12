@@ -1,0 +1,26 @@
+{
+  "id": "script-master/code-editor/index",
+  "title": "Code Editor",
+  "description": "Overview",
+  "source": "@site/docs/script-master/code-editor/index.md",
+  "sourceDirName": "script-master/code-editor",
+  "slug": "/script-master/code-editor/",
+  "permalink": "/docs/docs/script-master/code-editor/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 100,
+  "frontMatter": {
+    "sidebar_position": 100
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Workflow Conditions",
+    "permalink": "/docs/docs/script-master/workflow-extensions/workflow-conditions/"
+  },
+  "next": {
+    "title": "Use external editor with live reloading",
+    "permalink": "/docs/docs/script-master/code-editor/external-editor"
+  }
+}

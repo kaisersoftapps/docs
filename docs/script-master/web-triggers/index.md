@@ -34,7 +34,7 @@ sequenceDiagram
 3. Save the web trigger to generate a unique URL.
 4. Use this URL to handle HTTP requests.
 
-We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
+We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../code-editor/index.md).
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

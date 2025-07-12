@@ -20,7 +20,7 @@
     "permalink": "/docs/docs/script-master/fragments/example-page-contributors"
   },
   "next": {
-    "title": "Example: Embedding Markdown-Formatted Documents in Your Dashboard Gadgets",
-    "permalink": "/docs/docs/script-master/gadgets/example-markdown-editor"
+    "title": "Example: Embed Plans iframe",
+    "permalink": "/docs/docs/script-master/gadgets/example-embed-plans-iframe"
   }
 }

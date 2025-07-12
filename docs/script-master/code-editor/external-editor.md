@@ -6,7 +6,7 @@ sidebar_position: 110
 
 ## Overview
 
-If the [built-in editor](./editor.md) does not fit your needs and you prefer to work in Visual Studio Code (VS Code) or a similar editor, you can use any external editor to modify your code and update it automatically in Script Master. This feature is called "External editor with live reloading".
+If the [built-in editor](./index.md) does not fit your needs and you prefer to work in Visual Studio Code (VS Code) or a similar editor, you can use any external editor to modify your code and update it automatically in Script Master. This feature is called "External editor with live reloading".
 
 import ReactPlayer from 'react-player';
 

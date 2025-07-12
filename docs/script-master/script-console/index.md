@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 
-We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
+We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../code-editor/index.md).
 
 ## Context
 

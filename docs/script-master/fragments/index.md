@@ -23,7 +23,7 @@ Fragments are powerful blocks that extend the UI of Jira and Confluence, allowin
 4. Use HTML, CSS, and JavaScript inside the "Content" field to design your fragment.
 5. Access necessary application data or external REST services to enhance functionality.
 
-We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../editor.md).
+We are using a powerful code editor, which will assist you in writing code more efficiently. [Read more about Code Editor features, shortcuts, and more](../code-editor/index.md).
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

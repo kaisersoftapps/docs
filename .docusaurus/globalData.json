@@ -211,6 +211,16 @@
               "sidebar": "docs"
             },
             {
+              "id": "script-master/code-editor/external-editor",
+              "path": "/docs/docs/script-master/code-editor/external-editor",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/code-editor/index",
+              "path": "/docs/docs/script-master/code-editor/",
+              "sidebar": "docs"
+            },
+            {
               "id": "script-master/custom-fields/example-attachments-count",
               "path": "/docs/docs/script-master/custom-fields/example-attachments-count",
               "sidebar": "docs"
@@ -246,16 +256,6 @@
               "sidebar": "docs"
             },
             {
-              "id": "script-master/editor",
-              "path": "/docs/docs/script-master/editor",
-              "sidebar": "docs"
-            },
-            {
-              "id": "script-master/external-editor",
-              "path": "/docs/docs/script-master/external-editor",
-              "sidebar": "docs"
-            },
-            {
               "id": "script-master/faq",
               "path": "/docs/docs/script-master/faq",
               "sidebar": "docs"
@@ -288,6 +288,11 @@
             {
               "id": "script-master/fragments/index",
               "path": "/docs/docs/script-master/fragments/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "script-master/gadgets/example-embed-plans-iframe",
+              "path": "/docs/docs/script-master/gadgets/example-embed-plans-iframe",
               "sidebar": "docs"
             },
             {
@@ -478,6 +483,15 @@
         }
       ],
       "breadcrumbs": true
+    }
+  },
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-MVSZZG9F0H"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
     }
   }
 }

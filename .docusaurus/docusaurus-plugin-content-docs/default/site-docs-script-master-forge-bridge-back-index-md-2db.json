@@ -1,7 +1,7 @@
 {
   "id": "script-master/forge-bridge-back/index",
   "title": "Forge Bridge API for backend FaaS functions",
-  "description": "Inside Forge backend FaaS function modules (like Web Trigger, Custom Fields, Workflow post-functions), you can use these global  bridge objects and functions from '@forge/api' to access your application:",
+  "description": "Inside Forge backend FaaS function modules (like Web Trigger, Custom Fields, Workflow extensions), you can use these global  bridge objects and functions from '@forge/api' to access your application:",
   "source": "@site/docs/script-master/forge-bridge-back/index.md",
   "sourceDirName": "script-master/forge-bridge-back",
   "slug": "/script-master/forge-bridge-back/",
@@ -17,7 +17,7 @@
   "sidebar": "docs",
   "previous": {
     "title": "Use external editor with live reloading",
-    "permalink": "/docs/docs/script-master/external-editor"
+    "permalink": "/docs/docs/script-master/code-editor/external-editor"
   },
   "next": {
     "title": "Forge Bridge API for Custom UI",

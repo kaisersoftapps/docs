@@ -61,7 +61,7 @@ Full list of supported diagram types:
 - [Pie Chart](./mermaid-syntax/pie-chart-diagrams.md)
 - [Quadrant Chart](./mermaid-syntax/quadrant-chart.md)
 - [Requirement Diagram](./mermaid-syntax/requirement-diagram.md)
-- [Gitgraph (Git) Diagram](./mermaid-syntax/)
+- [Gitgraph (Git) Diagram](./mermaid-syntax/gitgraph-diagrams.md)
 - [Mindmaps](./mermaid-syntax/mindmap.md)
 - [Timeline](./mermaid-syntax/timeline.md)
 - [Sankey](./mermaid-syntax/sankey-diagram.md)

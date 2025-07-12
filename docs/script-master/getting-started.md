@@ -60,5 +60,5 @@ The app doesn't require any additional configuration, as it serves as a configur
 - [Web Triggers](./web-triggers/index.md)
   - Seamless integration of Jira or Confluence with external systems via JavaScript functions that respond to HTTP requests. They require no user authentication, support robust error handling and performance optimization, and offer scalability. Key benefits include ease of communication with Jira, automation of workflows, and enhanced functionality through custom actions.
 - [Custom fields](./custom-fields/)
-- Workflow [Post-functions](./post-functions/), [Validators](./workflow-validators/), [Conditions](./workflow-conditions/)
+- Workflow [Post-functions](./workflow-extensions/workflow-post-functions/index.md), [Validators](./workflow-extensions/workflow-validators/index.md), [Conditions](./workflow-extensions/workflow-conditions/index.md)
 

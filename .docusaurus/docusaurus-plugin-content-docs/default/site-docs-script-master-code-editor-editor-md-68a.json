@@ -1,0 +1,26 @@
+{
+  "id": "script-master/code-editor/editor",
+  "title": "Code Editor",
+  "description": "Overview",
+  "source": "@site/docs/script-master/code-editor/editor.md",
+  "sourceDirName": "script-master/code-editor",
+  "slug": "/script-master/code-editor/editor",
+  "permalink": "/docs/docs/script-master/code-editor/editor",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 100,
+  "frontMatter": {
+    "sidebar_position": 100
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/script-master/faq"
+  },
+  "next": {
+    "title": "Use external editor with live reloading",
+    "permalink": "/docs/docs/script-master/code-editor/external-editor"
+  }
+}

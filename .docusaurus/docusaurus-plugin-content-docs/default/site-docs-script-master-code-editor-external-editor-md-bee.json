@@ -1,11 +1,11 @@
 {
-  "id": "script-master/external-editor",
+  "id": "script-master/code-editor/external-editor",
   "title": "Use external editor with live reloading",
   "description": "Overview",
-  "source": "@site/docs/script-master/external-editor.md",
-  "sourceDirName": "script-master",
-  "slug": "/script-master/external-editor",
-  "permalink": "/docs/docs/script-master/external-editor",
+  "source": "@site/docs/script-master/code-editor/external-editor.md",
+  "sourceDirName": "script-master/code-editor",
+  "slug": "/script-master/code-editor/external-editor",
+  "permalink": "/docs/docs/script-master/code-editor/external-editor",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Workflow Conditions",
-    "permalink": "/docs/docs/script-master/workflow-extensions/workflow-conditions/"
+    "title": "Code Editor",
+    "permalink": "/docs/docs/script-master/code-editor/"
   },
   "next": {
     "title": "Forge Bridge API for backend FaaS functions",
